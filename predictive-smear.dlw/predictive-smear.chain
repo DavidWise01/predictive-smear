@@ -1,9 +1,9 @@
 ROOT0-DLW-CHAIN-v1
 index : 152
 slug  : predictive-smear
-seal  : 2505be0517ad14102e3e076ffc2c3c56a5ae7cdf936147c3a8f88383650e719e
-prev  : 311c250a09a372351b3f9af55abfc69cf68a61b1ff1cd7e04db9512bb6ef9df8
-link  : 3fdd8d3aebc46176697b907df31775597bcd3fa9e9d0c67f24ec4f10d82c65d4
-head  : 13f9ace173ef2e60af38912ba329b4afcb5a38b84a0e4495e8d30327f8c99cc2
+seal  : 4789dfe566ab47b32f6a6560d2abd946d0cada2f8b29ce09fc001d4c2482ab0a
+prev  : 9bbb281720b9937110f2e99ac7ad9e3914b42e844d739265a02cea6225f071e1
+link  : 7bf8ee9da52cb0b2fc060ca330d6abb338ab5d2eb0a10772294aabf8ba630ba2
+head  : c4d41afeaef76470528856d54d86cf480a0e1c2fc8ebc60fbb9eb8e442585f2b
 
 — the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
