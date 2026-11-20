@@ -1,0 +1,28 @@
+{
+  "id": "ADA-002",
+  "epoch": 1832,
+  "subject": "Charles Babbage",
+  "status": "retrospective backfill; provisional",
+  "gates": {
+    "taken": "Public and private expenditure; theft unestablished",
+    "removed": "Government funding ended 1842",
+    "suffered": "Incomplete original machine and disputed expenses",
+    "who": "Babbage, Clement, government authorities",
+    "why": "Engineering challenges, costs and disputes"
+  },
+  "pop": "Productivity does not equal fair distribution",
+  "sources": [
+    "https://www.computerhistory.org/babbage/history/",
+    "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/charles-babbages-difference-engine",
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Babbage/",
+    "https://www.gutenberg.org/files/57532/57532-h/57532-h.htm"
+  ],
+  "financial_note": "Babbage's reported personal expenditure above GBP 20000 covers this and other scientific works; not solely the original engine.",
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "limitations": "Backfilled from earlier conversation and freshly verified source leads; no original document bytes saved."
+}
