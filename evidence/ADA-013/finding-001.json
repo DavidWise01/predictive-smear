@@ -1,0 +1,40 @@
+{
+  "id": "ADA-013-F01",
+  "observations": [
+    {
+      "source": "S02",
+      "date": "1835-07-10",
+      "acres": 25,
+      "price_pounds": 100,
+      "lot_acres": 0.25,
+      "lot_price_pounds": 3
+    },
+    {
+      "source": "S07",
+      "date": "1840-03-07",
+      "acres": 50,
+      "freehold_lots": 150,
+      "sold_lots": 50
+    },
+    {
+      "source": "S06",
+      "date": "1840-06-12",
+      "families_reported": 100,
+      "families_projected": 200
+    }
+  ],
+  "derived": {
+    "initial_cost_per_acre": 4,
+    "reported_plot_price_per_acre": 12,
+    "ratio": 3,
+    "profit_established": false,
+    "sold_fraction_at_visit": 0.3333333333333333
+  },
+  "conflict": {
+    "subject": "Henry Lunan purchase date",
+    "S06": "roughly two months before full emancipation",
+    "S09": "August 1 1838",
+    "resolution": "open; original deed required"
+  },
+  "note": "Do not treat different land areas, dates and lot counts as a single closed financial ledger."
+}
