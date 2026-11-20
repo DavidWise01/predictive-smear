@@ -1,0 +1,107 @@
+{
+  "schema": "ADA-evidence-v1",
+  "audit": "ADA-015",
+  "date": "2026-11-20",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Davis-Palmer 2004 thesis",
+      "url": "https://research.gold.ac.uk/28873/1/thesis_Davis-PalmerY_2004.pdf",
+      "locator": "printed p150 footnote 66; L.Q.S. 828/58–67; folio 61",
+      "access": "archival research and oral history; indexed passage inspected; direct PDF restricted",
+      "root": "Davis-Palmer",
+      "rights": "metadata and link preserved; redistribution of full document not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S02",
+      "title": "Jamaica Gleaner 2014 Sligoville",
+      "url": "https://past.jamaica-gleaner.com/article/lead-stories/20140816/sligoville-jamaicas-first-free-village-established-prepare?qt-article_image_video=1",
+      "locator": "early purchaser list",
+      "access": "secondary; indexed passage",
+      "root": "list ancestry unresolved",
+      "rights": "metadata and link preserved; redistribution of full document not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S03",
+      "title": "District Grand Lodge Sligoville history",
+      "url": "https://markmasonsdgljamaica.com.jm/sligoville.shtml",
+      "locator": "early purchaser list; cites Ayre 1984 and Facey 1996",
+      "access": "secondary; indexed text",
+      "root": "Ayre/Facey",
+      "rights": "metadata and link preserved; redistribution of full document not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S04",
+      "title": "Windrush Foundation Making Freedom",
+      "url": "https://makingfreedom.co.uk/wp-content/uploads/2023/03/e1838_Session-3_Historical-Sources_Pgs15.pdf",
+      "locator": "printed p12 historical source 6",
+      "access": "educational derivative; indexed passage",
+      "root": "list ancestry unresolved",
+      "rights": "metadata and link preserved; redistribution of full document not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S05",
+      "title": "Island Record Office search",
+      "url": "https://nira.gov.jm/about-iro/",
+      "locator": "grantor/grantee, execution and registration dates; fee and authenticated copy procedure",
+      "access": "finding aid",
+      "root": "NIRA",
+      "rights": "metadata and link preserved; redistribution of full document not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S06",
+      "title": "Jamaica Archives holdings",
+      "url": "https://jard.gov.jm/pages/holdings-archives",
+      "locator": "central government and ecclesiastical records",
+      "access": "finding aid",
+      "root": "JARD",
+      "rights": "metadata and link preserved; redistribution of full document not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S07",
+      "title": "Library of Congress genealogy guide",
+      "url": "https://guides.loc.gov/jamaica-local-history-genealogy/archival-records",
+      "locator": "slave registers, parish registers, inventories",
+      "access": "finding aid",
+      "root": "LOC",
+      "rights": "metadata and link preserved; redistribution of full document not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S08",
+      "title": "National Library documentary heritage",
+      "url": "https://www.nlj.gov.jm/caribbeanregister/docs/jamaica.htm",
+      "locator": "deeds and surveys; enrollment dates; slave returns",
+      "access": "finding aid",
+      "root": "NLJ",
+      "rights": "metadata and link preserved; redistribution of full document not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S09",
+      "title": "British Library manumission registers",
+      "url": "https://searcharchives.bl.uk/catalog/036-002793990",
+      "locator": "EAP148/3/1 1747–1838",
+      "access": "catalog; no person match established",
+      "root": "JARD digitization",
+      "rights": "metadata and link preserved; redistribution of full document not verified",
+      "snapshot": null
+    }
+  ],
+  "acquisition": {
+    "full_documents_acquired": 0,
+    "thesis": "indexed page 150 text retrieved; direct fetch restricted; screenshot failed"
+  },
+  "pending": [
+    "Deeds L.Q.S. 828/58–67; locate precise Elizabeth Francis deed",
+    "Confirm identity, marital status, purchase terms and title history",
+    "Identify matching parish and slave registers without name-only joins",
+    "Check name variants in purchaser lists"
+  ]
+}
