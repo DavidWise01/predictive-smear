@@ -1,0 +1,51 @@
+{
+  "id": "ADA-005",
+  "epoch": 1832,
+  "subject": "Caroline Lucretia Herschel",
+  "status": "preliminary",
+  "domains": {
+    "finance": "GBP 50 annual assistant salary from 1787; William GBP 200 from 1782; distinct roles",
+    "legal": "Honorary RAS membership 1835; women eligible for fellowship under 1915 charter",
+    "it": "Astronomical observations and indexing",
+    "healthcare": "Childhood illness; attributable inequity unestablished",
+    "education": "Restricted childhood education; later musical and scientific instruction",
+    "labor": "Domestic work, telescope maintenance, observations, calculations",
+    "government": "Royal patronage",
+    "resources": "Access to instruments and research networks"
+  },
+  "gates": {
+    "taken": "Domestic labor and time; unlawful appropriation not established",
+    "removed": "Restricted educational and professional opportunities",
+    "suffered": "Financial dependence before salary; damages unknown",
+    "who": "Family, royal patrons, scientific institutions; individual culpability not established",
+    "why": "Gendered domestic conventions and institutional eligibility; individual motives not inferred"
+  },
+  "salary": {
+    "caroline_gbp": 50,
+    "william_gbp": 200,
+    "ratio": 0.25,
+    "difference_gbp": 150,
+    "comparable_work_established": false
+  },
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "auditors": {
+    "Jane": "Measure supporting labor and independent discoveries separately",
+    "Toph": "Compensation does not establish autonomy or equal eligibility",
+    "Patricia": "Salary comparison does not establish equal work or causal discrimination"
+  },
+  "pop": "Compensation does not equal economic autonomy; measure control of resources separately",
+  "sources": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Herschel_Caroline/",
+    "https://www.dpma.eu/english/our_office/publications/ingeniouswomen/carolineherschel/index.html",
+    "https://www.npg.org.uk/collections/search/person/mp10465/caroline-lucretia-herschel",
+    "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00568&showrequest=1",
+    "https://ras.ac.uk/education-and-careers/100-years-and-counting-women-ras-go-strength-strength",
+    "https://www.fadedpage.com/books/20130405/html.php"
+  ],
+  "limitations": "No original payroll or time sheets examined; memoir is edited published transcription; three auditors are analytical roles, not independent witnesses."
+}
