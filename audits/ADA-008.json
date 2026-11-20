@@ -1,0 +1,70 @@
+{
+  "id": "ADA-008",
+  "epoch": 1832,
+  "subject": "George Stephenson",
+  "lifespan": [
+    1781,
+    1848
+  ],
+  "status": "preliminary",
+  "domains": {
+    "finance": "Railway investment and cotton trade; investor-level proceeds unquantified",
+    "legal": "Railway authorization, later 1844 statutory affordable service; specific land compensation unresolved",
+    "it": "Mechanical infrastructure and interoperability; analogy to modern IT",
+    "healthcare": "1830 opening-day fatal injury to William Huskisson; liability not established",
+    "education": "Self-funded reading, writing and arithmetic lessons at eighteen",
+    "labor": "Mine labor, construction labor, and enslaved upstream cotton labor; individual losses unquantified",
+    "government": "Parliamentary railway legislation and 1844 passenger protections",
+    "resources": "Coal, land, iron, cotton and transport network"
+  },
+  "gates": {
+    "taken": "Enslaved upstream labor; specific losses unquantified",
+    "removed": "Freedom and control over labor in plantation economy; affordable railway access not universally guaranteed",
+    "suffered": "Forced labor and industrial injury; individual causal paths require evidence",
+    "who": "Plantation owners, merchants, investors, engineers and operating companies have distinct responsibilities",
+    "why": "Commercial expansion, transport efficiency and profit; individual motives unverified"
+  },
+  "auditors": {
+    "Jane": "Trace supply chain and separate engineering contribution from system-level value",
+    "Toph": "Separate infrastructure availability from practical affordable access and assign responsibility only with evidence",
+    "Patricia": "Museum partnership records establish supply-chain links, not personal culpability or quantified damages"
+  },
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "pop": "Infrastructure availability does not equal equitable access; trace upstream labor and capital.",
+  "sources": [
+    {
+      "url": "https://www.networkrail.co.uk/who-we-are/our-history/eminent-engineers/george-stephenson-1781-1848/",
+      "root": "Network Rail institutional biography"
+    },
+    {
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/ap43/stephenson-george",
+      "root": "Science Museum Group biography"
+    },
+    {
+      "url": "https://blog.scienceandindustrymuseum.org.uk/global-threads/",
+      "root": "SMG-UCL Global Threads partnership"
+    },
+    {
+      "url": "https://blog.scienceandindustrymuseum.org.uk/manchester-cotton-and-transatlantic-slavery-project/",
+      "root": "SMG related research; independence from Global Threads not established"
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/transportcomms/roadsrail/overview/fullsteamahead/",
+      "root": "UK Parliament historical overview"
+    },
+    {
+      "url": "https://api.parliament.uk/historic-hansard/commons/1844/jul/08/railways",
+      "root": "1844 parliamentary debate"
+    },
+    {
+      "url": "https://www.liverpool.ac.uk/victoria-gallery-and-museum/blog/2020/liverpool-and-manchester-railway/",
+      "root": "University of Liverpool historical account"
+    }
+  ],
+  "limitations": "No original shareholder registers, wage ledgers or land compensation accounts inspected; no personal liability or monetary damages assigned. Auditor roles are analytical, not independent witnesses."
+}
