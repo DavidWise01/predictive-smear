@@ -1,0 +1,38 @@
+{
+  "id": "ADA-015",
+  "epoch": 1832,
+  "subject": "Elizabeth Francis",
+  "status": "preliminary",
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "gates": {
+    "taken": "Coerced labor and earnings under reported prior enslavement; individual amounts unknown",
+    "removed": "Independent labor choice under slavery; precise individual restrictions unknown",
+    "suffered": "Prior enslavement reported; specific injuries unknown",
+    "who": "Not identified",
+    "why": "Plantation labor system context; individual motives unknown"
+  },
+  "domains": {
+    "finance": "Early land purchase reported; price and funds unknown",
+    "legal": "Reported purchaser; exact title, marital status and disposal rights unknown",
+    "it": "Record linkage and variant preservation",
+    "healthcare": null,
+    "education": null,
+    "labor": "Former enslavement reported; occupation unknown",
+    "government": "Emancipation context; individual administrative records unlocated",
+    "resources": "Reported land acquisition; parcel and later tenure unknown"
+  },
+  "auditors": {
+    "Jane": "Separate purchase, title, control, transfer and inheritance",
+    "Toph": "Avoid assuming marital status or application of a specific legal regime",
+    "Patricia": "Correct unsupported first-woman claim; preserve variant names and provenance"
+  },
+  "pop": "Recorded ownership does not establish effective control.",
+  "source_manifest": "evidence/ADA-015/manifest.json",
+  "next": "ADA-016 Robert Talbot; investigate intergenerational tenure without name-only joins",
+  "limitations": "No original deed or full document acquired. Auditors are analytical roles. No individual damages established."
+}
