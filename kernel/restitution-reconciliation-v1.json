@@ -1,0 +1,57 @@
+{
+  "id": "UEP-010-R1",
+  "type": "source-reconciliation-findings",
+  "date": "2026-11-20",
+  "source_book": "1931 TO NOW (2026-11-20 revision)",
+  "findings": [
+    {
+      "claim": "Davis–Bacon requires union membership and local-only hiring",
+      "book_location": "Chapter 1.1",
+      "verdict": "contradicted as statutory requirement",
+      "evidence": "US DOL Fact Sheet 66 describes payment of prevailing wages; does not mandate union membership or local hiring",
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/66-dbra"
+    },
+    {
+      "claim": "1931–1964 $25–30B lost wages in 2024 dollars and $200–500B by 2026",
+      "book_location": "Chapter 1.2",
+      "verdict": "unverified author estimate",
+      "reason": "Requires actual construction spending source, labor allocation and common dollar-year reconciliation. Cannot treat entire interval as 1931 nominal principal."
+    },
+    {
+      "claim": "5% 95-year annuity factor 2040.7",
+      "book_location": "Chapter 23",
+      "verdict": "arithmetically verified under end-of-year convention",
+      "value": 2040.6935289218986
+    },
+    {
+      "claim": "1.67 / 6.3 means wage gap explains 27%, remaining 73% proved by other factors",
+      "book_location": "Chapter 23",
+      "verdict": "causal inference invalid",
+      "reason": "Ratio of two ratios does not identify causal contribution."
+    },
+    {
+      "claim": "2022 median wealth of White/Black/Hispanic families 285k/44.9k/61.6k",
+      "book_location": "Introduction",
+      "verdict": "historically verified for 2022 but not latest",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html"
+    },
+    {
+      "claim": "2025 median White/Black/Hispanic net worth",
+      "verdict": "verified latest 2025 SCF, reported in 2025 dollars",
+      "amounts_usd": [
+        332100,
+        36800,
+        79600
+      ],
+      "url": "https://www.federalreserve.gov/publications/files/scf26.pdf"
+    },
+    {
+      "claim": "Women's 2024 annual median weekly earnings 83.6% of men's",
+      "book_location": "Introduction",
+      "verdict": "needs correction or metric clarification",
+      "reason": "BLS 2024 annual full-time weekly earnings reports approximately 83%, while 83.6% appears in a 2023 statistic; Census full-time full-year annual earnings are a different measure.",
+      "url": "https://www.bls.gov/opub/reports/womens-earnings/2024/home.htm"
+    }
+  ],
+  "policy": "These are findings about sources, not changes to the original book or adjudications of restitution."
+}
