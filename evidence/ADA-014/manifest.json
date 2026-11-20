@@ -1,0 +1,99 @@
+{
+  "audit": "ADA-014",
+  "schema": "ADA-evidence-v1",
+  "date": "2026-11-20",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "JNHT Sligoville",
+      "url": "https://www.jnht.gov.jm/site_sligoville.php",
+      "type": "institutional history",
+      "locator": "Lunan first purchaser, Hampstead headman",
+      "rights": "link and metadata only; full reproduction not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S02",
+      "title": "Underhill 1881 Phillippo biography",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Life_of_James_Mursell_Phillippo%2C_missionary_in_Jamaica_%28IA_cu31924020400317%29.pdf",
+      "type": "historical biography; public-domain text",
+      "locator": "p184; approximately two months before emancipation",
+      "rights": "link and metadata only; full reproduction not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S03",
+      "title": "Gleaner 2016",
+      "url": "https://past.jamaica-gleaner.com/article/news/20160728/two-days-emancifest-sligoville",
+      "type": "secondary",
+      "locator": "August 1 1838",
+      "rights": "link and metadata only; full reproduction not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S04",
+      "title": "Davis-Palmer 2004 PhD thesis",
+      "url": "https://research.gold.ac.uk/28873/1/thesis_Davis-PalmerY_2004.pdf",
+      "type": "archival research and oral history; redistribution rights unchecked",
+      "locator": "pp149–151,157,164; LQ S 828 folios 61, 12 October 1839; footnote 66 numbers 828/58–67",
+      "rights": "link and metadata only; full reproduction not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S05",
+      "title": "Library of Congress Jamaican archival guide",
+      "url": "https://guides.loc.gov/jamaica-local-history-genealogy/archival-records",
+      "type": "finding aid",
+      "locator": "slave registers 1832 and related holdings",
+      "rights": "link and metadata only; full reproduction not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S06",
+      "title": "Jamaica Archives research services",
+      "url": "https://www.jard.gov.jm/pages/what-we-do-archives",
+      "type": "finding aid",
+      "locator": "public research requests",
+      "rights": "link and metadata only; full reproduction not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S07",
+      "title": "Island Record Office",
+      "url": "https://nira.gov.jm/about-iro/",
+      "type": "finding aid",
+      "locator": "authenticated deed copies by liber and folio",
+      "rights": "link and metadata only; full reproduction not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S08",
+      "title": "National Library documentary heritage",
+      "url": "https://www.nlj.gov.jm/caribbeanregister/docs/jamaica.htm",
+      "type": "finding aid",
+      "locator": "slave returns, cadastral maps, deeds",
+      "rights": "link and metadata only; full reproduction not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S09",
+      "title": "Jamaica Information Service Sligoville",
+      "url": "https://jis.gov.jm/sligoville-jamaicas-first-free-village/",
+      "type": "institutional history",
+      "locator": "settlement acquisition and terms",
+      "rights": "link and metadata only; full reproduction not verified",
+      "snapshot": null
+    }
+  ],
+  "acquisition": {
+    "full_documents_acquired": 0,
+    "thesis_parsed": true,
+    "screenshot": "restricted URL; failed"
+  },
+  "pending": [
+    "Obtain LQ S 828 folios 58–67 including 61; verify which deed names Lunan",
+    "Find Hampstead estate 1832 slave register and compensation claim; disambiguate estate",
+    "Find Lunan purchase receipt, parcel size, wages, family and subsequent transfers"
+  ],
+  "ancestry": "S04 references deeds; not original deed inspection. S01/S02/S03 relationships unresolved. Registry references not witnesses."
+}
