@@ -1,0 +1,27 @@
+{
+  "id": "ADA-001",
+  "epoch": 1832,
+  "subject": "Ada Lovelace",
+  "status": "retrospective backfill; provisional",
+  "gates": {
+    "taken": "Lost time through illness; unlawful attribution or compensation loss unestablished",
+    "removed": "Unequal formal education access",
+    "suffered": "Illness and restricted opportunities",
+    "who": "Family, educators, collaborators and institutions; no blanket culpability",
+    "why": "Institutional and social restrictions; individual motives unresolved"
+  },
+  "pop": "Capacity does not equal opportunity",
+  "sources": [
+    "https://psychclassics.yorku.ca/Lovelace/lovelace.htm",
+    "https://www.claymath.org/online-resources/ada-lovelaces-mathematical-papers/correspondence-with-de-morgan/",
+    "https://www.claymath.org/online-resources/ada-lovelaces-mathematical-papers/",
+    "https://www.maths.ox.ac.uk/groups/history-mathematics/mathematics-ada-lovelace"
+  ],
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "limitations": "Backfilled from earlier conversation and freshly verified source leads; no original document bytes saved."
+}
