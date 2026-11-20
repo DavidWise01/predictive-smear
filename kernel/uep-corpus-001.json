@@ -1,0 +1,103 @@
+{
+  "id": "UEP-006",
+  "parent": "KERNEL-003",
+  "book": {
+    "title": "1931 to Now",
+    "version": "1931_TO_NOW(20261120-155808).docx",
+    "chapters": [
+      21,
+      23,
+      24
+    ],
+    "status": "source retrieved; claims not independently verified; book bytes not republished"
+  },
+  "sources": [
+    {
+      "repository": "DavidWise01/astraea",
+      "path": "MOIRA.md",
+      "blob_sha": "1a0504601974125d0dbb71a1c48a219ac5ed4d47",
+      "role": "60/20/15/5; $14.5T genesis; 3% AI extraction heuristic"
+    },
+    {
+      "repository": "DavidWise01/astraea",
+      "path": "NOMOS.md",
+      "blob_sha": "895ae851ff0dc0a711346c9609fac8b9c9e9b4ad",
+      "role": "legal claims and limitations"
+    },
+    {
+      "repository": "DavidWise01/bridge-burner",
+      "path": "README.md",
+      "blob_sha": "11b0cbe6f6e69bde35a9e2ee5274d79c8dfb560e",
+      "role": "URP distinct from UBI; 5% compounding; NEMESIS seven checks"
+    },
+    {
+      "repository": "DavidWise01/hephaestus",
+      "path": "DAEDALUS.md",
+      "blob_sha": "ee3e98f7d126f95591deadb7c985e005fba4c835",
+      "role": "different 80/20 allocation of computed due"
+    },
+    {
+      "repository": "DavidWise01/oasis",
+      "path": "architecture/box-toroid.md",
+      "blob_sha": "5e08d723d4fa72f610999d7c16ce86e7a78ea61e",
+      "role": "bounded forward and witnessed return"
+    },
+    {
+      "repository": "DavidWise01/oasis",
+      "path": "README.md",
+      "blob_sha": "dbe8515061eea745acb66e40879075a270e5d61a",
+      "role": "domain attachments and append-only primitives"
+    },
+    {
+      "repository": "DavidWise01/tripod",
+      "path": "README.md",
+      "blob_sha": "24c6dd760e581b8aeb27ef2c4add21287b5334e6",
+      "role": "provenance and protection"
+    },
+    {
+      "repository": "DavidWise01/the-oasis",
+      "path": "README.md",
+      "blob_sha": "5a5e60f0f3a03430a96848159fdc91e7054dd626",
+      "role": "corpus navigation"
+    },
+    {
+      "repository": "DavidWise01/restitution-42-universe",
+      "path": "README.md",
+      "blob_sha": "6bc1aedc9686cc00c1d245898a89d9e719b66c45",
+      "role": "symbolic mechanics not financial proof"
+    },
+    {
+      "repository": "DavidWise01/emergent-engine",
+      "path": "README.md",
+      "blob_sha": "f4905271f0b67f6ff954063e66683ffef3bfba54",
+      "role": "existing interactive engine gallery"
+    }
+  ],
+  "canonical_candidate": {
+    "split": [
+      60,
+      20,
+      15,
+      5
+    ],
+    "source": "ASTRAEA/MOIRA and BRIDGE BURNER",
+    "ubi": "separate universal entitlement proposal; not canonically equal to 60% carbon restitution"
+  },
+  "conflicts": [
+    "DAEDALUS 80/20 applies to a different computed due; do not silently merge",
+    "$14.5T book/MOIRA anchor is author estimate, not legally established debt",
+    "1.67/6.3 is not identified causal fraction",
+    "20.5% overhead and 3% levy are proposals not empirical facts",
+    "No exact UBI repo located by name; code search substring false positives and partial indexing"
+  ],
+  "scenario": {
+    "annual_realized_pool_usd": 1000000000000,
+    "shares_usd": [
+      600000000000,
+      200000000000,
+      150000000000,
+      50000000000
+    ]
+  },
+  "next": "Build integer-cent allocation adapter with separate restitution and universal dividend ledgers; preserve conflicting mechanisms."
+}
