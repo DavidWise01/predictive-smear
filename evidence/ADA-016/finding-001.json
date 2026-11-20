@@ -1,0 +1,39 @@
+{
+  "id": "ADA-016-F01",
+  "source": "S01",
+  "pages": [
+    150,
+    151,
+    179,
+    180,
+    181
+  ],
+  "lineage": [
+    "Robert Talbot/Talbott",
+    "Thomas Talbott",
+    "Aston Gordon Talbott"
+  ],
+  "status": "reported in thesis and descendant autobiography; no independent civil record linkage",
+  "assets": [
+    {
+      "id": "A",
+      "acquired_reported": 1838,
+      "family_retention": "no longer family-owned at time of testimony",
+      "transfer_date": null,
+      "cause": null,
+      "price": null
+    },
+    {
+      "id": "B",
+      "prior_owner": "O'Sullivan family",
+      "acquisition": "reported later family purchase",
+      "price": null
+    }
+  ],
+  "inference": "Loss of particular parcel does not establish net wealth loss or wrongful taking.",
+  "correction": {
+    "target": "ADA-015-F01",
+    "source": "S01 printed p157",
+    "claim": "Davis-Palmer explicitly identifies Elizabeth Francis as first woman among first settlers to buy land. This is an author claim, not independently verified chronological priority. Prior correction overstated absence of source support; append rather than overwrite."
+  }
+}
