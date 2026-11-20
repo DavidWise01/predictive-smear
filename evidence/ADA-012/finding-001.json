@@ -1,0 +1,12 @@
+{
+  "id": "ADA-012-F01",
+  "sources": [
+    "S02"
+  ],
+  "mechanism": "Employer also controls housing: low wages and high rent can reduce practical exit capacity; eviction can compound loss of employment.",
+  "status": "historical mechanism documented by JNHT; individual causal estimate not established",
+  "counterevidence_queue": [
+    "S09"
+  ],
+  "model": "net resources = wages - rent - essential expenses; exit capacity additionally depends on savings and alternative housing"
+}
