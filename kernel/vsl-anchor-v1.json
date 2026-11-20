@@ -1,0 +1,67 @@
+{
+  "id": "UEP-014",
+  "version": 1,
+  "date": "2026-11-20",
+  "name": "Federal statistical-life value anchor: policy counterfactual",
+  "parent": "UEP-013",
+  "anchor": {
+    "selected_usd_per_person": 13100000,
+    "source_agency": "HHS",
+    "year": 2024,
+    "meaning": "2024 central value of statistical life (VSL) in regulatory impact analysis",
+    "reference": "https://www.ncbi.nlm.nih.gov/books/NBK611043/",
+    "status": "published federal policy risk metric; NOT a legally established debt or universal cash entitlement"
+  },
+  "current_context": [
+    {
+      "agency": "HHS",
+      "analysis_year": 2025,
+      "central_vsl_usd": 13600000,
+      "dollar_year": 2024,
+      "url": "https://aspe.hhs.gov/sites/default/files/documents/639756a60fbe7e51786bcec176ad52f1/Standard-RIA-Values-2025.pdf"
+    },
+    {
+      "agency": "DOT",
+      "analysis_base_year": 2025,
+      "central_vsl_usd": 14200000,
+      "dollar_year": 2025,
+      "url": "https://www.transportation.gov/office-policy/transportation-policy/revised-departmental-guidance-on-valuation-of-a-statistical-life-in-economic-analysis"
+    }
+  ],
+  "eligible_population": {
+    "min_age": 18,
+    "max_age_inclusive": 65,
+    "planning_count": 210000000,
+    "precision": "rounded planning count from UEP-007, not a confirmed 2026 count"
+  },
+  "scenarios": [
+    {
+      "type": "normative universal per-adult nominal stock",
+      "per_adult_usd": 13100000,
+      "adults": 210000000,
+      "total_usd": 2751000000000000,
+      "interpretation": "scale illustration; NOT a government liability or actual financing amount"
+    },
+    {
+      "type": "mortality risk reduction",
+      "risk_reduction_per_person": 0.00001,
+      "per_person_wtp_usd": 131,
+      "adults": 210000000,
+      "aggregate_risk_value_usd": 27510000000,
+      "expected_statistical_fatalities_avoided": 2100,
+      "interpretation": "valid VSL application for specified small independent risk reduction if empirical risk change and population established"
+    }
+  ],
+  "interest": {
+    "status": "disabled",
+    "reason": "VSL does not accrue as debt. Do not compound retroactively to 1931 without an identifiable obligation, due date, and enforceable rate."
+  },
+  "separation": {
+    "life_risk_valuation": "benefit-cost comparison",
+    "restitution": "verified damages and credits",
+    "ubi": "proposed cash distribution funded from identified receipts",
+    "not_additive": true
+  },
+  "evidence_assurance": "HHS 2024 reference verified through search index and source publication listing; current HHS and DOT official sources reviewed; scanned PDF screenshot endpoint blocked; source text available",
+  "next": "Join mortality risk/years lost estimates with harm-specific cohorts; keep wrongful death remedy, labor damages and VSL distinct."
+}
