@@ -1,0 +1,87 @@
+{
+  "id": "KERNEL-003",
+  "parent": "KERNEL-002",
+  "parent_blob": "527f46a330335cf0d1b03fa2f25379cd0cf58da1",
+  "bubble": {
+    "name": "Planck bubble (project-defined)",
+    "reference_m": 1,
+    "divisor": "5*pi",
+    "c_m_s": 299792458,
+    "duration_s": 2.1235349835504578e-10,
+    "light_path_m": 0.06366197723675814,
+    "frequency_hz": 4709128918.272134,
+    "standard_planck_time_s": 5.391255e-44,
+    "ratio_to_planck_time": 3.938850942035682e+33
+  },
+  "notation": "{brace[box : constant (torroid : variable)]}",
+  "operants": {
+    "0": "equilibrium/hold",
+    "-1": "ingress",
+    "+1": "egress"
+  },
+  "model": {
+    "state": "integer stored units q >= 0",
+    "transition": "q'=q-s, s in {-1,0,+1}; reject if q'<0",
+    "conservation": "q_final=q_initial+N_ingress-N_egress",
+    "timing": "one logical step per bubble duration; no physical timing claim"
+  },
+  "tests": [
+    {
+      "seq": [
+        -1,
+        0,
+        1
+      ],
+      "q": 0,
+      "accepted": 3,
+      "rejected": 0,
+      "nonnegative": true
+    },
+    {
+      "seq": [
+        1,
+        0,
+        -1
+      ],
+      "q": 1,
+      "accepted": 2,
+      "rejected": 1,
+      "nonnegative": true
+    },
+    {
+      "seq": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "q": 0,
+      "accepted": 4,
+      "rejected": 0,
+      "nonnegative": true
+    },
+    {
+      "seq": [
+        -1,
+        0,
+        0
+      ],
+      "q": 1,
+      "accepted": 3,
+      "rejected": 0,
+      "nonnegative": true
+    },
+    {
+      "seq": [
+        0,
+        0,
+        0
+      ],
+      "q": 0,
+      "accepted": 3,
+      "rejected": 0,
+      "nonnegative": true
+    }
+  ],
+  "limitations": "Unit flux model, not a physical membrane; holding does not imply thermodynamic equilibrium."
+}
