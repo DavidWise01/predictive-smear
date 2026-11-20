@@ -1,0 +1,826 @@
+{
+  "schema": "UEP-011-timeseries-v1",
+  "as_of_date": "2026-11-20",
+  "parent": "UEP-010",
+  "sources": [
+    {
+      "id": "CENSUS-H5",
+      "url": "https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html",
+      "type": "original statistical series",
+      "format": "h05.xlsx",
+      "acquired_bytes": false
+    },
+    {
+      "id": "CENSUS-H5-SECONDARY-TRANSCRIPTION",
+      "url": "https://realstats.info/us-median-household-income",
+      "type": "indexed transcription from Census H-5",
+      "access": "HTML content inspected",
+      "date": "2026-10-27 site noted",
+      "root": "CENSUS-H5"
+    },
+    {
+      "id": "DOL-MINWAGE",
+      "url": "https://beta.dol.gov/es/policy-regulations/pay-benefits/wages-hours/wages-flsa/minimum-wage/history/chart",
+      "type": "federal government historical schedule",
+      "access": "HTML inspected"
+    },
+    {
+      "id": "FRED-MINWAGE",
+      "url": "https://fred.stlouisfed.org/data/FEDMINNFRWG",
+      "type": "monthly derived series",
+      "root": "Department of Labor",
+      "access": "HTML inspected"
+    }
+  ],
+  "yearly_household_income_2025_usd": [
+    {
+      "year": 1967,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 58640,
+      "black_usd_2025": 34050,
+      "white_black_median_difference_usd_2025": 24590,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1968,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 61050,
+      "black_usd_2025": 36000,
+      "white_black_median_difference_usd_2025": 25050,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1969,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 63600,
+      "black_usd_2025": 38440,
+      "white_black_median_difference_usd_2025": 25160,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1970,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 63010,
+      "black_usd_2025": 38350,
+      "white_black_median_difference_usd_2025": 24660,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1971,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 62730,
+      "black_usd_2025": 37060,
+      "white_black_median_difference_usd_2025": 25670,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1972,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 65390,
+      "black_usd_2025": 38170,
+      "white_black_median_difference_usd_2025": 27220,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1973,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 66740,
+      "black_usd_2025": 39280,
+      "white_black_median_difference_usd_2025": 27460,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1974,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 64590,
+      "black_usd_2025": 38410,
+      "white_black_median_difference_usd_2025": 26180,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1975,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 62830,
+      "black_usd_2025": 37720,
+      "white_black_median_difference_usd_2025": 25110,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1976,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 64010,
+      "black_usd_2025": 38060,
+      "white_black_median_difference_usd_2025": 25950,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1977,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 64570,
+      "black_usd_2025": 38100,
+      "white_black_median_difference_usd_2025": 26470,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1978,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 66310,
+      "black_usd_2025": 39850,
+      "white_black_median_difference_usd_2025": 26460,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1979,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 66760,
+      "black_usd_2025": 39190,
+      "white_black_median_difference_usd_2025": 27570,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1980,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 65080,
+      "black_usd_2025": 37500,
+      "white_black_median_difference_usd_2025": 27580,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1981,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 64080,
+      "black_usd_2025": 35960,
+      "white_black_median_difference_usd_2025": 28120,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1982,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 63320,
+      "black_usd_2025": 35880,
+      "white_black_median_difference_usd_2025": 27440,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1983,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 63030,
+      "black_usd_2025": 35770,
+      "white_black_median_difference_usd_2025": 27260,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1984,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 65310,
+      "black_usd_2025": 37210,
+      "white_black_median_difference_usd_2025": 28100,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1985,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 66530,
+      "black_usd_2025": 39580,
+      "white_black_median_difference_usd_2025": 26950,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1986,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 68790,
+      "black_usd_2025": 39630,
+      "white_black_median_difference_usd_2025": 29160,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1987,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 69800,
+      "black_usd_2025": 39840,
+      "white_black_median_difference_usd_2025": 29960,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1988,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 70550,
+      "black_usd_2025": 40220,
+      "white_black_median_difference_usd_2025": 30330,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1989,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 71400,
+      "black_usd_2025": 42460,
+      "white_black_median_difference_usd_2025": 28940,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1990,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 69940,
+      "black_usd_2025": 41820,
+      "white_black_median_difference_usd_2025": 28120,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1991,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 68210,
+      "black_usd_2025": 40640,
+      "white_black_median_difference_usd_2025": 27570,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1992,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 67870,
+      "black_usd_2025": 39520,
+      "white_black_median_difference_usd_2025": 28350,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1993,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 67780,
+      "black_usd_2025": 40170,
+      "white_black_median_difference_usd_2025": 27610,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1994,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 68480,
+      "black_usd_2025": 42310,
+      "white_black_median_difference_usd_2025": 26170,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1995,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 70310,
+      "black_usd_2025": 44020,
+      "white_black_median_difference_usd_2025": 26290,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1996,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 71180,
+      "black_usd_2025": 44980,
+      "white_black_median_difference_usd_2025": 26200,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1997,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 73080,
+      "black_usd_2025": 46970,
+      "white_black_median_difference_usd_2025": 26110,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1998,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 75680,
+      "black_usd_2025": 46900,
+      "white_black_median_difference_usd_2025": 28780,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 1999,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 76710,
+      "black_usd_2025": 50580,
+      "white_black_median_difference_usd_2025": 26130,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2000,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 76940,
+      "black_usd_2025": 51980,
+      "white_black_median_difference_usd_2025": 24960,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2001,
+      "basis": "1970s-2001 race (single-category white vs black)",
+      "white_usd_2025": 76270,
+      "black_usd_2025": 50490,
+      "white_black_median_difference_usd_2025": 25780,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2002,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 79370,
+      "black_alone_usd_2025": 49120,
+      "asian_alone_usd_2025": 89060,
+      "hispanic_anyrace_usd_2025": 56020,
+      "white_black_median_difference_usd_2025": 30250,
+      "white_hispanic_median_difference_usd_2025": 23350,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2003,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 79200,
+      "black_alone_usd_2025": 49140,
+      "asian_alone_usd_2025": 92330,
+      "hispanic_anyrace_usd_2025": 54700,
+      "white_black_median_difference_usd_2025": 30060,
+      "white_hispanic_median_difference_usd_2025": 24500,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2004,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 79100,
+      "black_alone_usd_2025": 48670,
+      "asian_alone_usd_2025": 93000,
+      "hispanic_anyrace_usd_2025": 55420,
+      "white_black_median_difference_usd_2025": 30430,
+      "white_hispanic_median_difference_usd_2025": 23680,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2005,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 79820,
+      "black_alone_usd_2025": 48500,
+      "asian_alone_usd_2025": 96020,
+      "hispanic_anyrace_usd_2025": 56530,
+      "white_black_median_difference_usd_2025": 31320,
+      "white_hispanic_median_difference_usd_2025": 23290,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2006,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 80070,
+      "black_alone_usd_2025": 48830,
+      "asian_alone_usd_2025": 98110,
+      "hispanic_anyrace_usd_2025": 57700,
+      "white_black_median_difference_usd_2025": 31240,
+      "white_hispanic_median_difference_usd_2025": 22370,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2007,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 81790,
+      "black_alone_usd_2025": 50510,
+      "asian_alone_usd_2025": 98440,
+      "hispanic_anyrace_usd_2025": 57600,
+      "white_black_median_difference_usd_2025": 31280,
+      "white_hispanic_median_difference_usd_2025": 24190,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2008,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 79770,
+      "black_alone_usd_2025": 49150,
+      "asian_alone_usd_2025": 94290,
+      "hispanic_anyrace_usd_2025": 54460,
+      "white_black_median_difference_usd_2025": 30620,
+      "white_hispanic_median_difference_usd_2025": 25310,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2009,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 78550,
+      "black_alone_usd_2025": 47000,
+      "asian_alone_usd_2025": 94430,
+      "hispanic_anyrace_usd_2025": 54860,
+      "white_black_median_difference_usd_2025": 31550,
+      "white_hispanic_median_difference_usd_2025": 23690,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2010,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 77480,
+      "black_alone_usd_2025": 45710,
+      "asian_alone_usd_2025": 91430,
+      "hispanic_anyrace_usd_2025": 53540,
+      "white_black_median_difference_usd_2025": 31770,
+      "white_hispanic_median_difference_usd_2025": 23940,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2011,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 76460,
+      "black_alone_usd_2025": 44470,
+      "asian_alone_usd_2025": 89870,
+      "hispanic_anyrace_usd_2025": 53300,
+      "white_black_median_difference_usd_2025": 31990,
+      "white_hispanic_median_difference_usd_2025": 23160,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2012,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 77180,
+      "black_alone_usd_2025": 45110,
+      "asian_alone_usd_2025": 92920,
+      "hispanic_anyrace_usd_2025": 52800,
+      "white_black_median_difference_usd_2025": 32070,
+      "white_hispanic_median_difference_usd_2025": 24380,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2013,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 80690,
+      "black_alone_usd_2025": 47250,
+      "asian_alone_usd_2025": 96820,
+      "hispanic_anyrace_usd_2025": 53080,
+      "white_black_median_difference_usd_2025": 33440,
+      "white_hispanic_median_difference_usd_2025": 27610,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2014,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 79470,
+      "black_alone_usd_2025": 46680,
+      "asian_alone_usd_2025": 97980,
+      "hispanic_anyrace_usd_2025": 56040,
+      "white_black_median_difference_usd_2025": 32790,
+      "white_hispanic_median_difference_usd_2025": 23430,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2015,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 83080,
+      "black_alone_usd_2025": 48700,
+      "asian_alone_usd_2025": 101800,
+      "hispanic_anyrace_usd_2025": 59590,
+      "white_black_median_difference_usd_2025": 34380,
+      "white_hispanic_median_difference_usd_2025": 23490,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2016,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 85090,
+      "black_alone_usd_2025": 51660,
+      "asian_alone_usd_2025": 106500,
+      "hispanic_anyrace_usd_2025": 62370,
+      "white_black_median_difference_usd_2025": 33430,
+      "white_hispanic_median_difference_usd_2025": 22720,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2017,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 87660,
+      "black_alone_usd_2025": 50610,
+      "asian_alone_usd_2025": 104600,
+      "hispanic_anyrace_usd_2025": 64500,
+      "white_black_median_difference_usd_2025": 37050,
+      "white_hispanic_median_difference_usd_2025": 23160,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2018,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 89020,
+      "black_alone_usd_2025": 52120,
+      "asian_alone_usd_2025": 109900,
+      "hispanic_anyrace_usd_2025": 64840,
+      "white_black_median_difference_usd_2025": 36900,
+      "white_hispanic_median_difference_usd_2025": 24180,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2019,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 94450,
+      "black_alone_usd_2025": 56430,
+      "asian_alone_usd_2025": 121900,
+      "hispanic_anyrace_usd_2025": 69680,
+      "white_black_median_difference_usd_2025": 38020,
+      "white_hispanic_median_difference_usd_2025": 24770,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2020,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 92660,
+      "black_alone_usd_2025": 56570,
+      "asian_alone_usd_2025": 117000,
+      "hispanic_anyrace_usd_2025": 68120,
+      "white_black_median_difference_usd_2025": 36090,
+      "white_hispanic_median_difference_usd_2025": 24540,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2021,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 91760,
+      "black_alone_usd_2025": 56820,
+      "asian_alone_usd_2025": 119300,
+      "hispanic_anyrace_usd_2025": 68210,
+      "white_black_median_difference_usd_2025": 34940,
+      "white_hispanic_median_difference_usd_2025": 23550,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2022,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 88540,
+      "black_alone_usd_2025": 57740,
+      "asian_alone_usd_2025": 118800,
+      "hispanic_anyrace_usd_2025": 68600,
+      "white_black_median_difference_usd_2025": 30800,
+      "white_hispanic_median_difference_usd_2025": 19940,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2023,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 93610,
+      "black_alone_usd_2025": 59380,
+      "asian_alone_usd_2025": 118600,
+      "hispanic_anyrace_usd_2025": 68890,
+      "white_black_median_difference_usd_2025": 34230,
+      "white_hispanic_median_difference_usd_2025": 24720,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2024,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 94010,
+      "black_alone_usd_2025": 57210,
+      "asian_alone_usd_2025": 124400,
+      "hispanic_anyrace_usd_2025": 72430,
+      "white_black_median_difference_usd_2025": 36800,
+      "white_hispanic_median_difference_usd_2025": 21580,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    },
+    {
+      "year": 2025,
+      "basis": "2002+ race alone white non-Hispanic vs black alone",
+      "white_nonhispanic_usd_2025": 96710,
+      "black_alone_usd_2025": 59980,
+      "asian_alone_usd_2025": 126300,
+      "hispanic_anyrace_usd_2025": 73260,
+      "white_black_median_difference_usd_2025": 36730,
+      "white_hispanic_median_difference_usd_2025": 23450,
+      "compensable_loss_usd": null,
+      "source_id": "CENSUS-H5-SECONDARY-TRANSCRIPTION"
+    }
+  ],
+  "minimum_wage_effective_dates": [
+    {
+      "effective_date": "1938-10-24",
+      "usd_per_hour": 0.25,
+      "coverage": "1938 act",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1939-10-24",
+      "usd_per_hour": 0.3,
+      "coverage": "1938 act",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1945-10-24",
+      "usd_per_hour": 0.4,
+      "coverage": "1938 act",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1950-01-25",
+      "usd_per_hour": 0.75,
+      "coverage": "1938 act",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1956-03-01",
+      "usd_per_hour": 1,
+      "coverage": "1938 act",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1961-09-03",
+      "usd_per_hour": 1.15,
+      "coverage": "1938 act",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1963-09-03",
+      "usd_per_hour": 1.25,
+      "coverage": "1938 act",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1967-02-01",
+      "usd_per_hour": 1.4,
+      "coverage": "1938 act and 1961 extended",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1968-02-01",
+      "usd_per_hour": 1.6,
+      "coverage": "1938 act and 1961 extended",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1974-05-01",
+      "usd_per_hour": 2,
+      "coverage": "1938 act and 1961 extended",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1975-01-01",
+      "usd_per_hour": 2.1,
+      "coverage": "1938 act and 1961 extended",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1976-01-01",
+      "usd_per_hour": 2.3,
+      "coverage": "1938 act and 1961 extended",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1978-01-01",
+      "usd_per_hour": 2.65,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1979-01-01",
+      "usd_per_hour": 2.9,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1980-01-01",
+      "usd_per_hour": 3.1,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1981-01-01",
+      "usd_per_hour": 3.35,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1990-04-01",
+      "usd_per_hour": 3.8,
+      "coverage": "all covered nonexempt workers, some grandfather clauses",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1991-04-01",
+      "usd_per_hour": 4.25,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1996-10-01",
+      "usd_per_hour": 4.75,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "1997-09-01",
+      "usd_per_hour": 5.15,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "2007-07-24",
+      "usd_per_hour": 5.85,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "2008-07-24",
+      "usd_per_hour": 6.55,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    },
+    {
+      "effective_date": "2009-07-24",
+      "usd_per_hour": 7.25,
+      "coverage": "all covered nonexempt workers",
+      "source_id": "DOL-MINWAGE",
+      "restitution_usd": null
+    }
+  ],
+  "comparability": {
+    "break_2002": "Single-race vs race alone categories; do not splice as one causal series",
+    "price_year": 2025,
+    "unit": "median per household, not worker income or per-person income",
+    "sample": "CPS ASEC sample survey",
+    "nominal_restitution_computable": false,
+    "reason": "Real median gap does not identify counterfactual individual income, legal harm, or particular debt. Cannot multiply medians by number of households."
+  },
+  "raw_documents_acquired": 0,
+  "tests": {
+    "income_years": 59,
+    "wage_events": 23,
+    "years_contiguous": true,
+    "year_2025_gap": 36730,
+    "wage_1938_minimum": 0.25
+  },
+  "outstanding": [
+    "Acquire original Census H-5 workbook as source snapshot and compare all rows",
+    "Add source-specific footnotes and uncertainty intervals",
+    "Quantify documented individual awards from actual judgments and enforcement records; compound legal interest only with authority",
+    "Separate observed gap, cohort economic counterfactual and restitution debt"
+  ],
+  "policy": "Loss amount remains null until individual claim or credible identified cohort loss is established."
+}
