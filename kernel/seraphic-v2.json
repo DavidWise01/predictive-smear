@@ -1,0 +1,41 @@
+{
+  "id": "KERNEL-002",
+  "parent": "KERNEL-001",
+  "implicit": "{{i}}",
+  "bubble": {
+    "name": "Planck bubble (project-defined)",
+    "reference_m": 1,
+    "divisor": "5*pi",
+    "c_m_s": 299792458,
+    "duration_s": 2.1235349835504578e-10,
+    "light_path_m": 0.06366197723675814,
+    "frequency_hz": 4709128918.272134,
+    "standard_planck_time_s": 5.391255e-44,
+    "ratio_to_planck_time": 3.938850942035682e+33
+  },
+  "geometry": {
+    "tip_radius_m": 0.06366197723675814,
+    "convention": "light path interpreted as radius; three inward tips at 120 degrees, not touching center",
+    "directions": [
+      [
+        1,
+        0
+      ],
+      [
+        -0.4999999999999998,
+        0.8660254037844387
+      ],
+      [
+        -0.5000000000000004,
+        -0.8660254037844384
+      ]
+    ],
+    "tip_separation_m": 0.1102657790843584
+  },
+  "tests": {
+    "closure": true,
+    "light_path": true
+  },
+  "source": "https://www.nist.gov/pml/special-publication-330/sp-330-section-2",
+  "limitations": "Defined scale, not standard Planck time or experimentally established bubble. No physical timing guarantee."
+}
