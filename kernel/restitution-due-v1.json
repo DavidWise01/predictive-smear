@@ -1,0 +1,148 @@
+{
+  "id": "UEP-009",
+  "title": "Historical due-date restitution and opportunity-cost ledger",
+  "date": "2026-11-20",
+  "reference_year": 2026,
+  "epoch": "1931 book analysis; each ledger entry begins at independently documented due date",
+  "formula": "sum over discrete dated nominal losses L_i*(1+r)^((as_of_date - due_date) in years)",
+  "discrete_years_formula": "D_2026 = sum_y L_y*(1+r)^(2026-y)",
+  "benchmark_rate": 0.05,
+  "rate_status": "scenario parameter; not legal interest entitlement",
+  "source_book": "1931_TO_NOW(20261120-155808).docx chapter 23 and 24",
+  "source_refs": [
+    {
+      "repo": "DavidWise01/astraea",
+      "path": "MOIRA.md",
+      "blob_sha": "1a0504601974125d0dbb71a1c48a219ac5ed4d47"
+    },
+    {
+      "repo": "DavidWise01/bridge-burner",
+      "path": "README.md",
+      "blob_sha": "11b0cbe6f6e69bde35a9e2ee5274d79c8dfb560e"
+    }
+  ],
+  "cases": [
+    {
+      "id": "wage_1931",
+      "due_year": 1931,
+      "domain": "labor",
+      "nominal_usd": null,
+      "evidence_status": "illustrative chronology only, do not fill nominal amount without payroll and comparator evidence"
+    },
+    {
+      "id": "redlining_1934",
+      "due_year": 1934,
+      "domain": "housing",
+      "nominal_usd": null,
+      "evidence_status": "need applicant, loan terms and contemporaneous comparator"
+    },
+    {
+      "id": "new_deal_1938",
+      "due_year": 1938,
+      "domain": "labor",
+      "nominal_usd": null,
+      "evidence_status": "need coverage/occupation/wages"
+    },
+    {
+      "id": "gi_bill_1944",
+      "due_year": 1944,
+      "domain": "education_housing",
+      "nominal_usd": null,
+      "evidence_status": "need individual eligibility and denied award records"
+    },
+    {
+      "id": "employment_1968",
+      "due_year": 1968,
+      "domain": "labor",
+      "nominal_usd": null,
+      "evidence_status": "need comparator and causal estimate"
+    },
+    {
+      "id": "recession_2008",
+      "due_year": 2008,
+      "domain": "finance_housing",
+      "nominal_usd": null,
+      "evidence_status": "need damages net of overlaps"
+    },
+    {
+      "id": "algorithmic_2020",
+      "due_year": 2020,
+      "domain": "it",
+      "nominal_usd": null,
+      "evidence_status": "need attributable injury and harm"
+    }
+  ],
+  "examples": [
+    {
+      "year": 1931,
+      "years": 95,
+      "factor_at_5pct": 103.034676,
+      "value_of_1000_usd": 103034.68
+    },
+    {
+      "year": 1934,
+      "years": 92,
+      "factor_at_5pct": 89.005227,
+      "value_of_1000_usd": 89005.23
+    },
+    {
+      "year": 1938,
+      "years": 88,
+      "factor_at_5pct": 73.224821,
+      "value_of_1000_usd": 73224.82
+    },
+    {
+      "year": 1944,
+      "years": 82,
+      "factor_at_5pct": 54.641489,
+      "value_of_1000_usd": 54641.49
+    },
+    {
+      "year": 1968,
+      "years": 58,
+      "factor_at_5pct": 16.942572,
+      "value_of_1000_usd": 16942.57
+    },
+    {
+      "year": 1990,
+      "years": 36,
+      "factor_at_5pct": 5.791816,
+      "value_of_1000_usd": 5791.82
+    },
+    {
+      "year": 2008,
+      "years": 18,
+      "factor_at_5pct": 2.406619,
+      "value_of_1000_usd": 2406.62
+    },
+    {
+      "year": 2020,
+      "years": 6,
+      "factor_at_5pct": 1.340096,
+      "value_of_1000_usd": 1340.1
+    },
+    {
+      "year": 2026,
+      "years": 0,
+      "factor_at_5pct": 1,
+      "value_of_1000_usd": 1000
+    }
+  ],
+  "book_check": {
+    "annuity_factor_95_years": 2040.6935289218986,
+    "book_illustrated_white_annual_savings": 0.1,
+    "black_annual_savings": 0.06,
+    "causal_interpretation": "book's asserted 27/73 causal decomposition is not identified by ratio comparison"
+  },
+  "controls": [
+    "No fabricated nominal claims",
+    "No adding $14.5T aggregate estimate to individual losses if overlapping",
+    "No combining inflation-adjusted 2024-dollar amounts with nominal compounded figures without rebasing",
+    "Do not conflate market opportunity returns with statutory prejudgment interest",
+    "Estate and generational succession require case-specific entitlement",
+    "Separate historical restitution principal from future AI dividends and UBI",
+    "Dated loss should compound once, not on both aggregate and underlying annual components"
+  ],
+  "records": "schema requires source_id, claimant_id_or_cohort, domain, original_due_date, principal_nominal_usd, base_dollar_year, chosen_rate, rate_basis, status, non_overlap_key, payments_received_usd, evidence_refs",
+  "pending": "Populate audited dated losses; verify 2025 SCF update and book macro claims before broad legal assertions"
+}
