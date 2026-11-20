@@ -1,0 +1,38 @@
+{
+  "id": "ADA-014",
+  "epoch": 1832,
+  "subject": "Henry Lunan",
+  "status": "preliminary",
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "gates": {
+    "taken": "Liberty and coerced labor; individual amount unknown",
+    "removed": "Independent occupational choice under slavery",
+    "suffered": "Enslavement; individual health or family losses not established",
+    "who": "Hampstead owners and administrators not yet identified",
+    "why": "Plantation labor system; individual motives unverified"
+  },
+  "domains": {
+    "finance": "Land purchase reported; personal price and payment source unknown",
+    "legal": "Enslavement and land conveyance; original deed needed",
+    "it": "Record linkage and enrollment chronology",
+    "healthcare": "Unknown",
+    "education": "Unknown",
+    "labor": "Former enslaved headman",
+    "government": "Colonial emancipation and apprenticeship",
+    "resources": "First reported Sligoville purchaser; parcel size unknown"
+  },
+  "auditors": {
+    "Jane": "Separate household purchasing power from land availability",
+    "Toph": "Examine qualification barriers without imputing motives",
+    "Patricia": "Resolve deed and date conflict; no inferred wages or damages"
+  },
+  "pop": "A remedy is not universal if access depends on qualifications unrelated to the harm.",
+  "source_manifest": "evidence/ADA-014/manifest.json",
+  "next": "ADA-015 Elizabeth Francis",
+  "limitations": "No original deed or complete document bytes acquired; no specific culpability or damages assigned."
+}
