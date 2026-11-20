@@ -1,0 +1,63 @@
+{
+  "id": "UEP-002",
+  "parent": "UEP-001",
+  "date": "2026-11-20",
+  "status": "illustrative policy scenario",
+  "premise": "Treat all human data and accumulated knowledge as a collective training-data substrate for economic modeling; not a factual assertion that every record was ingested or that ownership or legal liability is established.",
+  "anchor": {
+    "company": "Anthropic",
+    "ipo_valuation_usd": 1500000000000,
+    "ipo_proceeds_reported_usd": 81000000000,
+    "october_annualized_revenue_usd": 81000000000,
+    "nine_month_revenue_usd": 33200000000
+  },
+  "assumptions": {
+    "us_population": 340000000,
+    "world_population": 8300000000,
+    "equity_share": 0.05,
+    "revenue_share": 0.05,
+    "illustrative_fund_distribution_rate": 0.04,
+    "allocation": {
+      "ubi": 0.8,
+      "restitution": 0.2
+    }
+  },
+  "scenarios": {
+    "equity_value_usd": 75000000000,
+    "annual_equity_distribution_usd": 3000000000,
+    "annual_revenue_levy_usd": 4050000000,
+    "combined_annual_usd": 7050000000,
+    "ubi_usd": 5640000000,
+    "restitution_usd": 1410000000,
+    "us_monthly_per_person": 1.3823529411764708,
+    "global_monthly_per_person": 0.056626506024096385
+  },
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+      "type": "primary filing",
+      "snapshot": null
+    },
+    {
+      "url": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+      "type": "reporting",
+      "snapshot": null
+    },
+    {
+      "url": "https://www.anthropic.com/news/series-h",
+      "type": "company announcement",
+      "snapshot": null
+    }
+  ],
+  "limits": [
+    "No claim all data actually trained on",
+    "Equity hypothetical, not publicly owned",
+    "A 4% distribution assumes diversified liquid fund and sustainable realized returns, not guaranteed by Anthropic stock",
+    "Gross revenue levy may burden loss-making firms; assess incidence and solvency",
+    "No automatic legal entitlement",
+    "Avoid double counting equity appreciation and distributions; separate restitution from universal payments",
+    "Global contribution premise implies global eligibility question; US-only scenario is illustrative",
+    "Full source bytes not acquired"
+  ],
+  "next": "Scale to audited economy-wide incremental AI value added; model funding feasibility and sector overlap"
+}
