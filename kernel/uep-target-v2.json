@@ -1,0 +1,54 @@
+{
+  "id": "UEP-008",
+  "date": "2026-11-20",
+  "parent": "UEP-007",
+  "status": "target-first hypothetical macroeconomic design",
+  "eligibility": {
+    "age_min": 18,
+    "age_max_inclusive": 65,
+    "people_estimate": 210000000,
+    "exact_count_pending": true,
+    "employment_test": false
+  },
+  "targets": [
+    {
+      "monthly_usd": 500,
+      "annual_disbursement_usd": 1260000000000,
+      "required_pool_at_60pct_usd": 2100000000000
+    },
+    {
+      "monthly_usd": 1000,
+      "annual_disbursement_usd": 2520000000000,
+      "required_pool_at_60pct_usd": 4200000000000
+    },
+    {
+      "monthly_usd": 1500,
+      "annual_disbursement_usd": 3780000000000,
+      "required_pool_at_60pct_usd": 6300000000000
+    },
+    {
+      "monthly_usd": 2000,
+      "annual_disbursement_usd": 5040000000000,
+      "required_pool_at_60pct_usd": 8400000000000
+    },
+    {
+      "monthly_usd": 3000,
+      "annual_disbursement_usd": 7560000000000,
+      "required_pool_at_60pct_usd": 12600000000000
+    }
+  ],
+  "selected_design_target_usd_per_month": 2000,
+  "selected_design_required_usd_per_year": 5040000000000,
+  "allocation_rule": "Ringfence universal entitlement, separately account restitution, investment and administration; do not automatically convert MOIRA carbon restitution into UBI",
+  "financing_requirements": [
+    "Realized incremental AI-era value attributable to capital/labor substitution and platform rents",
+    "Public equity returns or licensing revenue",
+    "Enforceable levy/tax on actual realized gains",
+    "Avoid double-counting corporate profits and underlying productivity value",
+    "Include price and wage response, labor supply effects, company relocation and tax avoidance",
+    "Disability, healthcare and elder benefits independent"
+  ],
+  "governance": "Digital ledger calculation does not itself create revenue, legal entitlement or transfer authority.",
+  "limitations": "No demonstrated funding sufficiency; $2k is a chosen adequacy target, not a measured living wage across all regions.",
+  "next": "Determine real public receipts and feasible sources, preserve separate restitution from universal dividend"
+}
