@@ -1,0 +1,44 @@
+{
+  "id": "ADA-003",
+  "epoch": 1832,
+  "subject": "Joseph Clement",
+  "status": "preliminary",
+  "domains": {
+    "finance": "Certified account and payment authorization; receipt unverified",
+    "legal": "Payment responsibility and ownership disputed",
+    "it": "1832 working Difference Engine assembly",
+    "healthcare": "Unknown",
+    "education": "Drafting and toolmaking expertise",
+    "labor": "Workers dismissed in 1833",
+    "government": "Treasury authorization August 12 1834",
+    "resources": "Workshop relocation and tooling"
+  },
+  "gates": {
+    "taken": "No unlawful taking established",
+    "removed": "Employment on project ended",
+    "suffered": "Interrupted employment and delayed settlement; amounts of individual losses unknown",
+    "who": [
+      "Joseph Clement",
+      "Charles Babbage",
+      "Treasury"
+    ],
+    "why": "Relocation and payment dispute; motives not determined"
+  },
+  "sources": [
+    "https://collection.sciencemuseumgroup.org.uk/objects/co62243/difference-engine-no-1",
+    "https://www.computerhistory.org/babbage/josephclement",
+    "https://babbagedifferenceengine.blogspot.com/2014/09/documents-in-public-record-office-kew.html",
+    "https://babbagedifferenceengine.blogspot.com/2014/09/archives-of-british-government-treasury.html"
+  ],
+  "invoice_halfpence": 576325,
+  "relocation_halfpence": 75268,
+  "observer_basis_points": 1,
+  "active_basis_points": [
+    3333,
+    3333,
+    3333
+  ],
+  "pop": "Payment authorization is not payment receipt; responsibility must accompany authority.",
+  "limitations": "Archival letters accessed through transcriptions, not original scans. Three auditor roles are analytical lenses, not independent witnesses.",
+  "remaining_halfpence": 501057
+}
