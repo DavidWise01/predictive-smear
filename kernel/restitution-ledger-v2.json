@@ -1,0 +1,483 @@
+{
+  "schema": "restitution-source-ledger-v1",
+  "id": "UEP-010",
+  "as_of_date": "2026-11-20",
+  "currency": "USD",
+  "sources": [
+    {
+      "id": "BOOK",
+      "kind": "user-authored analysis",
+      "title": "1931 TO NOW",
+      "locator": "Chapters 1–24 and appendices",
+      "rights": "user-owned book not mirrored",
+      "url": null
+    },
+    {
+      "id": "DOL-DB",
+      "kind": "federal agency regulation summary",
+      "title": "Davis–Bacon and Related Acts Fact Sheet 66",
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/66-dbra",
+      "observed": "Prevailing wages and fringe benefits required for covered federal construction; this is not a statutory union-membership or local-hire requirement"
+    },
+    {
+      "id": "SSA-1935",
+      "kind": "SSA historical research",
+      "title": "Decision to Exclude Agricultural and Domestic Workers from the 1935 Social Security Act",
+      "url": "https://www.ssa.gov/policy/docs/ssb/v70n4/v70n4p49.html",
+      "observed": "Documented original exclusions, nuance about legislative rationale and workers affected"
+    },
+    {
+      "id": "FDR-FHA",
+      "kind": "presidential library historical source",
+      "title": "FDR and Housing Legislation",
+      "url": "https://www.fdrlibrary.org/housing",
+      "observed": "1935 FHA underwriting manual racial restrictions"
+    },
+    {
+      "id": "FRASER-HOLC",
+      "kind": "original federal map archive",
+      "title": "Residential Security Maps 1933–1939",
+      "url": "https://fraser.stlouisfed.org/archival-collection/records-federal-home-loan-bank-board-6751/residential-security-maps-619179",
+      "observed": "Archived residential security maps"
+    },
+    {
+      "id": "NBER-2021",
+      "kind": "economic research",
+      "title": "New Evidence on Redlining by Federal Housing Programs in the 1930s",
+      "url": "https://www.nber.org/papers/w29244",
+      "observed": "FHA and HOLC processes distinct; do not causally collapse them"
+    },
+    {
+      "id": "DOL-FLSA",
+      "kind": "federal agency",
+      "title": "Domestic service under FLSA",
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/flsa-domestic-service",
+      "observed": "Domestic service statutory expansion in 1974"
+    },
+    {
+      "id": "NARA-GI",
+      "kind": "primary statute archive",
+      "title": "Servicemen's Readjustment Act of 1944",
+      "url": "https://www.archives.gov/milestone-documents/servicemens-readjustment-act",
+      "observed": "Original statute"
+    },
+    {
+      "id": "FED-SCF2022",
+      "kind": "Federal Reserve statistical release",
+      "title": "2022 Survey of Consumer Finances",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html",
+      "observed": "Nominal median family net worth 2022: White $285,000, Black $44,900, Hispanic $61,600"
+    },
+    {
+      "id": "FED-SCF2025",
+      "kind": "Federal Reserve statistical release",
+      "title": "2025 Survey of Consumer Finances (published Oct 9, 2026)",
+      "url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "locator": "Table 2 printed page 13",
+      "observed": "2025-dollar median net worth 2025: white 332.1k, Black 36.8k, Hispanic 79.6k; 2022 in same dollars 311.9k/49.1k/67.4k"
+    },
+    {
+      "id": "BLS-2024",
+      "kind": "BLS",
+      "title": "Highlights of women's earnings in 2024",
+      "url": "https://www.bls.gov/opub/reports/womens-earnings/2024/home.htm",
+      "observed": "Wage-gap statistic requires defined sample/measure"
+    },
+    {
+      "id": "MOIRA",
+      "kind": "owned Git project spec",
+      "title": "MOIRA allocation spec",
+      "url": "https://github.com/DavidWise01/astraea/blob/master/MOIRA.md",
+      "observed": "60/20/15/5 proposed allocations; not recognized legal awards"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "due_year": 1931,
+      "domain": "labor",
+      "event": "Davis–Bacon enactment; discrimination mechanism requires separate proof of actual denial",
+      "source_ids": [
+        "BOOK",
+        "DOL-DB"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": {
+        "amount_2024_usd_range": [
+          25000000000,
+          30000000000
+        ],
+        "book_ch1": "Estimated aggregate lost wages 1931–1964. Not independently verified; not dollar-valued in year 1931."
+      },
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Obtain contract payroll, applicant and comparator records; correct book implication of union/local hiring mandate."
+    },
+    {
+      "id": "C002",
+      "due_year": 1933,
+      "domain": "housing",
+      "event": "HOLC-era housing programs and credit access",
+      "source_ids": [
+        "FRASER-HOLC",
+        "NBER-2021"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Link applicant-specific denial, property and counterfactual loan."
+    },
+    {
+      "id": "C003",
+      "due_year": 1935,
+      "domain": "social insurance",
+      "event": "Original Social Security Act occupational coverage exclusions",
+      "source_ids": [
+        "SSA-1935"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Match occupations and eligibility, dates of coverage and actual unrecovered benefits."
+    },
+    {
+      "id": "C004",
+      "due_year": 1935,
+      "domain": "housing",
+      "event": "FHA underwriting restrictions",
+      "source_ids": [
+        "FDR-FHA",
+        "NBER-2021"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Identify denied loan and attributable financial consequences."
+    },
+    {
+      "id": "C005",
+      "due_year": 1938,
+      "domain": "labor",
+      "event": "FLSA statutory coverage gaps including domestic/private-home employment",
+      "source_ids": [
+        "BOOK",
+        "DOL-FLSA"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Compile occupation-by-year wage records and coverage law; distinguish lawful exclusion from unpaid wages."
+    },
+    {
+      "id": "C006",
+      "due_year": 1944,
+      "domain": "education_housing",
+      "event": "GI Bill veterans benefits, discriminatory implementation historically investigated",
+      "source_ids": [
+        "NARA-GI",
+        "BOOK"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Identify approved versus denied application, institution, location and comparator."
+    },
+    {
+      "id": "C007",
+      "due_year": 1947,
+      "domain": "housing",
+      "event": "Post-war suburban housing exclusion",
+      "source_ids": [
+        "BOOK"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Locate deeds, restrictive covenants, FHA files and specific property transactions."
+    },
+    {
+      "id": "C008",
+      "due_year": 1963,
+      "domain": "labor",
+      "event": "Equal Pay Act period",
+      "source_ids": [
+        "BOOK"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Identify underpayment and claim due dates rather than assuming any ratio is damages."
+    },
+    {
+      "id": "C009",
+      "due_year": 1964,
+      "domain": "legal_labor",
+      "event": "Civil Rights Act period",
+      "source_ids": [
+        "BOOK"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Document enforceable rights, specific violations, recoverable remedies."
+    },
+    {
+      "id": "C010",
+      "due_year": 1968,
+      "domain": "housing",
+      "event": "Fair Housing Act and continued mortgage access patterns",
+      "source_ids": [
+        "BOOK"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Identify lender-level and applicant-level conduct."
+    },
+    {
+      "id": "C011",
+      "due_year": 1974,
+      "domain": "labor",
+      "event": "Expansion of FLSA domestic service coverage",
+      "source_ids": [
+        "DOL-FLSA"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Inspect coverage exception periods and earned wages."
+    },
+    {
+      "id": "C012",
+      "due_year": 2008,
+      "domain": "housing_finance",
+      "event": "Subprime crisis and foreclosures",
+      "source_ids": [
+        "BOOK"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Origination, loan terms, sale/foreclosure, asset and offsets; avoid double count with 1930s structural estimates."
+    },
+    {
+      "id": "C013",
+      "due_year": 2020,
+      "domain": "AI_labor",
+      "event": "AI hiring/access and pandemic distribution",
+      "source_ids": [
+        "BOOK"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "Individual harm and specific model or employer decisions required."
+    },
+    {
+      "id": "C014",
+      "due_year": 2026,
+      "domain": "AI_intellectual_property",
+      "event": "Public AI extraction and collective dividend proposal",
+      "source_ids": [
+        "MOIRA",
+        "BOOK"
+      ],
+      "status": "documented historical mechanism / unquantified damages",
+      "historical_loss_nominal_usd": null,
+      "year_of_loss_price_basis": null,
+      "claimant_or_cohort": null,
+      "due_date_precision": "year only",
+      "book_macro_estimate": null,
+      "verified_individual_claim": false,
+      "compounded_restitution_usd": null,
+      "open_evidence": "No realized due amount proven; establish rights, legal funding and identifiable receipts."
+    }
+  ],
+  "observations": [
+    {
+      "id": "O2022-W",
+      "year": 2022,
+      "metric": "median_family_net_worth",
+      "group": "White non-Hispanic",
+      "amount_usd": 285000,
+      "dollar_year": 2022,
+      "source_id": "FED-SCF2022"
+    },
+    {
+      "id": "O2022-B",
+      "year": 2022,
+      "metric": "median_family_net_worth",
+      "group": "Black non-Hispanic",
+      "amount_usd": 44900,
+      "dollar_year": 2022,
+      "source_id": "FED-SCF2022"
+    },
+    {
+      "id": "O2022-H",
+      "year": 2022,
+      "metric": "median_family_net_worth",
+      "group": "Hispanic or Latino",
+      "amount_usd": 61600,
+      "dollar_year": 2022,
+      "source_id": "FED-SCF2022"
+    },
+    {
+      "id": "O2022-W311900",
+      "year": 2022,
+      "metric": "median_family_net_worth",
+      "group": "White non-Hispanic",
+      "amount_usd": 311900,
+      "dollar_year": 2025,
+      "source_id": "FED-SCF2025"
+    },
+    {
+      "id": "O2022-B49100",
+      "year": 2022,
+      "metric": "median_family_net_worth",
+      "group": "Black non-Hispanic",
+      "amount_usd": 49100,
+      "dollar_year": 2025,
+      "source_id": "FED-SCF2025"
+    },
+    {
+      "id": "O2022-H67400",
+      "year": 2022,
+      "metric": "median_family_net_worth",
+      "group": "Hispanic or Latino",
+      "amount_usd": 67400,
+      "dollar_year": 2025,
+      "source_id": "FED-SCF2025"
+    },
+    {
+      "id": "O2025-W332100",
+      "year": 2025,
+      "metric": "median_family_net_worth",
+      "group": "White non-Hispanic",
+      "amount_usd": 332100,
+      "dollar_year": 2025,
+      "source_id": "FED-SCF2025"
+    },
+    {
+      "id": "O2025-B36800",
+      "year": 2025,
+      "metric": "median_family_net_worth",
+      "group": "Black non-Hispanic",
+      "amount_usd": 36800,
+      "dollar_year": 2025,
+      "source_id": "FED-SCF2025"
+    },
+    {
+      "id": "O2025-H79600",
+      "year": 2025,
+      "metric": "median_family_net_worth",
+      "group": "Hispanic or Latino",
+      "amount_usd": 79600,
+      "dollar_year": 2025,
+      "source_id": "FED-SCF2025"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "fixed loss in 1931",
+      "principal_usd": 1000,
+      "due_year": 1931,
+      "rate": 0.05,
+      "amount_2026_usd": 103034.67644609493,
+      "classification": "hypothetical, not claim"
+    },
+    {
+      "name": "one recurring annual loss 1931 through 2025",
+      "principal_per_year_usd": 1000,
+      "years": 95,
+      "rate": 0.05,
+      "amount_2026_usd": 2142728.2053679936,
+      "classification": "hypothetical end-of-year convention, 1931 first loss compounds 95 years"
+    }
+  ],
+  "totals": {
+    "verified_nominal_claim_usd": null,
+    "verified_compounded_restitution_usd": null,
+    "reason": "No claimant-specific original principal documented or adjudicated in sources reviewed; do not render zero as debt."
+  },
+  "checks": {
+    "observed_median_2025dollar_gap_white_black_2025": 295300,
+    "observed_median_2025dollar_gap_white_hispanic_2025": 252500,
+    "wealth_gap_is_debt": false,
+    "median_multiplication_invalid": true,
+    "source_roots_not_independent": "book based on federal data; do not treat book and agencies as independent witnesses"
+  },
+  "validation_policy": [
+    "Do not compound 2024 or 2025-dollar aggregate estimates from 1931 as if nominal losses in 1931",
+    "Use per-year nominal or consistently rebased records and explicit accrual dates",
+    "Treat records with null principal as not numerically claimable",
+    "Do not multiply median differences by total families to estimate aggregate debt",
+    "Subtract documented prior compensation and check overlap",
+    "Distinguish legally due back pay from opportunity costs and social dividend",
+    "Do not infer discriminatory intent solely from group disparities",
+    "2025 SCF is latest, released 2026-10-09; supersedes 2022 as latest snapshot, not as source for book historical claims"
+  ]
+}
