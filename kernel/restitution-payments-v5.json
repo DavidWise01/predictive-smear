@@ -1,0 +1,257 @@
+{
+  "schema": "UEP-013-payment-reconciliation-v1",
+  "date": "2026-11-20",
+  "parent": "UEP-012",
+  "source_version": {
+    "repo": "DavidWise01/predictive-smear",
+    "path": "kernel/restitution-enforcement-v4.json",
+    "blob_sha": "8fe9a8f45aa88cfbb48ad83c64b4337e0e8f50d8"
+  },
+  "rows": [
+    {
+      "id": "EEOC-2025-WASTE-PRO",
+      "agency": "EEOC",
+      "commitment_usd": 1400000,
+      "category": "monetary relief secured under consent decree",
+      "settlement_announcement_or_earlier_date": "2025-06-25",
+      "stage": "COURT_SECURED",
+      "approved_at": "2025-06-25",
+      "distribution_verified_usd": null,
+      "notes": "EEOC FY2025 report establishes secured class monetary relief; no recipient receipt found",
+      "new_sources": [
+        "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report"
+      ],
+      "verified_recipient_payment_usd": null,
+      "payment_receipt_ref": null,
+      "outstanding_calculable": false,
+      "unpaid_usd": null,
+      "required_next_evidence": [
+        "court compliance report or distribution accounting",
+        "claims administrator payout report or direct receipt where authorized",
+        "payment effective date",
+        "amount paid and recipients identified with privacy safeguards"
+      ]
+    },
+    {
+      "id": "EEOC-2025-SINCLAIR",
+      "agency": "EEOC",
+      "commitment_usd": 100000,
+      "category": "monetary relief secured under consent decree",
+      "settlement_announcement_or_earlier_date": "2025-07-21",
+      "stage": "COURT_SECURED",
+      "approved_at": "2025-07-21",
+      "distribution_verified_usd": null,
+      "notes": "EEOC says $100,000 includes back pay, compensatory and punitive damages; not divisible without court payout schedule",
+      "new_sources": [
+        "https://www.eeoc.gov/newsroom/sinclair-broadcast-group-pay-100000-race-discrimination-case"
+      ],
+      "verified_recipient_payment_usd": null,
+      "payment_receipt_ref": null,
+      "outstanding_calculable": false,
+      "unpaid_usd": null,
+      "required_next_evidence": [
+        "court compliance report or distribution accounting",
+        "claims administrator payout report or direct receipt where authorized",
+        "payment effective date",
+        "amount paid and recipients identified with privacy safeguards"
+      ]
+    },
+    {
+      "id": "EEOC-2025-GOODSELL",
+      "agency": "EEOC",
+      "commitment_usd": 730000,
+      "category": "monetary relief secured under consent decree",
+      "settlement_announcement_or_earlier_date": "2025-02-12",
+      "stage": "CLAIMS_WINDOW_CLOSED_DISTRIBUTION_UNVERIFIED",
+      "approved_at": "2025-02-12",
+      "claim_deadline": "2026-05-28",
+      "distribution_verified_usd": null,
+      "notes": "Administrator website confirms claims and eligibility process, no aggregate payout/receipt report as of inspection",
+      "new_sources": [
+        "https://goodsellwilkinsaction.com/"
+      ],
+      "verified_recipient_payment_usd": null,
+      "payment_receipt_ref": null,
+      "outstanding_calculable": false,
+      "unpaid_usd": null,
+      "required_next_evidence": [
+        "court compliance report or distribution accounting",
+        "claims administrator payout report or direct receipt where authorized",
+        "payment effective date",
+        "amount paid and recipients identified with privacy safeguards"
+      ]
+    },
+    {
+      "id": "EEOC-2025-HOOTERS",
+      "agency": "EEOC",
+      "commitment_usd": 250000,
+      "category": "monetary relief secured under consent decree",
+      "settlement_announcement_or_earlier_date": "2025",
+      "stage": "COURT_SECURED",
+      "approved_at": null,
+      "distribution_verified_usd": null,
+      "notes": "EEOC FY2025 report confirms $250,000 settlement fund; no claimant disbursement proof obtained",
+      "new_sources": [
+        "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report"
+      ],
+      "verified_recipient_payment_usd": null,
+      "payment_receipt_ref": null,
+      "outstanding_calculable": false,
+      "unpaid_usd": null,
+      "required_next_evidence": [
+        "court compliance report or distribution accounting",
+        "claims administrator payout report or direct receipt where authorized",
+        "payment effective date",
+        "amount paid and recipients identified with privacy safeguards"
+      ]
+    },
+    {
+      "id": "EEOC-2025-FRONTIER",
+      "agency": "EEOC",
+      "commitment_usd": 360000,
+      "category": "claims fund under consent decree",
+      "settlement_announcement_or_earlier_date": "2025-07-18",
+      "stage": "COURT_SECURED",
+      "approved_at": "2025-07-18",
+      "distribution_verified_usd": null,
+      "notes": "EEOC FY2025 report: $360,000 claims fund, no paid amount publicly verified",
+      "new_sources": [
+        "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report"
+      ],
+      "verified_recipient_payment_usd": null,
+      "payment_receipt_ref": null,
+      "outstanding_calculable": false,
+      "unpaid_usd": null,
+      "required_next_evidence": [
+        "court compliance report or distribution accounting",
+        "claims administrator payout report or direct receipt where authorized",
+        "payment effective date",
+        "amount paid and recipients identified with privacy safeguards"
+      ]
+    },
+    {
+      "id": "EEOC-2025-TNT",
+      "agency": "EEOC",
+      "commitment_usd": 525000,
+      "category": "monetary relief secured under consent decree",
+      "settlement_announcement_or_earlier_date": "2025-07-31",
+      "stage": "COURT_SECURED",
+      "approved_at": "2025-07-31",
+      "distribution_verified_usd": null,
+      "notes": "EEOC FY2025 report: $525,000 relief secured, recipient receipts unverified",
+      "new_sources": [
+        "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report"
+      ],
+      "verified_recipient_payment_usd": null,
+      "payment_receipt_ref": null,
+      "outstanding_calculable": false,
+      "unpaid_usd": null,
+      "required_next_evidence": [
+        "court compliance report or distribution accounting",
+        "claims administrator payout report or direct receipt where authorized",
+        "payment effective date",
+        "amount paid and recipients identified with privacy safeguards"
+      ]
+    },
+    {
+      "id": "DOJ-2024-FAIRWAY-LOANS",
+      "agency": "DOJ/CFPB",
+      "commitment_usd": 7000000,
+      "category": "loan subsidy program requirement, not direct cash damages",
+      "settlement_announcement_or_earlier_date": "2024-10-15",
+      "stage": "PROGRAM_ORDERED_IMPLEMENTATION_UNVERIFIED",
+      "approved_at": "2024-12-03",
+      "distribution_verified_usd": null,
+      "notes": "CFPB confirms $7M mortgage subsidy program requirement; total implemented subsidy not disclosed on case landing page",
+      "new_sources": [
+        "https://www.consumerfinance.gov/enforcement/actions/fairway-independent-mortgage-corporation/"
+      ],
+      "verified_recipient_payment_usd": null,
+      "payment_receipt_ref": null,
+      "outstanding_calculable": false,
+      "unpaid_usd": null,
+      "required_next_evidence": [
+        "court compliance report or distribution accounting",
+        "claims administrator payout report or direct receipt where authorized",
+        "payment effective date",
+        "amount paid and recipients identified with privacy safeguards"
+      ]
+    },
+    {
+      "id": "DOJ-2024-FAIRWAY-INVEST",
+      "agency": "DOJ/CFPB",
+      "commitment_usd": 1000000,
+      "category": "required community spending, not direct cash damages",
+      "settlement_announcement_or_earlier_date": "2024-10-15",
+      "stage": "PROGRAM_ORDERED_IMPLEMENTATION_UNVERIFIED",
+      "approved_at": "2024-12-03",
+      "distribution_verified_usd": null,
+      "notes": "$1M outreach education partnerships requirements, not direct damages or checks",
+      "new_sources": [
+        "https://www.consumerfinance.gov/enforcement/actions/fairway-independent-mortgage-corporation/"
+      ],
+      "verified_recipient_payment_usd": null,
+      "payment_receipt_ref": null,
+      "outstanding_calculable": false,
+      "unpaid_usd": null,
+      "required_next_evidence": [
+        "court compliance report or distribution accounting",
+        "claims administrator payout report or direct receipt where authorized",
+        "payment effective date",
+        "amount paid and recipients identified with privacy safeguards"
+      ]
+    },
+    {
+      "id": "DOJ-2024-FAIRWAY-PENALTY",
+      "agency": "DOJ/CFPB",
+      "commitment_usd": 1900000,
+      "category": "civil money penalty to CFPB victims relief fund (not individual compensatory award)",
+      "settlement_announcement_or_earlier_date": "2024-10-15",
+      "stage": "PENALTY_ORDERED_PAYMENT_UNVERIFIED",
+      "approved_at": "2024-12-03",
+      "distribution_verified_usd": null,
+      "notes": "$1.9M civil money penalty required; a penalty to government is not a named victim entitlement",
+      "new_sources": [
+        "https://www.consumerfinance.gov/enforcement/actions/fairway-independent-mortgage-corporation/"
+      ],
+      "verified_recipient_payment_usd": null,
+      "payment_receipt_ref": null,
+      "outstanding_calculable": false,
+      "unpaid_usd": null,
+      "required_next_evidence": [
+        "court compliance report or distribution accounting",
+        "claims administrator payout report or direct receipt where authorized",
+        "payment effective date",
+        "amount paid and recipients identified with privacy safeguards"
+      ]
+    }
+  ],
+  "accounting": {
+    "total_commitments_usd": 13265000,
+    "type": "mixed EEOC relief, Fairway subsidy/community programs, and government penalty; never treat as a uniform restitution total",
+    "number_of_cases": 9,
+    "number_with_verified_recipient_payment": 0,
+    "total_confirmed_paid_to_claimants_usd": null,
+    "total_confirmed_unpaid_to_claimants_usd": null
+  },
+  "audit_states": [
+    "ANNOUNCED",
+    "COURT_SECURED",
+    "CLAIMS_OPEN",
+    "CLAIMS_WINDOW_CLOSED_DISTRIBUTION_UNVERIFIED",
+    "PROGRAM_ORDERED_IMPLEMENTATION_UNVERIFIED",
+    "PENALTY_ORDERED_PAYMENT_UNVERIFIED",
+    "DISBURSEMENT_CONFIRMED",
+    "RECEIPT_CONFIRMED"
+  ],
+  "payment_rule": "outstanding is computable only if actual contractual payable balance and credited payments reliably verified. Unknown paid is NULL, not 0.",
+  "limitations": [
+    "Not a comprehensive search of all court dockets or settlement administrator transaction systems",
+    "Not every consent decree proves paid/credited/distributed funds",
+    "Privacy: do not expose individual recipient names or bank details",
+    "Preserve EEOC commitments and Fairway subsidy/penalty separate",
+    "DOL agency recoveries are previously reported as recovered and not open debt",
+    "Do not compound without original loss accrual date and appropriate rate",
+    "Source pages may have future updates; snapshot date is 2026-11-20"
+  ]
+}
