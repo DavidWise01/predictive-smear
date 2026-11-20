@@ -1,0 +1,38 @@
+{
+  "id": "ADA-012",
+  "epoch": 1832,
+  "subject": "Thomas Burchell",
+  "status": "preliminary",
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "gates": {
+    "taken": "Detention and forced labor; individual losses unquantified",
+    "removed": "Safe communication, liberty and meaningful employment exit",
+    "suffered": "Detention, threats and housing insecurity",
+    "who": "Colonial authorities, planters, militia; alleged bribery actors not adjudicated",
+    "why": "Plantation interests and suppression of perceived rebellion; motives not individually established"
+  },
+  "domains": {
+    "finance": "Wages, rents, land purchase price; individual amounts unknown",
+    "legal": "Detention, allegations, land tenure and contracts",
+    "it": "Evidence transmission, land registers, testimony",
+    "healthcare": "Violence exposure and housing insecurity; individual health outcomes unknown",
+    "education": "Mission schools and literacy; enrollment unknown",
+    "labor": "Post-emancipation bargaining and job exit",
+    "government": "Colonial courts and property rules",
+    "resources": "Land, housing and independent cultivation"
+  },
+  "auditors": {
+    "Jane": "Map coupling of employer, rent and housing",
+    "Toph": "Distinguish legal freedom from practical exit and preserve due process",
+    "Patricia": "Obtain original testimony and deeds; preserve conflicting land ownership accounts"
+  },
+  "pop": "Legal freedom does not equal practical exit capacity",
+  "source_manifest": "evidence/ADA-012/manifest.json",
+  "next": "ADA-013 James Mursell Phillippo and Sligoville",
+  "limitations": "No original full document acquired; no individual damages or culpability assigned; auditor roles not independent witnesses."
+}
