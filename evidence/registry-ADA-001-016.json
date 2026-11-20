@@ -1,0 +1,979 @@
+{
+  "schema": "ADA-evidence-registry-v1",
+  "date": "2026-11-20",
+  "supersedes": "registry-ADA-001-015.json",
+  "entries": [
+    {
+      "id": "ADA-001",
+      "subject": "Ada Lovelace",
+      "path": "audits/ADA-001.json",
+      "blob_sha": "da1cdb7f627a6ae27e1f448b56e1bb89d3629f9a",
+      "sources": [
+        "https://psychclassics.yorku.ca/Lovelace/lovelace.htm",
+        "https://www.claymath.org/online-resources/ada-lovelaces-mathematical-papers/correspondence-with-de-morgan/",
+        "https://www.claymath.org/online-resources/ada-lovelaces-mathematical-papers/",
+        "https://www.maths.ox.ac.uk/groups/history-mathematics/mathematics-ada-lovelace"
+      ],
+      "source_manifest": null,
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-002",
+      "subject": "Charles Babbage",
+      "path": "audits/ADA-002.json",
+      "blob_sha": "6721ba284c64df41c28598ab8407024373094f9c",
+      "sources": [
+        "https://www.computerhistory.org/babbage/history/",
+        "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/charles-babbages-difference-engine",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Babbage/",
+        "https://www.gutenberg.org/files/57532/57532-h/57532-h.htm"
+      ],
+      "source_manifest": null,
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-003",
+      "subject": "Joseph Clement",
+      "path": "audits/ADA-003.json",
+      "blob_sha": "b7c402ba41881da4f84d3ff49cbdb4c3d1a45d1c",
+      "sources": [
+        "https://collection.sciencemuseumgroup.org.uk/objects/co62243/difference-engine-no-1",
+        "https://www.computerhistory.org/babbage/josephclement",
+        "https://babbagedifferenceengine.blogspot.com/2014/09/documents-in-public-record-office-kew.html",
+        "https://babbagedifferenceengine.blogspot.com/2014/09/archives-of-british-government-treasury.html"
+      ],
+      "source_manifest": null,
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-004",
+      "subject": "Mary Fairfax Somerville",
+      "path": "audits/ADA-004.json",
+      "blob_sha": "c421f5db27e5d372011c71a2888d93218cdf682b",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Somerville/",
+        "https://www.royalsociety.org/blog/2023/10/many-faces-mary-somerville/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7397962/",
+        "https://ras.ac.uk/education-and-careers/100-years-and-counting-women-ras-go-strength-strength",
+        "https://www.gutenberg.org/cache/epub/27747/pg27747-images.html"
+      ],
+      "source_manifest": null,
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-005",
+      "subject": "Caroline Lucretia Herschel",
+      "path": "audits/ADA-005.json",
+      "blob_sha": "ad3e79640596b98f8f66dafa2efa097d9a6486a3",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Herschel_Caroline/",
+        "https://www.dpma.eu/english/our_office/publications/ingeniouswomen/carolineherschel/index.html",
+        "https://www.npg.org.uk/collections/search/person/mp10465/caroline-lucretia-herschel",
+        "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00568&showrequest=1",
+        "https://ras.ac.uk/education-and-careers/100-years-and-counting-women-ras-go-strength-strength",
+        "https://www.fadedpage.com/books/20130405/html.php"
+      ],
+      "source_manifest": null,
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-006",
+      "subject": "Michael Faraday",
+      "path": "audits/ADA-006.json",
+      "blob_sha": "b2a7ce0ecc17e7753072c97a214ce9d783c0bc89",
+      "sources": [
+        {
+          "root": "RS-PT-20-4",
+          "url": "https://makingscience.royalsociety.org/items/pt_20_4/paper-experimental-researches-in-electricity-by-m-michael-faraday",
+          "kind": "archival manuscript catalogue"
+        },
+        {
+          "root": "RS-RR-1-62",
+          "url": "https://makingscience.royalsociety.org/items/rr_1_62/referees-report-by-samuel-hunter-christie-and-john-bostock-on-a-paper-experimental-researches-in-electricity-by-michael-faraday",
+          "kind": "referee report catalogue; same research subject, distinct authoring event"
+        },
+        {
+          "root": "RI-biography",
+          "url": "https://www.rigb.org/explore-science/explore/person/michael-faraday-1791-1867",
+          "kind": "institutional biography"
+        },
+        {
+          "root": "RI-tour",
+          "url": "https://www.rigb.org/explore-science/explore/collection/tour-michael-faraday-london",
+          "kind": "institutional interpretation; ancestry not independently established"
+        },
+        {
+          "root": "Thompson-1898",
+          "url": "https://www.gutenberg.org/cache/epub/65735/pg65735-images.html",
+          "kind": "historical biography including correspondence"
+        },
+        {
+          "root": "MacTutor",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Faraday/",
+          "kind": "secondary biography"
+        }
+      ],
+      "source_manifest": null,
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-007",
+      "subject": "Humphry Davy",
+      "path": "audits/ADA-007.json",
+      "blob_sha": "78b3b15acc35db0572646e227c2c596c349c2f29",
+      "sources": [
+        {
+          "url": "https://www.rigb.org/explore-science/explore/person/sir-humphry-davy-1778-1829",
+          "type": "institutional biography"
+        },
+        {
+          "url": "https://www.rigb.org/explore-science/explore/collection/humphry-davys-miners-safety-lamp",
+          "type": "artifact interpretation"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360091/",
+          "type": "historical research abstract/search excerpt; full text blocked"
+        },
+        {
+          "url": "https://americanhistory.si.edu/collections/object-groups/mining-lights-and-hats/safety-lamps",
+          "type": "museum search excerpt; full page timed out"
+        },
+        {
+          "url": "https://england.prm.ox.ac.uk/englishness-Miners-lamp.html",
+          "type": "museum historical analysis"
+        },
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co43389/safety-lamp",
+          "type": "later commission artifact and historical interpretation"
+        },
+        {
+          "url": "https://www.mininghistoryassociation.org/Journal/MHJ-v16-2009-Bartos.pdf",
+          "type": "indexed journal excerpt"
+        }
+      ],
+      "source_manifest": null,
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-008",
+      "subject": "George Stephenson",
+      "path": "audits/ADA-008.json",
+      "blob_sha": "f0799b01d263d47eb1bfccdb755f6b7eb36303b8",
+      "sources": [
+        {
+          "url": "https://www.networkrail.co.uk/who-we-are/our-history/eminent-engineers/george-stephenson-1781-1848/",
+          "root": "Network Rail institutional biography"
+        },
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/people/ap43/stephenson-george",
+          "root": "Science Museum Group biography"
+        },
+        {
+          "url": "https://blog.scienceandindustrymuseum.org.uk/global-threads/",
+          "root": "SMG-UCL Global Threads partnership"
+        },
+        {
+          "url": "https://blog.scienceandindustrymuseum.org.uk/manchester-cotton-and-transatlantic-slavery-project/",
+          "root": "SMG related research; independence from Global Threads not established"
+        },
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/transportcomms/roadsrail/overview/fullsteamahead/",
+          "root": "UK Parliament historical overview"
+        },
+        {
+          "url": "https://api.parliament.uk/historic-hansard/commons/1844/jul/08/railways",
+          "root": "1844 parliamentary debate"
+        },
+        {
+          "url": "https://www.liverpool.ac.uk/victoria-gallery-and-museum/blog/2020/liverpool-and-manchester-railway/",
+          "root": "University of Liverpool historical account"
+        }
+      ],
+      "source_manifest": null,
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-009",
+      "subject": "William Wilberforce and the 1833 abolition settlement",
+      "path": "audits/ADA-009.json",
+      "blob_sha": "28a73b33bec5f73b1ced4478a720a9de6ed767c2",
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-west-indian-colonies-and-emancipation/",
+        "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims/",
+        "https://www.bankofengland.co.uk/working-paper/2022/the-collection-of-slavery-compensation-1835-43",
+        "https://www.ucl.ac.uk/social-historical-sciences/history/research/research-projects-and-centres/centre-study-legacies-british-slavery-cslbs/cslbs-projects-and-partners/legacies-british-slave-ownership",
+        "https://academic.oup.com/reference/62333/reference-article-abstract/561711581",
+        "https://hansard.parliament.uk/Commons/1833-07-25/debates/4c880fef-7c7b-48cc-9a15-a53da4b57e71/MinisterialPlanForTheAbolitionOfSlavery"
+      ],
+      "source_manifest": null,
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-010",
+      "subject": "Samuel Sharpe",
+      "path": "audits/ADA-010.json",
+      "blob_sha": "fc866dd340f33fa3c48311f84fb4189568a926ad",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "Trial of Samuel Sharpe, 19 April 1832",
+          "url": "https://blog.soton.ac.uk/slaveryandrevolution/the-trial-of-samuel-sharpe/",
+          "archive": "TNA CO 137/182 f.373",
+          "type": "primary record via modern transcription",
+          "access": "read",
+          "rights": "rights of modern transcription not verified; link only",
+          "root": "trial",
+          "local_copy": null
+        },
+        {
+          "id": "S02",
+          "title": "Insurrection in Jamaica, Commons debate 20 February 1832",
+          "url": "https://api.parliament.uk/historic-hansard/commons/1832/feb/20/insurrection-in-jamaica",
+          "archive": "HC Deb vol 10 cc535–536",
+          "type": "primary parliamentary report",
+          "access": "read",
+          "rights": "Open Parliament Licence v3.0; original 1832 text public domain",
+          "root": "hansard-1832-02-20",
+          "local_copy": null
+        },
+        {
+          "id": "S03",
+          "title": "Jamaica: Slave insurrection, returns to addresses 10 and 18 April 1832",
+          "url": "https://www.dloc.com/ufdc/CA01099994/00001?n=ufdc",
+          "archive": "CA01099994/00001",
+          "type": "primary parliamentary papers",
+          "access": "catalog only; JS required",
+          "rights": "historical work public domain; scan terms not checked",
+          "root": "colonial-returns",
+          "local_copy": null
+        },
+        {
+          "id": "S04",
+          "title": "Henry Bleby, Death Struggles of Slavery (1853)",
+          "url": "https://preview.wellcomecollection.org/works/z3rbxncu/items?canvas=45&shouldScrollToCanvas=true",
+          "archive": "Wellcome z3rbxncu",
+          "type": "retrospective participant account",
+          "access": "catalog only",
+          "rights": "Public Domain Mark",
+          "root": "bleby-1853",
+          "local_copy": null
+        },
+        {
+          "id": "S05",
+          "title": "William Knibb, Facts and documents connected with the late insurrection in Jamaica (1832)",
+          "url": "https://old-digitalcollections.nypl.org/items/510d47e3-d24e-a3d9-e040-e00a18064a99",
+          "archive": "NYPL 510d47e3-d24e-a3d9-e040-e00a18064a99",
+          "type": "contemporary missionary publication",
+          "access": "catalog only",
+          "rights": "NYPL declares US public domain",
+          "root": "knibb-1832",
+          "local_copy": null
+        },
+        {
+          "id": "S06",
+          "title": "National Library of Jamaica, Riots and Rebellions",
+          "url": "https://nlj.gov.jm/riots-and-rebellions/",
+          "archive": "1831 Baptist War collection",
+          "type": "finding aid",
+          "access": "read",
+          "rights": "link only",
+          "root": "nlj-catalog",
+          "local_copy": null
+        },
+        {
+          "id": "S07",
+          "title": "Samuel Sharpe, Jamaica Information Service",
+          "url": "https://jis.gov.jm/heroes/samuel-sharpe/",
+          "archive": "national hero biography",
+          "type": "secondary government biography",
+          "access": "read search excerpt",
+          "rights": "link only; chronology error conflates 1833 enactment with 1834 commencement",
+          "root": "jis",
+          "local_copy": null
+        },
+        {
+          "id": "S08",
+          "title": "Slavery Abolition Act 1833 as enacted",
+          "url": "https://www.legislation.gov.uk/ukpga/Will4/3-4/73/enacted",
+          "archive": "3 & 4 Will IV c.73",
+          "type": "primary statute",
+          "access": "catalog only; bot challenge",
+          "rights": "historical statute; download pending",
+          "root": "act-1833",
+          "local_copy": null
+        },
+        {
+          "id": "S09",
+          "title": "British transatlantic slave trade records",
+          "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/british-transatlantic-slave-trade-records/",
+          "archive": "CO 137/184",
+          "type": "finding aid",
+          "access": "read search excerpt",
+          "rights": "link only",
+          "root": "tna-guide",
+          "local_copy": null
+        },
+        {
+          "id": "S10",
+          "title": "Jamaica journal trial narratives, Smithsonian catalogue",
+          "url": "https://www.si.edu/es/object/be-hanged-neck-until-he-be-dead-king-against-samuel-sharpe-april-1832%3Asiris_sil_913904",
+          "archive": "siris_sil_913904",
+          "type": "modern edition of primary testimonies",
+          "access": "catalog only",
+          "rights": "link only",
+          "root": "trial",
+          "local_copy": null
+        },
+        {
+          "id": "S11",
+          "title": "Royal Navy and enslaved insurgency 1795–1832",
+          "url": "https://journals.sagepub.com/doi/full/10.1177/08438714231219455",
+          "archive": "DOI 10.1177/08438714231219455",
+          "type": "secondary scholarship",
+          "access": "search excerpt",
+          "rights": "link only",
+          "root": "naval-study",
+          "local_copy": null
+        },
+        {
+          "id": "S12",
+          "title": "National Library of Jamaica, Samuel Sharpe",
+          "url": "https://www.nlj.gov.jm/labourday/samsharpe.html",
+          "archive": "Labour Day 2010",
+          "type": "secondary institution",
+          "access": "search excerpt",
+          "rights": "link only",
+          "root": "nlj-bio",
+          "local_copy": null
+        },
+        {
+          "id": "S13",
+          "title": "National Archives, 1833 abolition and compensation claims",
+          "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims/",
+          "archive": "T71 compensation records",
+          "type": "finding aid",
+          "access": "search excerpt",
+          "rights": "link only",
+          "root": "compensation",
+          "local_copy": null
+        },
+        {
+          "id": "S14",
+          "title": "National Library of Jamaica scan of Knibb 1832",
+          "url": "https://nljdigital.nlj.gov.jm/items/show/2589",
+          "archive": "NLJ item 2589",
+          "type": "same historical work as S05",
+          "access": "catalog only",
+          "rights": "scan rights not verified",
+          "root": "knibb-1832",
+          "local_copy": null
+        }
+      ],
+      "source_manifest": "evidence/ADA-010/manifest.json",
+      "raw_document_status": "not verified"
+    },
+    {
+      "id": "ADA-011",
+      "subject": "William Knibb",
+      "path": "audits/ADA-011.json",
+      "blob_sha": "fb44f84f7ead07150910bfb3304b57a2a2369cc9",
+      "source_manifest": "evidence/ADA-011/manifest.json",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "Report from the Select Committee on the State of the West India Colonies, Part II",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Report_from_the_Select_Committee_on_the_State_of_the_West_India_Colonies_%3B_together_with_the_minutes..._%28IA_reportfromselect02grea_0%29.pdf",
+          "locator": "1832, printed pp. 723, 747–748, 801; Knibb sessions July 17,18,19",
+          "root": "1832 parliamentary evidence",
+          "kind": "primary proceedings",
+          "access": "parsed text inspected; screenshot failed oversized PDF",
+          "rights": "1832 historical text public domain; scan terms not independently checked",
+          "snapshot": null
+        },
+        {
+          "id": "S02",
+          "title": "Facts and documents connected with the late insurrection in Jamaica",
+          "url": "https://old-digitalcollections.nypl.org/items/510d47e3-d24e-a3d9-e040-e00a18064a99",
+          "locator": "NYPL 510d47e3-d24e-a3d9-e040-e00a18064a99",
+          "root": "Knibb-1832 pamphlet",
+          "kind": "contemporary publication attributed to Knibb",
+          "rights": "NYPL public domain catalog filter",
+          "access": "catalog",
+          "snapshot": null
+        },
+        {
+          "id": "S03",
+          "title": "Same pamphlet, National Library of Jamaica",
+          "url": "https://nljdigital.nlj.gov.jm/items/show/2589",
+          "locator": "NLJ 2589",
+          "root": "Knibb-1832 pamphlet",
+          "kind": "alternate holding",
+          "rights": "historical text public domain; scan rights not checked",
+          "access": "catalog inspected",
+          "snapshot": null
+        },
+        {
+          "id": "S04",
+          "title": "William Knibb (1803–1845)",
+          "url": "https://nlj.gov.jm/project/william-knibb-1803-1845/",
+          "root": "NLJ biography",
+          "kind": "secondary",
+          "access": "indexed excerpt",
+          "rights": "link only",
+          "snapshot": null
+        },
+        {
+          "id": "S05",
+          "title": "William Knibb and the Slave Book",
+          "url": "https://www.brunel.ac.uk/life/library/ArchivesAndSpecialCollections/News-and-events/News/William-Knibb",
+          "root": "Brunel archival interpretation",
+          "kind": "secondary",
+          "access": "indexed excerpt",
+          "rights": "link only",
+          "snapshot": null
+        },
+        {
+          "id": "S06",
+          "title": "Free Villages",
+          "url": "https://www.jnht.gov.jm/free_villages.php",
+          "root": "JNHT site history",
+          "kind": "secondary",
+          "access": "indexed excerpt",
+          "rights": "link only",
+          "snapshot": null
+        },
+        {
+          "id": "S07",
+          "title": "Jamaica",
+          "url": "https://bmsworldmission.org/jamaica",
+          "root": "BMS institutional history",
+          "kind": "secondary",
+          "access": "indexed excerpt",
+          "rights": "link only",
+          "snapshot": null
+        },
+        {
+          "id": "S08",
+          "title": "William Knibb, missionary in Jamaica. A memoir",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/William_Knibb%2C_missionary_in_Jamaica._A_memoir_%28IA_williamknibbmiss00smitrich%29.pdf",
+          "root": "historical memoir",
+          "kind": "retrospective",
+          "access": "indexed excerpt",
+          "rights": "historical text public domain; scan terms not checked",
+          "snapshot": null
+        },
+        {
+          "id": "S09",
+          "title": "Dissenting missionaries research",
+          "url": "https://shura.shu.ac.uk/27167/1/Haigh_2020_MPhil_DissentingMissionariesPublic.pdf",
+          "root": "Haigh 2020 thesis; draws on parliamentary records",
+          "kind": "secondary scholarship",
+          "access": "indexed excerpt",
+          "rights": "link only",
+          "snapshot": null
+        },
+        {
+          "id": "S10",
+          "title": "Analysis of report on extinction of slavery",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Analysis_of_the_report_of_a_Committee_of_the_House_of_Commons_on_the_extinction_of_slavery_-_with_notes_by_the_editor._%28IA_ASPC0001991300%29.pdf",
+          "root": "1832 Commons evidence derivative; distinct committee from S01",
+          "kind": "contemporary edited evidence",
+          "access": "indexed excerpt",
+          "rights": "historical text public domain; scan terms not checked",
+          "snapshot": null
+        }
+      ],
+      "raw_document_status": "not acquired"
+    },
+    {
+      "id": "ADA-012",
+      "subject": "Thomas Burchell",
+      "path": "audits/ADA-012.json",
+      "blob_sha": "edab0a8e38a10e9acfa95b120c5c3ee987673602",
+      "source_manifest": "evidence/ADA-012/manifest.json",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "Jamaica Information Service: Champions of Emancipation",
+          "url": "https://jis.gov.jm/information/stalwarts/",
+          "locator": "government historical account",
+          "kind": "secondary",
+          "access": "read excerpt",
+          "rights": "link only",
+          "root": "JIS",
+          "snapshot": null
+        },
+        {
+          "id": "S02",
+          "title": "Jamaica National Heritage Trust: Free Villages",
+          "url": "https://www.jnht.gov.jm/free_villages.php",
+          "locator": "housing and wages overview",
+          "kind": "secondary",
+          "access": "read",
+          "rights": "copyright; link only",
+          "root": "JNHT",
+          "snapshot": null
+        },
+        {
+          "id": "S03",
+          "title": "Memoir of Thomas Burchell, W. F. Burchell, 1849",
+          "url": "https://commons.wikimedia.org/wiki/File:MEMOIR_OF_THOMAS_BURCHELL_(IA_dli.bengal.10689.20062).pdf",
+          "locator": "dli.bengal.10689.20062; 442 scanned pages",
+          "kind": "retrospective memoir",
+          "access": "catalog inspected",
+          "rights": "Public Domain Mark 1.0",
+          "root": "memoir-1849",
+          "snapshot": null
+        },
+        {
+          "id": "S04",
+          "title": "Memoir of Thomas Burchell, contents",
+          "url": "https://www.missiology.gospelstudies.org.uk/book_memoir-of-thomas-burchell.php",
+          "locator": "chapter VIII detention; London 1849",
+          "kind": "alternate holding",
+          "access": "contents inspected",
+          "rights": "public domain stated",
+          "root": "memoir-1849",
+          "snapshot": null
+        },
+        {
+          "id": "S05",
+          "title": "Detention and prosecution of Thomas Burchell",
+          "url": "https://past.jamaica-gleaner.com/article/news/20230827/detention-and-prosecution-thomas-burchell",
+          "locator": "Paul H Williams, 2023-08-27",
+          "kind": "secondary citing Abbott letter via Cooke",
+          "access": "read",
+          "rights": "link only",
+          "root": "Gleaner-Abbott-Cooke",
+          "snapshot": null
+        },
+        {
+          "id": "S06",
+          "title": "National Library of Jamaica history notes",
+          "url": "https://www.nlj.gov.jm/history-notes/history-notes.htm",
+          "locator": "Free Villages parish list",
+          "kind": "secondary",
+          "access": "excerpt",
+          "rights": "link only",
+          "root": "NLJ",
+          "snapshot": null
+        },
+        {
+          "id": "S07",
+          "title": "Jamaica Baptist Union: Our Origin",
+          "url": "https://jbu.church/wp-content/uploads/2019/01/Our-Origin.pdf",
+          "locator": "land and franchise discussion",
+          "kind": "institutional history",
+          "access": "indexed excerpt only",
+          "rights": "link only",
+          "root": "JBU",
+          "snapshot": null
+        },
+        {
+          "id": "S08",
+          "title": "1839 Jamaica Almanac civil and ecclesiastical list",
+          "url": "https://www.jamaicanfamilysearch.com/Members/AL39Lis2.htm",
+          "locator": "Burchell mission stations",
+          "kind": "primary text via transcription",
+          "access": "excerpt",
+          "rights": "historical text public domain; transcription rights unverified",
+          "root": "almanac-1839",
+          "snapshot": null
+        },
+        {
+          "id": "S09",
+          "title": "That slave massacre at Lima, Adelphi, St James in 1832",
+          "url": "https://www.jamaicaobserver.com/2018/03/10/that-slave-massacre-at-lima-adelphi-st-james-in-1832/",
+          "locator": "counterclaim re Sandy Bay ownership",
+          "kind": "secondary commentary",
+          "access": "excerpt",
+          "rights": "link only",
+          "root": "Observer-2018",
+          "snapshot": null
+        }
+      ],
+      "raw_document_status": "not acquired"
+    },
+    {
+      "id": "ADA-013",
+      "subject": "James Mursell Phillippo",
+      "path": "audits/ADA-013.json",
+      "blob_sha": "934e1a5fdbd1b9f21c2fcc56c7ef45953f1e1aff",
+      "source_manifest": "evidence/ADA-013/manifest.json",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "JNHT Sligoville",
+          "url": "https://www.jnht.gov.jm/site_sligoville.php",
+          "locator": "St Catherine site history",
+          "type": "secondary",
+          "access": "read",
+          "rights": "copyright/link only",
+          "root": "JNHT",
+          "snapshot": null
+        },
+        {
+          "id": "S02",
+          "title": "JIS Sligoville",
+          "url": "https://jis.gov.jm/sligoville-jamaicas-first-free-village/",
+          "locator": "1835 purchase and plot terms",
+          "type": "secondary",
+          "access": "indexed excerpt",
+          "rights": "link only",
+          "root": "JIS",
+          "snapshot": null
+        },
+        {
+          "id": "S03",
+          "title": "Phillippo, Jamaica: its past and present state (1843)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Jamaica-_its_past_and_present_state_%28IA_jamaicaitspastpr00phil%29.pdf",
+          "locator": "printed p.86",
+          "type": "participant account",
+          "access": "parsed; screenshot size failure",
+          "rights": "historical text public domain",
+          "root": "Phillippo1843",
+          "snapshot": null
+        },
+        {
+          "id": "S04",
+          "title": "Wellcome holding of Phillippo 1843",
+          "url": "https://wellcomecollection.org/works/svssyt2r",
+          "locator": "svssyt2r",
+          "type": "alternate holding",
+          "access": "catalog",
+          "rights": "Public Domain Mark",
+          "root": "Phillippo1843",
+          "snapshot": null
+        },
+        {
+          "id": "S05",
+          "title": "Library of Congress holding of Phillippo 1843",
+          "url": "https://www.loc.gov/item/2007570119/",
+          "locator": "2007570119",
+          "type": "alternate holding",
+          "access": "indexed; direct 403",
+          "rights": "catalog states Kislak collection public domain",
+          "root": "Phillippo1843",
+          "snapshot": null
+        },
+        {
+          "id": "S06",
+          "title": "Underhill, Life of James Mursell Phillippo (1881)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Life_of_James_Mursell_Phillippo%2C_missionary_in_Jamaica_%28IA_cu31924020400317%29.pdf",
+          "locator": "printed pp.183–185, zero-indexed scan pages 196–198",
+          "type": "retrospective biography",
+          "access": "parsed and screenshots inspected",
+          "rights": "historical text public domain",
+          "root": "Underhill1881",
+          "snapshot": null
+        },
+        {
+          "id": "S07",
+          "title": "Gurney, A Winter in the West Indies (1840)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/A_winter_in_the_West_Indies_%28IA_winterinwestindi00gurn%29.pdf",
+          "locator": "printed pp.115–116, March 7 visit",
+          "type": "contemporary visitor account",
+          "access": "parsed",
+          "rights": "historical text public domain",
+          "root": "Gurney1840",
+          "snapshot": null
+        },
+        {
+          "id": "S08",
+          "title": "NYPL Sligoville engraving",
+          "url": "https://old-digitalcollections.nypl.org/items/510d47da-77aa-a3d9-e040-e00a18064a99",
+          "locator": "Sc Rare 266-P",
+          "type": "illustration in Phillippo 1843",
+          "access": "catalog",
+          "rights": "rights statement permits lawful use; scan not acquired",
+          "root": "Phillippo1843",
+          "snapshot": null
+        },
+        {
+          "id": "S09",
+          "title": "Gleaner Sligoville heritage report 2016",
+          "url": "https://past.jamaica-gleaner.com/article/news/20160728/two-days-emancifest-sligoville",
+          "locator": "reports Lunan purchase August 1 1838",
+          "type": "secondary",
+          "access": "indexed excerpt",
+          "rights": "link only",
+          "root": "Gleaner2016",
+          "snapshot": null
+        }
+      ],
+      "raw_document_status": "not acquired"
+    },
+    {
+      "id": "ADA-014",
+      "subject": "Henry Lunan",
+      "path": "audits/ADA-014.json",
+      "blob_sha": "29112f56c5f2bf13d41f34604c5220e633892d20",
+      "source_manifest": "evidence/ADA-014/manifest.json",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "JNHT Sligoville",
+          "url": "https://www.jnht.gov.jm/site_sligoville.php",
+          "type": "institutional history",
+          "locator": "Lunan first purchaser, Hampstead headman",
+          "rights": "link and metadata only; full reproduction not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S02",
+          "title": "Underhill 1881 Phillippo biography",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Life_of_James_Mursell_Phillippo%2C_missionary_in_Jamaica_%28IA_cu31924020400317%29.pdf",
+          "type": "historical biography; public-domain text",
+          "locator": "p184; approximately two months before emancipation",
+          "rights": "link and metadata only; full reproduction not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S03",
+          "title": "Gleaner 2016",
+          "url": "https://past.jamaica-gleaner.com/article/news/20160728/two-days-emancifest-sligoville",
+          "type": "secondary",
+          "locator": "August 1 1838",
+          "rights": "link and metadata only; full reproduction not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S04",
+          "title": "Davis-Palmer 2004 PhD thesis",
+          "url": "https://research.gold.ac.uk/28873/1/thesis_Davis-PalmerY_2004.pdf",
+          "type": "archival research and oral history; redistribution rights unchecked",
+          "locator": "pp149–151,157,164; LQ S 828 folios 61, 12 October 1839; footnote 66 numbers 828/58–67",
+          "rights": "link and metadata only; full reproduction not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S05",
+          "title": "Library of Congress Jamaican archival guide",
+          "url": "https://guides.loc.gov/jamaica-local-history-genealogy/archival-records",
+          "type": "finding aid",
+          "locator": "slave registers 1832 and related holdings",
+          "rights": "link and metadata only; full reproduction not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S06",
+          "title": "Jamaica Archives research services",
+          "url": "https://www.jard.gov.jm/pages/what-we-do-archives",
+          "type": "finding aid",
+          "locator": "public research requests",
+          "rights": "link and metadata only; full reproduction not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S07",
+          "title": "Island Record Office",
+          "url": "https://nira.gov.jm/about-iro/",
+          "type": "finding aid",
+          "locator": "authenticated deed copies by liber and folio",
+          "rights": "link and metadata only; full reproduction not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S08",
+          "title": "National Library documentary heritage",
+          "url": "https://www.nlj.gov.jm/caribbeanregister/docs/jamaica.htm",
+          "type": "finding aid",
+          "locator": "slave returns, cadastral maps, deeds",
+          "rights": "link and metadata only; full reproduction not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S09",
+          "title": "Jamaica Information Service Sligoville",
+          "url": "https://jis.gov.jm/sligoville-jamaicas-first-free-village/",
+          "type": "institutional history",
+          "locator": "settlement acquisition and terms",
+          "rights": "link and metadata only; full reproduction not verified",
+          "snapshot": null
+        }
+      ],
+      "raw_document_status": "not acquired"
+    },
+    {
+      "id": "ADA-015",
+      "subject": "Elizabeth Francis",
+      "path": "audits/ADA-015.json",
+      "blob_sha": "49605929c8e1b33799d8324df13598605f6949c4",
+      "source_manifest": "evidence/ADA-015/manifest.json",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "Davis-Palmer 2004 thesis",
+          "url": "https://research.gold.ac.uk/28873/1/thesis_Davis-PalmerY_2004.pdf",
+          "locator": "printed p150 footnote 66; L.Q.S. 828/58–67; folio 61",
+          "access": "archival research and oral history; indexed passage inspected; direct PDF restricted",
+          "root": "Davis-Palmer",
+          "rights": "metadata and link preserved; redistribution of full document not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S02",
+          "title": "Jamaica Gleaner 2014 Sligoville",
+          "url": "https://past.jamaica-gleaner.com/article/lead-stories/20140816/sligoville-jamaicas-first-free-village-established-prepare?qt-article_image_video=1",
+          "locator": "early purchaser list",
+          "access": "secondary; indexed passage",
+          "root": "list ancestry unresolved",
+          "rights": "metadata and link preserved; redistribution of full document not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S03",
+          "title": "District Grand Lodge Sligoville history",
+          "url": "https://markmasonsdgljamaica.com.jm/sligoville.shtml",
+          "locator": "early purchaser list; cites Ayre 1984 and Facey 1996",
+          "access": "secondary; indexed text",
+          "root": "Ayre/Facey",
+          "rights": "metadata and link preserved; redistribution of full document not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S04",
+          "title": "Windrush Foundation Making Freedom",
+          "url": "https://makingfreedom.co.uk/wp-content/uploads/2023/03/e1838_Session-3_Historical-Sources_Pgs15.pdf",
+          "locator": "printed p12 historical source 6",
+          "access": "educational derivative; indexed passage",
+          "root": "list ancestry unresolved",
+          "rights": "metadata and link preserved; redistribution of full document not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S05",
+          "title": "Island Record Office search",
+          "url": "https://nira.gov.jm/about-iro/",
+          "locator": "grantor/grantee, execution and registration dates; fee and authenticated copy procedure",
+          "access": "finding aid",
+          "root": "NIRA",
+          "rights": "metadata and link preserved; redistribution of full document not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S06",
+          "title": "Jamaica Archives holdings",
+          "url": "https://jard.gov.jm/pages/holdings-archives",
+          "locator": "central government and ecclesiastical records",
+          "access": "finding aid",
+          "root": "JARD",
+          "rights": "metadata and link preserved; redistribution of full document not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S07",
+          "title": "Library of Congress genealogy guide",
+          "url": "https://guides.loc.gov/jamaica-local-history-genealogy/archival-records",
+          "locator": "slave registers, parish registers, inventories",
+          "access": "finding aid",
+          "root": "LOC",
+          "rights": "metadata and link preserved; redistribution of full document not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S08",
+          "title": "National Library documentary heritage",
+          "url": "https://www.nlj.gov.jm/caribbeanregister/docs/jamaica.htm",
+          "locator": "deeds and surveys; enrollment dates; slave returns",
+          "access": "finding aid",
+          "root": "NLJ",
+          "rights": "metadata and link preserved; redistribution of full document not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S09",
+          "title": "British Library manumission registers",
+          "url": "https://searcharchives.bl.uk/catalog/036-002793990",
+          "locator": "EAP148/3/1 1747–1838",
+          "access": "catalog; no person match established",
+          "root": "JARD digitization",
+          "rights": "metadata and link preserved; redistribution of full document not verified",
+          "snapshot": null
+        }
+      ],
+      "raw_document_status": "not acquired"
+    },
+    {
+      "id": "ADA-016",
+      "subject": "Robert Talbot",
+      "path": "audits/ADA-016.json",
+      "blob_sha": "3bab466230e3af6d7b9b7c0aa3ed2b441dbf7dda",
+      "source_manifest": "evidence/ADA-016/manifest.json",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "Davis-Palmer 2004 thesis",
+          "url": "https://research.gold.ac.uk/28873/1/thesis_Davis-PalmerY_2004.pdf",
+          "locator": "printed pp150–151,157,179–181; footnote 66 LQS 828/58–67",
+          "access": "parsed text inspected; screenshot restricted",
+          "root": "archival research plus embedded descendant testimony",
+          "rights": "metadata and paraphrase only; full redistribution not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S02",
+          "title": "Jamaica Gleaner 2014",
+          "url": "https://past.jamaica-gleaner.com/article/lead-stories/20140816/sligoville-jamaicas-first-free-village-established-prepare?qt-article_image_video=1",
+          "locator": "early purchasers",
+          "access": "indexed",
+          "root": "secondary list",
+          "rights": "metadata and paraphrase only; full redistribution not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S03",
+          "title": "District Grand Lodge Sligoville history",
+          "url": "https://markmasonsdgljamaica.com.jm/sligoville.shtml",
+          "locator": "early purchasers",
+          "access": "indexed",
+          "root": "secondary list",
+          "rights": "metadata and paraphrase only; full redistribution not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S04",
+          "title": "Jamaica Gleaner 2022 land registration commentary",
+          "url": "https://past.jamaica-gleaner.com/article/focus/20220417/patricia-green-reparation-jamaicas-ancestral-lands?qt-article_image_video=1",
+          "locator": "Sligoville registration cost concern",
+          "access": "indexed",
+          "root": "commentary, not individual evidence",
+          "rights": "metadata and paraphrase only; full redistribution not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S05",
+          "title": "Jamaica Information Service systematic land registration",
+          "url": "https://jis.gov.jm/national-land-agency-systematic-land-registration/",
+          "locator": "fees and caveat",
+          "access": "indexed",
+          "root": "official program explanation",
+          "rights": "metadata and paraphrase only; full redistribution not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S06",
+          "title": "JIS tenure security",
+          "url": "https://jis.gov.jm/features/systematic-land-registration-improving-land-tenure-security/",
+          "locator": "repayment and restriction on transfers",
+          "access": "indexed",
+          "root": "official program explanation; shared agency ancestry",
+          "rights": "metadata and paraphrase only; full redistribution not verified",
+          "snapshot": null
+        },
+        {
+          "id": "S07",
+          "title": "National Land Agency land titling",
+          "url": "https://www.nla.gov.jm/content/land-titling",
+          "locator": "title procedures",
+          "access": "indexed",
+          "root": "official finding aid",
+          "rights": "metadata and paraphrase only; full redistribution not verified",
+          "snapshot": null
+        }
+      ],
+      "raw_document_status": "not acquired"
+    }
+  ],
+  "source_count": 116
+}
