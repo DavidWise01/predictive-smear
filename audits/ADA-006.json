@@ -1,0 +1,77 @@
+{
+  "id": "ADA-006",
+  "epoch": 1832,
+  "subject": "Michael Faraday",
+  "lifespan": [
+    1791,
+    1867
+  ],
+  "status": "preliminary",
+  "gates": {
+    "taken": "Additional valet duties on continental tour; uncompensated amount and unlawful taking not established",
+    "removed": "Limited early formal education; no specific unlawful denial established",
+    "suffered": "Class-based disrespect during tour; occupational hazards; damages unquantified",
+    "who": [
+      "George Riebau (opportunity provider)",
+      "Humphry Davy (mentor and employer)",
+      "Jane Davy (reported treatment during tour)",
+      "Royal Institution (employer)"
+    ],
+    "why": "Class hierarchy and patronage; personal motives not adjudicated"
+  },
+  "domains": {
+    "finance": "1813 salary reported as 25 shillings weekly plus rooms (later biographies); not a 1832 salary",
+    "legal": "Scope of additional duties and entitlement unresolved",
+    "it": "Electromagnetic induction foundational to later electrical infrastructure",
+    "healthcare": "Occupational hazards; no specific compensable injury established",
+    "education": "Bookbinding apprenticeship, independent study, lectures; Oxford honorary degree 1832",
+    "labor": "Scientific assistant, additional valet duties, later researcher",
+    "government": "Civil List pension; award date differs across institutional summaries (1835/1836)",
+    "resources": "Books, lecture tickets, laboratory, instruments and institutional networks"
+  },
+  "evidence": [
+    {
+      "root": "RS-PT-20-4",
+      "url": "https://makingscience.royalsociety.org/items/pt_20_4/paper-experimental-researches-in-electricity-by-m-michael-faraday",
+      "kind": "archival manuscript catalogue"
+    },
+    {
+      "root": "RS-RR-1-62",
+      "url": "https://makingscience.royalsociety.org/items/rr_1_62/referees-report-by-samuel-hunter-christie-and-john-bostock-on-a-paper-experimental-researches-in-electricity-by-michael-faraday",
+      "kind": "referee report catalogue; same research subject, distinct authoring event"
+    },
+    {
+      "root": "RI-biography",
+      "url": "https://www.rigb.org/explore-science/explore/person/michael-faraday-1791-1867",
+      "kind": "institutional biography"
+    },
+    {
+      "root": "RI-tour",
+      "url": "https://www.rigb.org/explore-science/explore/collection/tour-michael-faraday-london",
+      "kind": "institutional interpretation; ancestry not independently established"
+    },
+    {
+      "root": "Thompson-1898",
+      "url": "https://www.gutenberg.org/cache/epub/65735/pg65735-images.html",
+      "kind": "historical biography including correspondence"
+    },
+    {
+      "root": "MacTutor",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Faraday/",
+      "kind": "secondary biography"
+    }
+  ],
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "auditors": {
+    "Jane": "Distinguish individual discovery from later commercial deployment",
+    "Toph": "Access granted does not erase unequal treatment; voluntary choice differs from imposed restriction",
+    "Patricia": "Preserve source dates and distinguish salary, damages, and later economic value"
+  },
+  "pop": "Opportunity granted does not cancel unequal treatment; discovery value does not establish an individual compensation claim.",
+  "limitations": "No original payroll or complete employment contracts inspected. Three auditor roles not independent witnesses. No quantified damages or UBI entitlement inferred."
+}
