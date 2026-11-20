@@ -1,0 +1,121 @@
+{
+  "schema": "ADA-evidence-v1",
+  "audit": "ADA-013",
+  "date": "2026-11-20",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "JNHT Sligoville",
+      "url": "https://www.jnht.gov.jm/site_sligoville.php",
+      "locator": "St Catherine site history",
+      "type": "secondary",
+      "access": "read",
+      "rights": "copyright/link only",
+      "root": "JNHT",
+      "snapshot": null
+    },
+    {
+      "id": "S02",
+      "title": "JIS Sligoville",
+      "url": "https://jis.gov.jm/sligoville-jamaicas-first-free-village/",
+      "locator": "1835 purchase and plot terms",
+      "type": "secondary",
+      "access": "indexed excerpt",
+      "rights": "link only",
+      "root": "JIS",
+      "snapshot": null
+    },
+    {
+      "id": "S03",
+      "title": "Phillippo, Jamaica: its past and present state (1843)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Jamaica-_its_past_and_present_state_%28IA_jamaicaitspastpr00phil%29.pdf",
+      "locator": "printed p.86",
+      "type": "participant account",
+      "access": "parsed; screenshot size failure",
+      "rights": "historical text public domain",
+      "root": "Phillippo1843",
+      "snapshot": null
+    },
+    {
+      "id": "S04",
+      "title": "Wellcome holding of Phillippo 1843",
+      "url": "https://wellcomecollection.org/works/svssyt2r",
+      "locator": "svssyt2r",
+      "type": "alternate holding",
+      "access": "catalog",
+      "rights": "Public Domain Mark",
+      "root": "Phillippo1843",
+      "snapshot": null
+    },
+    {
+      "id": "S05",
+      "title": "Library of Congress holding of Phillippo 1843",
+      "url": "https://www.loc.gov/item/2007570119/",
+      "locator": "2007570119",
+      "type": "alternate holding",
+      "access": "indexed; direct 403",
+      "rights": "catalog states Kislak collection public domain",
+      "root": "Phillippo1843",
+      "snapshot": null
+    },
+    {
+      "id": "S06",
+      "title": "Underhill, Life of James Mursell Phillippo (1881)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Life_of_James_Mursell_Phillippo%2C_missionary_in_Jamaica_%28IA_cu31924020400317%29.pdf",
+      "locator": "printed pp.183–185, zero-indexed scan pages 196–198",
+      "type": "retrospective biography",
+      "access": "parsed and screenshots inspected",
+      "rights": "historical text public domain",
+      "root": "Underhill1881",
+      "snapshot": null
+    },
+    {
+      "id": "S07",
+      "title": "Gurney, A Winter in the West Indies (1840)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/A_winter_in_the_West_Indies_%28IA_winterinwestindi00gurn%29.pdf",
+      "locator": "printed pp.115–116, March 7 visit",
+      "type": "contemporary visitor account",
+      "access": "parsed",
+      "rights": "historical text public domain",
+      "root": "Gurney1840",
+      "snapshot": null
+    },
+    {
+      "id": "S08",
+      "title": "NYPL Sligoville engraving",
+      "url": "https://old-digitalcollections.nypl.org/items/510d47da-77aa-a3d9-e040-e00a18064a99",
+      "locator": "Sc Rare 266-P",
+      "type": "illustration in Phillippo 1843",
+      "access": "catalog",
+      "rights": "rights statement permits lawful use; scan not acquired",
+      "root": "Phillippo1843",
+      "snapshot": null
+    },
+    {
+      "id": "S09",
+      "title": "Gleaner Sligoville heritage report 2016",
+      "url": "https://past.jamaica-gleaner.com/article/news/20160728/two-days-emancifest-sligoville",
+      "locator": "reports Lunan purchase August 1 1838",
+      "type": "secondary",
+      "access": "indexed excerpt",
+      "rights": "link only",
+      "root": "Gleaner2016",
+      "snapshot": null
+    }
+  ],
+  "ancestry": [
+    "S04,S05,S08 derive from S03 work",
+    "S06 quotes S07 and repeats unnamed medical visitor also in S03; not independent corroboration"
+  ],
+  "acquisition": {
+    "attempt": "https://archive.org/download/cu31924020400317/cu31924020400317_djvu.txt",
+    "result": "curl exit 6 DNS resolution failed",
+    "full_documents_acquired": 0
+  },
+  "pending": [
+    "Original 1835 acquisition deed and survey",
+    "Henry Lunan original purchase deed and payment receipt",
+    "Plot sizes and price schedule with expenses and currency basis",
+    "Household outcomes and later title transfers"
+  ]
+}
