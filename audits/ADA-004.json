@@ -1,0 +1,84 @@
+{
+  "id": "ADA-004",
+  "epoch": 1832,
+  "subject": "Mary Fairfax Somerville",
+  "lifespan": [
+    1780,
+    1872
+  ],
+  "status": "preliminary",
+  "gates": {
+    "taken": "Educational opportunity restricted; financial appropriation not established",
+    "removed": "Equal university access and full fellowship",
+    "suffered": "Restricted institutional participation; quantified loss unknown",
+    "who": [
+      "Family members",
+      "Educational institutions",
+      "Royal Society",
+      "Royal Astronomical Society"
+    ],
+    "why": "Documented gendered institutional and domestic expectations; individual motives not inferred"
+  },
+  "domains": {
+    "finance": "Civil pension initially GBP 200 annually, later GBP 300; lifetime receipts unknown",
+    "legal": "Unequal institutional eligibility; individual property arrangements unverified",
+    "it": "Mathematical communication and mentorship of Ada Lovelace; indirect computing connection",
+    "healthcare": "No specific inequitable treatment established",
+    "education": "Limited formal education and self-directed mathematical study",
+    "labor": "Scientific authorship and research; full earnings unknown",
+    "government": "Civil pension",
+    "resources": "Books, scientific networks and support from William Somerville"
+  },
+  "events": [
+    {
+      "year": 1831,
+      "event": "Mechanism of the Heavens published"
+    },
+    {
+      "year": 1832,
+      "event": "Royal Society bust commissioned",
+      "subscription_gbp": 156.5,
+      "contributors": 64
+    },
+    {
+      "year": 1835,
+      "event": "Honorary RAS membership"
+    },
+    {
+      "year": 1842,
+      "event": "Bust presented"
+    },
+    {
+      "year": 1872,
+      "event": "Death"
+    },
+    {
+      "year": 1916,
+      "event": "First women elected RAS Fellows"
+    },
+    {
+      "year": 1945,
+      "event": "First women elected Royal Society Fellows"
+    }
+  ],
+  "auditors": {
+    "Jane": "Recognize mathematical knowledge transmission and mentorship",
+    "Toph": "Honorary recognition does not equal full eligibility",
+    "Patricia": "Separate autobiography, scholarly reconstruction and society records; no quantified damages"
+  },
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "pop": "Recognition does not equal representation",
+  "sources": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Somerville/",
+    "https://www.royalsociety.org/blog/2023/10/many-faces-mary-somerville/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7397962/",
+    "https://ras.ac.uk/education-and-careers/100-years-and-counting-women-ras-go-strength-strength",
+    "https://www.gutenberg.org/cache/epub/27747/pg27747-images.html"
+  ],
+  "limitations": "Analytical roles are not independent witnesses. Autobiography full-text fetch failed; use accessible excerpts and secondary sources. No original account books inspected."
+}
