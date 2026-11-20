@@ -1,0 +1,14 @@
+{
+  "id": "ADA-010-F01",
+  "source": "S01",
+  "archive": "CO 137/182 f.373",
+  "date": "1832-04-19",
+  "valuation": {
+    "pounds": 16,
+    "shillings": 10,
+    "currency": "current money of Jamaica",
+    "payment_proven": false
+  },
+  "finding": "Jury recorded a monetary valuation of the enslaved defendant alongside the death sentence. Not proof of payment.",
+  "next": "Find statutory authority for valuation and payment voucher, if any; cross-check original trial folios."
+}
