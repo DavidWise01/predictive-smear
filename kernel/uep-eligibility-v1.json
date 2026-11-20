@@ -1,0 +1,38 @@
+{
+  "id": "UEP-007",
+  "type": "eligibility-denominator-correction",
+  "date": "2026-11-20",
+  "supersedes_model": "UEP-006 illustration of 340 million recipients; do not overwrite prior records",
+  "eligibility": {
+    "min_age_years": 18,
+    "max_age_years_inclusive": 65,
+    "residency": "United States",
+    "employment_required": false,
+    "estimated_eligible_people": 210000000,
+    "estimate_status": "rounded modeling assumption; exact age-65 one-year count to be obtained",
+    "census_age_18_to_64_2025": 205146421,
+    "baseline_all_ages_2025": 341784857
+  },
+  "examples": {
+    "annual_pool_usd": 1000000000000,
+    "carbon_share": 0.6,
+    "carbon_pool_usd": 600000000000,
+    "monthly_per_eligible_usd": 238.0952380952381,
+    "prior_340m_usd": 147.05882352941177,
+    "ratio": 1.619047619047619
+  },
+  "policy_note": "18-65 defines eligibility only; employed, unemployed, disabled and students inside that age range qualify. Ages 0-17 and 66+ excluded from this modeled base payment unless separate policies are adopted. Restitution remains a distinct claim process. MOIRA original allocation is not itself UBI.",
+  "source_refs": [
+    "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html",
+    "https://www.census.gov/data/tables/time-series/demo/popest/2020s-national-detail.html"
+  ],
+  "checks": {
+    "shares_total": 1,
+    "conservation": true
+  },
+  "pending": [
+    "Exact age 65 estimate from NC-EST2025-ASR6H",
+    "Benefit integration for seniors and minors",
+    "Domestic vs global human training contribution eligibility"
+  ]
+}
