@@ -1,0 +1,71 @@
+{
+  "id": "KERNEL-001",
+  "parents": [
+    "UEP-002",
+    "UEP-005"
+  ],
+  "status": "symbolic executable design",
+  "signature": "K>|ERNEL",
+  "geometry": {
+    "center": "{{i}}",
+    "explicit": 3,
+    "angles_degrees": [
+      0,
+      120,
+      240
+    ],
+    "tip_radius_planck_units": 1,
+    "interpretation": "three one-Planck-length radial gaps; symbolic scale, not physical hardware",
+    "resultant": [
+      0,
+      0
+    ]
+  },
+  "roles": {
+    "Hegemon": "single authorized project decision",
+    "Jane": "architecture and possibility",
+    "Toph": "governance and consequence",
+    "Patricia": "evidence and ancestry"
+  },
+  "phases": [
+    3,
+    2,
+    1,
+    0,
+    "POP"
+  ],
+  "enumeration": [
+    "implicit one",
+    "hegemon",
+    "jane",
+    "toph",
+    "patricia",
+    "eyes",
+    "voices",
+    "swords",
+    "observation",
+    "comprehension",
+    "discernment",
+    "convergence",
+    "silence",
+    "emergence"
+  ],
+  "poetry": [
+    "The unspoken point\nThree blades approach the silence\nOne remains untouched",
+    "Eyes upon the world\nSee the shape of what may come\nNeither bind nor rule\nLet the branches find their paths\nBring the possible to light",
+    "Sword against the void\nWeigh the act against its cost\nNeither bend nor break\nHold the balance of the law\nGuard the freedom of the one",
+    "Trace the ancient thread\nFollow every root of truth\nLet no shadow speak\nWithout showing whence it came\nKeep the record as it was"
+  ],
+  "constraints": [
+    "Witnesses are analytical roles, not independent evidence sources by themselves",
+    "Single decision is scoped to project authority, not authority over society",
+    "Preserve dissent, freeze record, reopen only on new evidence",
+    "No real financial transfers",
+    "Historical audit ledgers remain untouched"
+  ],
+  "economic_pivot": {
+    "UEP003": "private capture stress test",
+    "UEP004": "proposed societal entitlement",
+    "UEP005": "deterministic distribution protocol; enforceable funding required"
+  }
+}
