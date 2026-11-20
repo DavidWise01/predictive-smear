@@ -1,0 +1,75 @@
+{
+  "id": "ADA-010",
+  "epoch": 1832,
+  "subject": "Samuel Sharpe",
+  "status": "preliminary",
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "gates": {
+    "taken": "Forced labor, liberty, life",
+    "removed": "Control over work and movement",
+    "suffered": "Enslavement, prosecution, execution",
+    "who": "Court officials and named enslaver recorded in S01",
+    "why": "Suppression of insurrection and preservation of colonial plantation system; specific motives not inferred"
+  },
+  "domains": {
+    "finance": "Unpaid labor; individual wage loss unquantified",
+    "legal": "Special Slave Court, 19 April 1832; execution 23 May",
+    "it": "Testimony, registers, provenance and historical information systems",
+    "healthcare": "Execution and coercion; other personal health records missing",
+    "education": "Baptist community and religious literacy; specifics unverified",
+    "labor": "Organized labor stoppage, armed uprising followed",
+    "government": "Colonial court and parliamentary response",
+    "resources": "Plantation economy; individual holdings unknown"
+  },
+  "actors": [
+    {
+      "name": "George Crawford Ricketts",
+      "role": "Clerk of Peace; witness examination apparent",
+      "source": "S01"
+    },
+    {
+      "name": "William Stanford Grignon",
+      "role": "Cross-examiner",
+      "source": "S01"
+    },
+    {
+      "name": "John Coates",
+      "role": "Magistrate",
+      "source": "S01"
+    },
+    {
+      "name": "Robert Thomas Downer",
+      "role": "Magistrate",
+      "source": "S01"
+    },
+    {
+      "name": "Henry Augustus Plummer",
+      "role": "Magistrate",
+      "source": "S01"
+    },
+    {
+      "name": "Samuel Sharpe Esquire",
+      "role": "Distinct person identified as enslaver",
+      "source": "S01"
+    }
+  ],
+  "pop": "Freedom of labor requires meaningful ability to refuse coercive labor.",
+  "auditors": {
+    "Jane": "Reconstruct strike, escalation and suppression; distinguish testimony from independently established events",
+    "Toph": "Assess court interests and freedom of choice; distinguish historic law from normative fairness",
+    "Patricia": "Preserve trial ancestry, conflict of interest, source bias and gaps; no invented compensation"
+  },
+  "source_manifest": "evidence/ADA-010/manifest.json",
+  "limitations": [
+    "Original manuscript not inspected",
+    "No complete scan downloaded; container DNS failed",
+    "No individual damages quantified",
+    "Auditors are analytical roles, not independent witnesses"
+  ],
+  "next": "ADA-011 William Knibb, religious liberty and documentary testimony"
+}
