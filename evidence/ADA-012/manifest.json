@@ -1,0 +1,119 @@
+{
+  "schema": "ADA-evidence-v1",
+  "audit": "ADA-012",
+  "retrieved": "2026-11-20",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Jamaica Information Service: Champions of Emancipation",
+      "url": "https://jis.gov.jm/information/stalwarts/",
+      "locator": "government historical account",
+      "kind": "secondary",
+      "access": "read excerpt",
+      "rights": "link only",
+      "root": "JIS",
+      "snapshot": null
+    },
+    {
+      "id": "S02",
+      "title": "Jamaica National Heritage Trust: Free Villages",
+      "url": "https://www.jnht.gov.jm/free_villages.php",
+      "locator": "housing and wages overview",
+      "kind": "secondary",
+      "access": "read",
+      "rights": "copyright; link only",
+      "root": "JNHT",
+      "snapshot": null
+    },
+    {
+      "id": "S03",
+      "title": "Memoir of Thomas Burchell, W. F. Burchell, 1849",
+      "url": "https://commons.wikimedia.org/wiki/File:MEMOIR_OF_THOMAS_BURCHELL_(IA_dli.bengal.10689.20062).pdf",
+      "locator": "dli.bengal.10689.20062; 442 scanned pages",
+      "kind": "retrospective memoir",
+      "access": "catalog inspected",
+      "rights": "Public Domain Mark 1.0",
+      "root": "memoir-1849",
+      "snapshot": null
+    },
+    {
+      "id": "S04",
+      "title": "Memoir of Thomas Burchell, contents",
+      "url": "https://www.missiology.gospelstudies.org.uk/book_memoir-of-thomas-burchell.php",
+      "locator": "chapter VIII detention; London 1849",
+      "kind": "alternate holding",
+      "access": "contents inspected",
+      "rights": "public domain stated",
+      "root": "memoir-1849",
+      "snapshot": null
+    },
+    {
+      "id": "S05",
+      "title": "Detention and prosecution of Thomas Burchell",
+      "url": "https://past.jamaica-gleaner.com/article/news/20230827/detention-and-prosecution-thomas-burchell",
+      "locator": "Paul H Williams, 2023-08-27",
+      "kind": "secondary citing Abbott letter via Cooke",
+      "access": "read",
+      "rights": "link only",
+      "root": "Gleaner-Abbott-Cooke",
+      "snapshot": null
+    },
+    {
+      "id": "S06",
+      "title": "National Library of Jamaica history notes",
+      "url": "https://www.nlj.gov.jm/history-notes/history-notes.htm",
+      "locator": "Free Villages parish list",
+      "kind": "secondary",
+      "access": "excerpt",
+      "rights": "link only",
+      "root": "NLJ",
+      "snapshot": null
+    },
+    {
+      "id": "S07",
+      "title": "Jamaica Baptist Union: Our Origin",
+      "url": "https://jbu.church/wp-content/uploads/2019/01/Our-Origin.pdf",
+      "locator": "land and franchise discussion",
+      "kind": "institutional history",
+      "access": "indexed excerpt only",
+      "rights": "link only",
+      "root": "JBU",
+      "snapshot": null
+    },
+    {
+      "id": "S08",
+      "title": "1839 Jamaica Almanac civil and ecclesiastical list",
+      "url": "https://www.jamaicanfamilysearch.com/Members/AL39Lis2.htm",
+      "locator": "Burchell mission stations",
+      "kind": "primary text via transcription",
+      "access": "excerpt",
+      "rights": "historical text public domain; transcription rights unverified",
+      "root": "almanac-1839",
+      "snapshot": null
+    },
+    {
+      "id": "S09",
+      "title": "That slave massacre at Lima, Adelphi, St James in 1832",
+      "url": "https://www.jamaicaobserver.com/2018/03/10/that-slave-massacre-at-lima-adelphi-st-james-in-1832/",
+      "locator": "counterclaim re Sandy Bay ownership",
+      "kind": "secondary commentary",
+      "access": "excerpt",
+      "rights": "link only",
+      "root": "Observer-2018",
+      "snapshot": null
+    }
+  ],
+  "acquisition": {
+    "url": "https://archive.org/download/dli.bengal.10689.20062/10689.20062_djvu.txt",
+    "result": "curl error 6: could not resolve host",
+    "full_documents_acquired": 0
+  },
+  "pending": [
+    "Original Stennett deposition and retraction",
+    "Thomas Abbott correspondence to BMS",
+    "Burchell land deeds and subdivision plans",
+    "Individual purchaser receipts and wages",
+    "Resolve Bethel Town vs Bethel Hill naming and parish discrepancy",
+    "Investigate Sandy Bay ownership counterclaim without presuming wrongdoing"
+  ]
+}
