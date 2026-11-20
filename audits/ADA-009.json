@@ -1,0 +1,84 @@
+{
+  "id": "ADA-009",
+  "epoch": 1832,
+  "subject": "William Wilberforce and the 1833 abolition settlement",
+  "status": "preliminary",
+  "allocation_basis_points": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "timeline": [
+    [
+      "1807-03-25",
+      "Slave Trade Act royal assent"
+    ],
+    [
+      "1823",
+      "Anti-Slavery Society founded; parliamentary leadership passed to Thomas Fowell Buxton"
+    ],
+    [
+      "1825",
+      "Wilberforce retired from Parliament"
+    ],
+    [
+      "1832",
+      "Abolitionist electoral campaign; Samuel Sharpe executed May 23"
+    ],
+    [
+      "1833-07-29",
+      "Wilberforce died"
+    ],
+    [
+      "1833-08-28",
+      "Slavery Abolition Act royal assent"
+    ],
+    [
+      "1834-08-01",
+      "Act took effect in covered colonies"
+    ],
+    [
+      "1838",
+      "Compulsory apprenticeship ended"
+    ]
+  ],
+  "finance": {
+    "authorized_enslaver_compensation_gbp": 20000000,
+    "compensation_to_enslaved_under_scheme_gbp": 0,
+    "affected_people_lower_bound": 800000,
+    "individual_damages": null
+  },
+  "gates": {
+    "taken": "Forced labor, liberty and control of earnings",
+    "removed": "Freedom of movement and occupational and family autonomy",
+    "suffered": "Violence, coercion, deprivation and compulsory apprenticeship",
+    "who": "Trace specific enslavers, operators, merchants and state decisions; Wilberforce was a reform advocate, retired before passage",
+    "why": "Profit and plantation interests; compensation compromise to secure abolition; individual motives require evidence"
+  },
+  "domains": {
+    "finance": "Compensation allocated to owners, not enslaved people",
+    "legal": "Abolition and transitional compulsory apprenticeship; geographic exceptions",
+    "it": "Recordkeeping and claim registers; historical information systems",
+    "healthcare": "Physical injury and coercion; individual records needed",
+    "education": "Individual educational deprivation not quantified",
+    "labor": "Unpaid forced work and subsequent apprenticeship",
+    "government": "Parliament, Treasury and colonial authorities",
+    "resources": "Plantations, land, production assets; individual ownership histories unresolved"
+  },
+  "auditors": {
+    "Jane": "Trace labor, capital and compensation flows",
+    "Toph": "Distinguish emancipation from restitution and Wilberforce from later legislators",
+    "Patricia": "National Archives T71 and AO14 underpin UCL database; do not count derivatives as independent witnesses. Bank ledgers document separate payment events."
+  },
+  "pop": "Cessation of harm does not equal restitution.",
+  "sources": [
+    "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-west-indian-colonies-and-emancipation/",
+    "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims/",
+    "https://www.bankofengland.co.uk/working-paper/2022/the-collection-of-slavery-compensation-1835-43",
+    "https://www.ucl.ac.uk/social-historical-sciences/history/research/research-projects-and-centres/centre-study-legacies-british-slavery-cslbs/cslbs-projects-and-partners/legacies-british-slave-ownership",
+    "https://academic.oup.com/reference/62333/reference-article-abstract/561711581",
+    "https://hansard.parliament.uk/Commons/1833-07-25/debates/4c880fef-7c7b-48cc-9a15-a53da4b57e71/MinisterialPlanForTheAbolitionOfSlavery"
+  ],
+  "limitations": "No individual claims or original payroll inspected; no modern liability or damages assigned. Three auditors are analytical roles, not independent witnesses."
+}
