@@ -1,0 +1,28 @@
+{
+  "id": "ADA-015-F01",
+  "sources": [
+    "S01",
+    "S02",
+    "S03",
+    "S04"
+  ],
+  "observation": "Elizabeth Francis appears in early purchaser lists; S01 describes purchasers as formerly enslaved and cites deeds. No chronological female-first claim established.",
+  "correction": {
+    "parent": "ADA-014 prior narrative",
+    "claim": "first woman purchaser",
+    "status": "unsupported by retrieved passage; replace in future interpretations with among early named purchasers; original ledger retained"
+  },
+  "identity": {
+    "name": "Elizabeth Francis",
+    "place": "Sligoville",
+    "birth": null,
+    "death": null,
+    "marital_status": null,
+    "enslaver": null,
+    "parcel": null,
+    "price": null,
+    "exact_deed": null
+  },
+  "ancestry": "Lists overlap and may derive from shared local histories; not four independent witnesses.",
+  "counterexample": "The thesis gives Lewis Henry and George Goban, other lists give Lewis Harvey and George Coburn. Do not silently normalize."
+}
