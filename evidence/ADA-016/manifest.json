@@ -1,0 +1,88 @@
+{
+  "schema": "ADA-evidence-v1",
+  "audit": "ADA-016",
+  "date": "2026-11-20",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Davis-Palmer 2004 thesis",
+      "url": "https://research.gold.ac.uk/28873/1/thesis_Davis-PalmerY_2004.pdf",
+      "locator": "printed pp150–151,157,179–181; footnote 66 LQS 828/58–67",
+      "access": "parsed text inspected; screenshot restricted",
+      "root": "archival research plus embedded descendant testimony",
+      "rights": "metadata and paraphrase only; full redistribution not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S02",
+      "title": "Jamaica Gleaner 2014",
+      "url": "https://past.jamaica-gleaner.com/article/lead-stories/20140816/sligoville-jamaicas-first-free-village-established-prepare?qt-article_image_video=1",
+      "locator": "early purchasers",
+      "access": "indexed",
+      "root": "secondary list",
+      "rights": "metadata and paraphrase only; full redistribution not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S03",
+      "title": "District Grand Lodge Sligoville history",
+      "url": "https://markmasonsdgljamaica.com.jm/sligoville.shtml",
+      "locator": "early purchasers",
+      "access": "indexed",
+      "root": "secondary list",
+      "rights": "metadata and paraphrase only; full redistribution not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S04",
+      "title": "Jamaica Gleaner 2022 land registration commentary",
+      "url": "https://past.jamaica-gleaner.com/article/focus/20220417/patricia-green-reparation-jamaicas-ancestral-lands?qt-article_image_video=1",
+      "locator": "Sligoville registration cost concern",
+      "access": "indexed",
+      "root": "commentary, not individual evidence",
+      "rights": "metadata and paraphrase only; full redistribution not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S05",
+      "title": "Jamaica Information Service systematic land registration",
+      "url": "https://jis.gov.jm/national-land-agency-systematic-land-registration/",
+      "locator": "fees and caveat",
+      "access": "indexed",
+      "root": "official program explanation",
+      "rights": "metadata and paraphrase only; full redistribution not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S06",
+      "title": "JIS tenure security",
+      "url": "https://jis.gov.jm/features/systematic-land-registration-improving-land-tenure-security/",
+      "locator": "repayment and restriction on transfers",
+      "access": "indexed",
+      "root": "official program explanation; shared agency ancestry",
+      "rights": "metadata and paraphrase only; full redistribution not verified",
+      "snapshot": null
+    },
+    {
+      "id": "S07",
+      "title": "National Land Agency land titling",
+      "url": "https://www.nla.gov.jm/content/land-titling",
+      "locator": "title procedures",
+      "access": "indexed",
+      "root": "official finding aid",
+      "rights": "metadata and paraphrase only; full redistribution not verified",
+      "snapshot": null
+    }
+  ],
+  "acquisition": {
+    "full_documents_acquired": 0,
+    "screenshot": "restricted URL",
+    "parsed_thesis": true
+  },
+  "pending": [
+    "Robert Talbot original deed",
+    "Transfer out of original family parcel: date, parties, consideration, voluntary or involuntary",
+    "Replacement parcel conveyance",
+    "Compare land area, debts, sale proceeds and household assets; no current private addresses"
+  ]
+}
