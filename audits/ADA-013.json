@@ -1,0 +1,38 @@
+{
+  "id": "ADA-013",
+  "epoch": 1832,
+  "subject": "James Mursell Phillippo",
+  "status": "preliminary",
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "gates": {
+    "taken": "Forced labor and earnings under slavery; individual losses unknown",
+    "removed": "Independent access to property and meaningful job choice",
+    "suffered": "Coercion and housing dependence",
+    "who": "Specific enslavers and colonial institutions; Phillippo and purchasers identified as participants in corrective intervention",
+    "why": "Plantation labor dependence; free villages sought independent settlement"
+  },
+  "domains": {
+    "finance": "Land acquisition and resale terms; costs not fully known",
+    "legal": "Freehold conveyance and title security",
+    "it": "Deeds, surveys and documentary ancestry",
+    "healthcare": "Housing conditions; no quantified outcomes",
+    "education": "Chapel and school",
+    "labor": "Wage work continued on nearby estates",
+    "government": "Emancipation and apprenticeship; governor Sligo",
+    "resources": "Land, housing and cultivation"
+  },
+  "auditors": {
+    "Jane": "Trace acquisition, subdivision, purchase and continued wages",
+    "Toph": "Distinguish freehold title from practical control and fairness of terms",
+    "Patricia": "Preserve conflicting purchase dates and source dependencies; no profit or damages inferred"
+  },
+  "pop": "Access to an asset does not equal secure ownership.",
+  "source_manifest": "evidence/ADA-013/manifest.json",
+  "next": "ADA-014 Henry Lunan, the purchaser",
+  "limitations": "No original deeds, complete scans or independent household outcome data acquired; auditor roles analytical only."
+}
