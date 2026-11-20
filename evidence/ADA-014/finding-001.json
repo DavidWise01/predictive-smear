@@ -1,0 +1,38 @@
+{
+  "id": "ADA-014-F01",
+  "source": "S04",
+  "locator": "printed pp149–151, footnote 66",
+  "deed_lead": "L. Q. S 828 Folios 61: 12 October 1839; numbers 828/58–67",
+  "reported_signatories": [
+    "James Mursell Phillippo",
+    "Hannah Selina Phillippo"
+  ],
+  "named_purchasers": [
+    "Henry Lunan",
+    "Robert Talbot",
+    "Elizabeth Francis"
+  ],
+  "qualification_reported": [
+    "purchase funds",
+    "Baptist membership",
+    "known or recommended to Phillippo"
+  ],
+  "qualification_status": "researcher's reconstruction; application to Lunan not independently established",
+  "dates": [
+    {
+      "date": "circa June 1838",
+      "source": "S02"
+    },
+    {
+      "date": "1838-08-01",
+      "source": "S03"
+    },
+    {
+      "date": "1839-10-12",
+      "source": "S04",
+      "meaning": "cited deed reference, not verified Lunan purchase date"
+    }
+  ],
+  "status": "unresolved; sale, payment, execution and enrollment can differ",
+  "pop": "A corrective intervention can still have access barriers."
+}
