@@ -1,0 +1,78 @@
+{
+  "id": "ADA-007",
+  "epoch": 1832,
+  "subject": "Humphry Davy",
+  "lifespan": [
+    1778,
+    1829
+  ],
+  "temporal_orientation": "pre-epoch ancestry",
+  "status": "preliminary",
+  "domains": {
+    "finance": "Davy testimonial valued GBP 2000; Stephenson supporters separate GBP 1000 testimonial; not wages or proven damages",
+    "legal": "Lamp priority contested; Davy declined patent; theft not established",
+    "it": "Experimental safety engineering and knowledge dissemination; precursor analogy, not digital IT",
+    "healthcare": "Mining explosions, burns and disabling injuries; nitrous oxide research",
+    "education": "Apothecary apprenticeship and scientific mentorship of Faraday",
+    "labor": "Faraday assisted experiments; miners bore residual operational risks",
+    "government": "Royal Society presidency and institutional recognition; specific regulatory responsibility not established",
+    "resources": "Coal mines, ventilation, lamps and laboratory equipment"
+  },
+  "gates": {
+    "taken": "Potentially disputed recognition; no proven taking",
+    "removed": "Potential unequal access to recognition; specific denied entitlement unresolved",
+    "suffered": "Mining deaths and injuries documented generally; lamp-specific causal loss not quantified",
+    "who": [
+      "Humphry Davy",
+      "Michael Faraday",
+      "George Stephenson",
+      "William Reid Clanny",
+      "mine owners and supervisors",
+      "scientific institutions"
+    ],
+    "why": "Safety, productivity and scientific priority; individual motives not adjudicated"
+  },
+  "auditors": {
+    "Jane": "Separate laboratory effectiveness, field conditions and residual risk",
+    "Toph": "Safety technology does not remove duty to maintain safe working conditions; normative principle, not retrospective legal verdict",
+    "Patricia": "Preserve independent invention claims and distinguish testimonials from wages; no causal estimate of deaths prevented"
+  },
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "pop": "Risk reduction does not equal risk elimination; benefits and residual burdens must be audited separately.",
+  "evidence": [
+    {
+      "url": "https://www.rigb.org/explore-science/explore/person/sir-humphry-davy-1778-1829",
+      "type": "institutional biography"
+    },
+    {
+      "url": "https://www.rigb.org/explore-science/explore/collection/humphry-davys-miners-safety-lamp",
+      "type": "artifact interpretation"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360091/",
+      "type": "historical research abstract/search excerpt; full text blocked"
+    },
+    {
+      "url": "https://americanhistory.si.edu/collections/object-groups/mining-lights-and-hats/safety-lamps",
+      "type": "museum search excerpt; full page timed out"
+    },
+    {
+      "url": "https://england.prm.ox.ac.uk/englishness-Miners-lamp.html",
+      "type": "museum historical analysis"
+    },
+    {
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co43389/safety-lamp",
+      "type": "later commission artifact and historical interpretation"
+    },
+    {
+      "url": "https://www.mininghistoryassociation.org/Journal/MHJ-v16-2009-Bartos.pdf",
+      "type": "indexed journal excerpt"
+    }
+  ],
+  "limitations": "No original payment ledger, mine-level casualty series or contemporary contracts examined. Auditor roles are not independently executing agents. Source ancestry not fully resolved; findings provisional."
+}
