@@ -1,0 +1,38 @@
+{
+  "id": "UEP-011-CF01",
+  "title": "Synthetic household income-gap sensitivity",
+  "period": "2002–2025",
+  "as_of_year": 2026,
+  "price_basis": "2025 dollars",
+  "sources": [
+    "Census H-5 via RealStats transcription"
+  ],
+  "construction": "For each calendar year, subtract the Black-alone household median from the non-Hispanic White-alone household median. Sum/compound as if a single synthetic household experienced this gap each year. THIS IS NOT TRACKED REAL HOUSEHOLDS AND NOT RESTITUTION OWED.",
+  "number_of_years": 24,
+  "annual_gap_first_usd_2025": 30250,
+  "annual_gap_last_usd_2025": 36730,
+  "scenarios": [
+    {
+      "real_rate": 0,
+      "amount_2026_usd_2025_price_basis": 798180
+    },
+    {
+      "real_rate": 0.02,
+      "amount_2026_usd_2025_price_basis": 1023618.28
+    },
+    {
+      "real_rate": 0.05,
+      "amount_2026_usd_2025_price_basis": 1523297.79
+    }
+  ],
+  "critical_caveats": [
+    "Census medians use different household samples each year, so cannot follow an individual or establish cumulative loss",
+    "No adjustment for household composition, hours, age, education or other factors",
+    "Cohort definitions change at 2002; analysis intentionally starts there",
+    "The income series is in constant 2025 purchasing power; applying nominal interest without adjusting is invalid",
+    "The assumed 2% and 5% real rates are scenario growth rates, not statutory interest",
+    "Every year is different households at the median; collective sum is a purely synthetic benchmark",
+    "No identified claimant or defendant, no legal entitlement or damages"
+  ],
+  "verified_document_bytes": false
+}
