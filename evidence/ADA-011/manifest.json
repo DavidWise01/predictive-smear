@@ -1,0 +1,125 @@
+{
+  "schema": "ADA-evidence-v1",
+  "audit": "ADA-011",
+  "retrieval_date": "2026-11-20",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Report from the Select Committee on the State of the West India Colonies, Part II",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Report_from_the_Select_Committee_on_the_State_of_the_West_India_Colonies_%3B_together_with_the_minutes..._%28IA_reportfromselect02grea_0%29.pdf",
+      "locator": "1832, printed pp. 723, 747–748, 801; Knibb sessions July 17,18,19",
+      "root": "1832 parliamentary evidence",
+      "kind": "primary proceedings",
+      "access": "parsed text inspected; screenshot failed oversized PDF",
+      "rights": "1832 historical text public domain; scan terms not independently checked",
+      "snapshot": null
+    },
+    {
+      "id": "S02",
+      "title": "Facts and documents connected with the late insurrection in Jamaica",
+      "url": "https://old-digitalcollections.nypl.org/items/510d47e3-d24e-a3d9-e040-e00a18064a99",
+      "locator": "NYPL 510d47e3-d24e-a3d9-e040-e00a18064a99",
+      "root": "Knibb-1832 pamphlet",
+      "kind": "contemporary publication attributed to Knibb",
+      "rights": "NYPL public domain catalog filter",
+      "access": "catalog",
+      "snapshot": null
+    },
+    {
+      "id": "S03",
+      "title": "Same pamphlet, National Library of Jamaica",
+      "url": "https://nljdigital.nlj.gov.jm/items/show/2589",
+      "locator": "NLJ 2589",
+      "root": "Knibb-1832 pamphlet",
+      "kind": "alternate holding",
+      "rights": "historical text public domain; scan rights not checked",
+      "access": "catalog inspected",
+      "snapshot": null
+    },
+    {
+      "id": "S04",
+      "title": "William Knibb (1803–1845)",
+      "url": "https://nlj.gov.jm/project/william-knibb-1803-1845/",
+      "root": "NLJ biography",
+      "kind": "secondary",
+      "access": "indexed excerpt",
+      "rights": "link only",
+      "snapshot": null
+    },
+    {
+      "id": "S05",
+      "title": "William Knibb and the Slave Book",
+      "url": "https://www.brunel.ac.uk/life/library/ArchivesAndSpecialCollections/News-and-events/News/William-Knibb",
+      "root": "Brunel archival interpretation",
+      "kind": "secondary",
+      "access": "indexed excerpt",
+      "rights": "link only",
+      "snapshot": null
+    },
+    {
+      "id": "S06",
+      "title": "Free Villages",
+      "url": "https://www.jnht.gov.jm/free_villages.php",
+      "root": "JNHT site history",
+      "kind": "secondary",
+      "access": "indexed excerpt",
+      "rights": "link only",
+      "snapshot": null
+    },
+    {
+      "id": "S07",
+      "title": "Jamaica",
+      "url": "https://bmsworldmission.org/jamaica",
+      "root": "BMS institutional history",
+      "kind": "secondary",
+      "access": "indexed excerpt",
+      "rights": "link only",
+      "snapshot": null
+    },
+    {
+      "id": "S08",
+      "title": "William Knibb, missionary in Jamaica. A memoir",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/William_Knibb%2C_missionary_in_Jamaica._A_memoir_%28IA_williamknibbmiss00smitrich%29.pdf",
+      "root": "historical memoir",
+      "kind": "retrospective",
+      "access": "indexed excerpt",
+      "rights": "historical text public domain; scan terms not checked",
+      "snapshot": null
+    },
+    {
+      "id": "S09",
+      "title": "Dissenting missionaries research",
+      "url": "https://shura.shu.ac.uk/27167/1/Haigh_2020_MPhil_DissentingMissionariesPublic.pdf",
+      "root": "Haigh 2020 thesis; draws on parliamentary records",
+      "kind": "secondary scholarship",
+      "access": "indexed excerpt",
+      "rights": "link only",
+      "snapshot": null
+    },
+    {
+      "id": "S10",
+      "title": "Analysis of report on extinction of slavery",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Analysis_of_the_report_of_a_Committee_of_the_House_of_Commons_on_the_extinction_of_slavery_-_with_notes_by_the_editor._%28IA_ASPC0001991300%29.pdf",
+      "root": "1832 Commons evidence derivative; distinct committee from S01",
+      "kind": "contemporary edited evidence",
+      "access": "indexed excerpt",
+      "rights": "historical text public domain; scan terms not checked",
+      "snapshot": null
+    }
+  ],
+  "acquisition": {
+    "attempted": "https://archive.org/download/reportfromselect02grea_0/reportfromselect02grea_0_djvu.txt",
+    "result": "DNS resolution failed",
+    "screenshot": "PDF 65,484,909 bytes exceeded renderer limit",
+    "full_documents_acquired": 0
+  },
+  "recursion": {
+    "parent": "ADA-010",
+    "next": [
+      "Acquire original committee scans and Knibb pamphlet",
+      "Compare July testimony to original Jamaican petitions and governor replies",
+      "Locate chapel damage accounts and land deeds for Granville",
+      "Trace individual free village purchasers and wages"
+    ]
+  }
+}
