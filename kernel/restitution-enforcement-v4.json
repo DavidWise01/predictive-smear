@@ -1,0 +1,344 @@
+{
+  "id": "UEP-012",
+  "parent": "UEP-011",
+  "as_of": "2026-11-20",
+  "status": "bounded sample, agency-reported verified amounts; not entire historical debt",
+  "sources": [
+    {
+      "id": "DOL-ALLACTS",
+      "url": "https://www.dol.gov/agencies/whd/data/charts/all-acts",
+      "name": "Wage and Hour Division enforcement statistics, All Acts",
+      "type": "federal agency statistical table",
+      "access": "indexed search table; HTML fetch 403; table rows cross-check needed"
+    },
+    {
+      "id": "DOL-FY25",
+      "url": "https://www.dol.gov/newsroom/releases/whd/whd20260108",
+      "name": "FY 2025 DOL wage recovery announcement",
+      "type": "federal agency press release",
+      "access": "web index"
+    },
+    {
+      "id": "EEOC-FY25",
+      "url": "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report",
+      "name": "FY 2025 OGC litigation report",
+      "type": "federal agency report",
+      "access": "HTML read"
+    },
+    {
+      "id": "EEOC-GOODSELL",
+      "url": "https://www.eeoc.gov/newsroom/goodsellwilkins-pay-730000-eeoc-race-national-origin-and-sex-harassment-lawsuit",
+      "name": "Goodsell/Wilkins decree announcement Feb 12 2025",
+      "type": "federal agency press release",
+      "access": "HTML read"
+    },
+    {
+      "id": "DOJ-FAIRWAY",
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-secures-8m-fairway-independent-mortgage-corporation-address-redlining",
+      "name": "Fairway redlining settlement Oct 15 2024",
+      "type": "federal agency announcement",
+      "access": "HTML read"
+    }
+  ],
+  "annual_agency_recoveries": [
+    {
+      "fiscal_year": 2013,
+      "back_wages_recovered_usd": 249954412,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2014,
+      "back_wages_recovered_usd": 240831606,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2015,
+      "back_wages_recovered_usd": 246780891,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2016,
+      "back_wages_recovered_usd": 266566178,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2017,
+      "back_wages_recovered_usd": 270403906,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2018,
+      "back_wages_recovered_usd": 304914114,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2019,
+      "back_wages_recovered_usd": 322490774,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2020,
+      "back_wages_recovered_usd": 257829604,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2021,
+      "back_wages_recovered_usd": 234362486,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2022,
+      "back_wages_recovered_usd": 213161638,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2023,
+      "back_wages_recovered_usd": 212325391,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2024,
+      "back_wages_recovered_usd": 202676115,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    },
+    {
+      "fiscal_year": 2025,
+      "back_wages_recovered_usd": 259294764,
+      "status": "agency reported recovery",
+      "accrual_of_wage_violation_date": null,
+      "interest_due_usd": null,
+      "source_id": "DOL-ALLACTS",
+      "independence_root": "DOL-WHD"
+    }
+  ],
+  "case_obligations": [
+    {
+      "id": "EEOC-2025-WASTE-PRO",
+      "agency": "EEOC",
+      "name": "EEOC v. Waste Pro of Florida",
+      "order_date": "2025-06-25",
+      "case_type": "race and national-origin harassment",
+      "amount_usd": 1400000,
+      "amount_type": "monetary relief secured under consent decree",
+      "payment_status": "actual payment not independently verified",
+      "interest_usd": null,
+      "source_id": "EEOC-FY25",
+      "overlap_group": "EEOC-FY25-SYSTEMIC",
+      "not_add_to": [
+        "EEOC-FY25-SYSTEMIC-TOTAL"
+      ]
+    },
+    {
+      "id": "EEOC-2025-SINCLAIR",
+      "agency": "EEOC",
+      "name": "EEOC v. Sinclair Broadcast Group",
+      "order_date": "2025-07-21",
+      "case_type": "race-related unequal pay and alleged constructive discharge",
+      "amount_usd": 100000,
+      "amount_type": "monetary relief secured under consent decree",
+      "payment_status": "actual payment not independently verified",
+      "interest_usd": null,
+      "source_id": "EEOC-FY25",
+      "overlap_group": "EEOC-FY25-INDIVIDUAL",
+      "not_add_to": [
+        "EEOC-FY25-ALLTOTAL"
+      ]
+    },
+    {
+      "id": "EEOC-2025-GOODSELL",
+      "agency": "EEOC",
+      "name": "EEOC v. Goodsell/Wilkins",
+      "order_date": "2025-02-12",
+      "case_type": "race/national origin/sex harassment",
+      "amount_usd": 730000,
+      "amount_type": "monetary relief secured under consent decree",
+      "payment_status": "claims distribution not verified",
+      "interest_usd": null,
+      "source_id": "EEOC-GOODSELL",
+      "overlap_group": "EEOC-FY25-LITIGATION",
+      "not_add_to": [
+        "EEOC-FY25-ALLTOTAL"
+      ]
+    },
+    {
+      "id": "EEOC-2025-HOOTERS",
+      "agency": "EEOC",
+      "name": "EEOC v. Hooters systemic rehire discrimination",
+      "order_date": "2025",
+      "case_type": "Black women race/color discriminatory rehiring",
+      "amount_usd": 250000,
+      "amount_type": "monetary relief secured under consent decree",
+      "payment_status": "actual payment not independently verified",
+      "interest_usd": null,
+      "source_id": "EEOC-FY25",
+      "overlap_group": "EEOC-FY25-SYSTEMIC",
+      "not_add_to": [
+        "EEOC-FY25-SYSTEMIC-TOTAL"
+      ]
+    },
+    {
+      "id": "EEOC-2025-FRONTIER",
+      "agency": "EEOC",
+      "name": "EEOC v. Frontier Hot-Dip Galvanizing",
+      "order_date": "2025-07-18",
+      "case_type": "race/national origin harassment and retaliation",
+      "amount_usd": 360000,
+      "amount_type": "claims fund under consent decree",
+      "payment_status": "claim payout not independently verified",
+      "interest_usd": null,
+      "source_id": "EEOC-FY25",
+      "overlap_group": "EEOC-FY25-LITIGATION",
+      "not_add_to": [
+        "EEOC-FY25-ALLTOTAL"
+      ]
+    },
+    {
+      "id": "EEOC-2025-TNT",
+      "agency": "EEOC",
+      "name": "EEOC v. TNT Crane & Rigging",
+      "order_date": "2025-07-31",
+      "case_type": "racial harassment and retaliation",
+      "amount_usd": 525000,
+      "amount_type": "monetary relief secured under consent decree",
+      "payment_status": "actual payment not independently verified",
+      "interest_usd": null,
+      "source_id": "EEOC-FY25",
+      "overlap_group": "EEOC-FY25-LITIGATION",
+      "not_add_to": [
+        "EEOC-FY25-ALLTOTAL"
+      ]
+    },
+    {
+      "id": "DOJ-2024-FAIRWAY-LOANS",
+      "agency": "DOJ/CFPB",
+      "name": "Fairway Independent Mortgage redlining settlement",
+      "order_date": "2024-10-15",
+      "case_type": "redlining in Birmingham",
+      "amount_usd": 7000000,
+      "amount_type": "loan subsidy program requirement, not direct cash damages",
+      "payment_status": "implementation and disbursement not independently verified",
+      "interest_usd": null,
+      "source_id": "DOJ-FAIRWAY",
+      "overlap_group": "DOJ-COMBAT-REDLINING",
+      "not_add_to": [
+        "DOJ-REDLINING-AGGREGATE"
+      ]
+    },
+    {
+      "id": "DOJ-2024-FAIRWAY-INVEST",
+      "agency": "DOJ/CFPB",
+      "name": "Fairway Independent Mortgage redlining settlement",
+      "order_date": "2024-10-15",
+      "case_type": "redlining in Birmingham",
+      "amount_usd": 1000000,
+      "amount_type": "required community spending, not direct cash damages",
+      "payment_status": "implementation not independently verified",
+      "interest_usd": null,
+      "source_id": "DOJ-FAIRWAY",
+      "overlap_group": "DOJ-COMBAT-REDLINING",
+      "not_add_to": [
+        "DOJ-REDLINING-AGGREGATE"
+      ]
+    },
+    {
+      "id": "DOJ-2024-FAIRWAY-PENALTY",
+      "agency": "DOJ/CFPB",
+      "name": "Fairway Independent Mortgage redlining settlement",
+      "order_date": "2024-10-15",
+      "case_type": "redlining in Birmingham",
+      "amount_usd": 1900000,
+      "amount_type": "civil money penalty to CFPB victims relief fund (not individual compensatory award)",
+      "payment_status": "penalty payment not independently verified",
+      "interest_usd": null,
+      "source_id": "DOJ-FAIRWAY",
+      "overlap_group": "DOJ-COMBAT-REDLINING",
+      "not_add_to": [
+        "DOJ-REDLINING-AGGREGATE"
+      ]
+    }
+  ],
+  "aggregate_observations": [
+    {
+      "id": "EEOC-FY25-SYSTEMIC-TOTAL",
+      "description": "13 systemic suits, more than $10.8M reported obtained and estimated 2270 beneficiaries",
+      "amount_usd_lower_bound": 10800000,
+      "source_id": "EEOC-FY25",
+      "do_not_add_cases": true
+    },
+    {
+      "id": "DOJ-REDLINING-AGGREGATE",
+      "description": "DOJ initiative over $150M relief as of Oct 15 2024",
+      "amount_usd_lower_bound": 150000000,
+      "source_id": "DOJ-FAIRWAY",
+      "do_not_add_cases": true
+    }
+  ],
+  "accounting": {
+    "dollars_recovered_fy2025": 259294764,
+    "dollars_outstanding_established_in_sample": null,
+    "dollars_paid_eeoc_verified": null,
+    "dollars_scheduled_redlining_programs": 8000000,
+    "dollars_fairway_civil_penalty": 1900000,
+    "dollars_eeoc_sample_monetary_obligations": 3365000
+  },
+  "constraints": [
+    "FY annual recoveries include constituent individual enforcement actions and must not be added to any matching case recovery",
+    "EEOC selected case amounts may form part of aggregate OGC totals; do not add together",
+    "Agreement to pay is not proof cash has been received by an individual",
+    "DOJ loan subsidy and community investment commitments are not individual restitution transfers",
+    "A civil penalty is not a compensatory damages award to a claimant",
+    "Date of judgment or announcement is not the original accrual date of harm; no interest run absent due date and legal rate",
+    "Do not impute demographic impact to all DOL wage recoveries",
+    "No inference of 1931-present cumulative outstanding debt from recent selected recoveries",
+    "Raw PDF decree copies not collected",
+    "No legal advice; case-by-case verification required"
+  ]
+}
