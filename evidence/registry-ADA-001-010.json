@@ -1,0 +1,203 @@
+{
+  "schema": "ADA-evidence-registry-v1",
+  "date": "2026-11-20",
+  "entries": [
+    {
+      "id": "ADA-001",
+      "status": "not verified",
+      "error": "NOT_FOUND: Error code: NOT_FOUND; Error: GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+    },
+    {
+      "id": "ADA-002",
+      "status": "not verified",
+      "error": "NOT_FOUND: Error code: NOT_FOUND; Error: GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+    },
+    {
+      "id": "ADA-003",
+      "subject": "Joseph Clement",
+      "path": "audits/ADA-003.json",
+      "blob_sha": "b7c402ba41881da4f84d3ff49cbdb4c3d1a45d1c",
+      "sources": [
+        "https://collection.sciencemuseumgroup.org.uk/objects/co62243/difference-engine-no-1",
+        "https://www.computerhistory.org/babbage/josephclement",
+        "https://babbagedifferenceengine.blogspot.com/2014/09/documents-in-public-record-office-kew.html",
+        "https://babbagedifferenceengine.blogspot.com/2014/09/archives-of-british-government-treasury.html"
+      ],
+      "source_manifest": null,
+      "status": "ledger verified; historical source downloads not verified"
+    },
+    {
+      "id": "ADA-004",
+      "subject": "Mary Fairfax Somerville",
+      "path": "audits/ADA-004.json",
+      "blob_sha": "c421f5db27e5d372011c71a2888d93218cdf682b",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Somerville/",
+        "https://www.royalsociety.org/blog/2023/10/many-faces-mary-somerville/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7397962/",
+        "https://ras.ac.uk/education-and-careers/100-years-and-counting-women-ras-go-strength-strength",
+        "https://www.gutenberg.org/cache/epub/27747/pg27747-images.html"
+      ],
+      "source_manifest": null,
+      "status": "ledger verified; historical source downloads not verified"
+    },
+    {
+      "id": "ADA-005",
+      "subject": "Caroline Lucretia Herschel",
+      "path": "audits/ADA-005.json",
+      "blob_sha": "ad3e79640596b98f8f66dafa2efa097d9a6486a3",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Herschel_Caroline/",
+        "https://www.dpma.eu/english/our_office/publications/ingeniouswomen/carolineherschel/index.html",
+        "https://www.npg.org.uk/collections/search/person/mp10465/caroline-lucretia-herschel",
+        "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00568&showrequest=1",
+        "https://ras.ac.uk/education-and-careers/100-years-and-counting-women-ras-go-strength-strength",
+        "https://www.fadedpage.com/books/20130405/html.php"
+      ],
+      "source_manifest": null,
+      "status": "ledger verified; historical source downloads not verified"
+    },
+    {
+      "id": "ADA-006",
+      "subject": "Michael Faraday",
+      "path": "audits/ADA-006.json",
+      "blob_sha": "b2a7ce0ecc17e7753072c97a214ce9d783c0bc89",
+      "sources": [
+        {
+          "root": "RS-PT-20-4",
+          "url": "https://makingscience.royalsociety.org/items/pt_20_4/paper-experimental-researches-in-electricity-by-m-michael-faraday",
+          "kind": "archival manuscript catalogue"
+        },
+        {
+          "root": "RS-RR-1-62",
+          "url": "https://makingscience.royalsociety.org/items/rr_1_62/referees-report-by-samuel-hunter-christie-and-john-bostock-on-a-paper-experimental-researches-in-electricity-by-michael-faraday",
+          "kind": "referee report catalogue; same research subject, distinct authoring event"
+        },
+        {
+          "root": "RI-biography",
+          "url": "https://www.rigb.org/explore-science/explore/person/michael-faraday-1791-1867",
+          "kind": "institutional biography"
+        },
+        {
+          "root": "RI-tour",
+          "url": "https://www.rigb.org/explore-science/explore/collection/tour-michael-faraday-london",
+          "kind": "institutional interpretation; ancestry not independently established"
+        },
+        {
+          "root": "Thompson-1898",
+          "url": "https://www.gutenberg.org/cache/epub/65735/pg65735-images.html",
+          "kind": "historical biography including correspondence"
+        },
+        {
+          "root": "MacTutor",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Faraday/",
+          "kind": "secondary biography"
+        }
+      ],
+      "source_manifest": null,
+      "status": "ledger verified; historical source downloads not verified"
+    },
+    {
+      "id": "ADA-007",
+      "subject": "Humphry Davy",
+      "path": "audits/ADA-007.json",
+      "blob_sha": "78b3b15acc35db0572646e227c2c596c349c2f29",
+      "sources": [
+        {
+          "url": "https://www.rigb.org/explore-science/explore/person/sir-humphry-davy-1778-1829",
+          "type": "institutional biography"
+        },
+        {
+          "url": "https://www.rigb.org/explore-science/explore/collection/humphry-davys-miners-safety-lamp",
+          "type": "artifact interpretation"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360091/",
+          "type": "historical research abstract/search excerpt; full text blocked"
+        },
+        {
+          "url": "https://americanhistory.si.edu/collections/object-groups/mining-lights-and-hats/safety-lamps",
+          "type": "museum search excerpt; full page timed out"
+        },
+        {
+          "url": "https://england.prm.ox.ac.uk/englishness-Miners-lamp.html",
+          "type": "museum historical analysis"
+        },
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co43389/safety-lamp",
+          "type": "later commission artifact and historical interpretation"
+        },
+        {
+          "url": "https://www.mininghistoryassociation.org/Journal/MHJ-v16-2009-Bartos.pdf",
+          "type": "indexed journal excerpt"
+        }
+      ],
+      "source_manifest": null,
+      "status": "ledger verified; historical source downloads not verified"
+    },
+    {
+      "id": "ADA-008",
+      "subject": "George Stephenson",
+      "path": "audits/ADA-008.json",
+      "blob_sha": "f0799b01d263d47eb1bfccdb755f6b7eb36303b8",
+      "sources": [
+        {
+          "url": "https://www.networkrail.co.uk/who-we-are/our-history/eminent-engineers/george-stephenson-1781-1848/",
+          "root": "Network Rail institutional biography"
+        },
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/people/ap43/stephenson-george",
+          "root": "Science Museum Group biography"
+        },
+        {
+          "url": "https://blog.scienceandindustrymuseum.org.uk/global-threads/",
+          "root": "SMG-UCL Global Threads partnership"
+        },
+        {
+          "url": "https://blog.scienceandindustrymuseum.org.uk/manchester-cotton-and-transatlantic-slavery-project/",
+          "root": "SMG related research; independence from Global Threads not established"
+        },
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/transportcomms/roadsrail/overview/fullsteamahead/",
+          "root": "UK Parliament historical overview"
+        },
+        {
+          "url": "https://api.parliament.uk/historic-hansard/commons/1844/jul/08/railways",
+          "root": "1844 parliamentary debate"
+        },
+        {
+          "url": "https://www.liverpool.ac.uk/victoria-gallery-and-museum/blog/2020/liverpool-and-manchester-railway/",
+          "root": "University of Liverpool historical account"
+        }
+      ],
+      "source_manifest": null,
+      "status": "ledger verified; historical source downloads not verified"
+    },
+    {
+      "id": "ADA-009",
+      "subject": "William Wilberforce and the 1833 abolition settlement",
+      "path": "audits/ADA-009.json",
+      "blob_sha": "28a73b33bec5f73b1ced4478a720a9de6ed767c2",
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-west-indian-colonies-and-emancipation/",
+        "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims/",
+        "https://www.bankofengland.co.uk/working-paper/2022/the-collection-of-slavery-compensation-1835-43",
+        "https://www.ucl.ac.uk/social-historical-sciences/history/research/research-projects-and-centres/centre-study-legacies-british-slavery-cslbs/cslbs-projects-and-partners/legacies-british-slave-ownership",
+        "https://academic.oup.com/reference/62333/reference-article-abstract/561711581",
+        "https://hansard.parliament.uk/Commons/1833-07-25/debates/4c880fef-7c7b-48cc-9a15-a53da4b57e71/MinisterialPlanForTheAbolitionOfSlavery"
+      ],
+      "source_manifest": null,
+      "status": "ledger verified; historical source downloads not verified"
+    },
+    {
+      "id": "ADA-010",
+      "subject": "Samuel Sharpe",
+      "path": "audits/ADA-010.json",
+      "blob_sha": "fc866dd340f33fa3c48311f84fb4189568a926ad",
+      "sources": null,
+      "source_manifest": "evidence/ADA-010/manifest.json",
+      "status": "ledger verified; historical source downloads not verified"
+    }
+  ],
+  "policy": "Append new registry snapshots; never infer raw document preservation from a URL. Missing ledgers require backfill."
+}
