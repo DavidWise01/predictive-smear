@@ -1,0 +1,68 @@
+{
+  "id": "UEP-001",
+  "parent": "ADA-016",
+  "status": "proposed policy model",
+  "epoch": 1832,
+  "orientation": {
+    "past": "Evidence-based restitution, distinct from universal payment; claims and appeals",
+    "present": "Unconditional individual income floor, preserve disability and healthcare supports",
+    "future": "Public share of realized AI productivity gains through public equity, returns on public investment, ordinary capital taxation or negotiated royalties"
+  },
+  "domains": [
+    "finance",
+    "legal",
+    "IT",
+    "healthcare",
+    "education",
+    "labor",
+    "government",
+    "resources"
+  ],
+  "accounting": {
+    "population_assumption": 340000000,
+    "monthly_targets": [
+      100,
+      500,
+      1000
+    ],
+    "gross_annual_costs": [
+      408000000000,
+      2040000000000,
+      4080000000000
+    ],
+    "ai_revenue_scenarios": [
+      100000000000,
+      500000000000,
+      1000000000000
+    ],
+    "formula": "monthly dividend = realized annual distributable cash / eligible individuals / 12",
+    "constraints": [
+      "GDP gains are not cash receipts",
+      "Avoid double counting profit, wage savings and GDP",
+      "Restitution ledger separate from dividend ledger",
+      "No inherited culpability",
+      "No assumed AI revenue or funding sufficiency",
+      "Audit inflation, housing supply, benefits interactions and tax incidence"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://pfd.alaska.gov/Division-Info/About-Us",
+      "role": "Existing resource dividend precedent"
+    },
+    {
+      "url": "https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/06/11/broadening-the-gains-from-generative-ai-the-role-of-fiscal-policies-549639",
+      "role": "Fiscal policy and AI gains"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/M318011A027NBEA",
+      "role": "Federal receipts scale benchmark"
+    },
+    {
+      "url": "https://apps.bea.gov/scb/issues/2026/09-september/0926-nea-annual-update.htm",
+      "role": "National accounts benchmark"
+    }
+  ],
+  "next": "UEP-002 macroeconomic baseline, funding mechanisms and sensitivity analysis",
+  "archive_policy": "Preserve ADA-001–016; pivot from sequential biographies to broad sector and aggregate financial audits; catalog public evidence, raw documents not acquired this turn"
+}
