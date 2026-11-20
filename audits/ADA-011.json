@@ -1,0 +1,42 @@
+{
+  "id": "ADA-011",
+  "epoch": 1832,
+  "subject": "William Knibb",
+  "status": "preliminary",
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "gates": {
+    "taken": "Detention; mission property destruction alleged in memorial",
+    "removed": "Safe worship, assembly and opportunity to answer allegations, as reported",
+    "suffered": "Threats, imprisonment and loss of mission infrastructure",
+    "who": "Colonial officials, militia and opponents of abolition; specific acts require attribution",
+    "why": "Suppression of perceived insurrection and plantation interests; individual motives unverified"
+  },
+  "domains": {
+    "finance": "Property damage and rebuilding donations; amounts unresolved",
+    "legal": "Detention and opportunity to challenge allegations",
+    "it": "Petitions, correspondence, testimony, documentary transmission",
+    "healthcare": "Threats and reported violence; individual injuries unknown",
+    "education": "Mission teaching and schools",
+    "labor": "Abolition and fair wage advocacy",
+    "government": "Colonial authorities and parliamentary inquiries",
+    "resources": "Chapels and free village land; Granville reported 90 acres"
+  },
+  "auditors": {
+    "Jane": "Trace complaint, evidence transmission, review and remedy",
+    "Toph": "Separate allegation, evidence, adjudication and retaliation",
+    "Patricia": "Three testimony sessions share witness ancestry; preserve separate documents and independent corroboration gaps"
+  },
+  "pop": "The right to report harm must not depend on the permission of the alleged wrongdoer.",
+  "source_manifest": "evidence/ADA-011/manifest.json",
+  "next": "ADA-012 Thomas Burchell and free village land access",
+  "limitations": [
+    "Original scans not downloaded",
+    "No individual damages calculated",
+    "Auditors are analytical roles not independent witnesses"
+  ]
+}
