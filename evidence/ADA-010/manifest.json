@@ -1,0 +1,176 @@
+{
+  "schema": "ADA-evidence-v1",
+  "audit": "ADA-010",
+  "retrieval_date": "2026-11-20",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Trial of Samuel Sharpe, 19 April 1832",
+      "url": "https://blog.soton.ac.uk/slaveryandrevolution/the-trial-of-samuel-sharpe/",
+      "archive": "TNA CO 137/182 f.373",
+      "type": "primary record via modern transcription",
+      "access": "read",
+      "rights": "rights of modern transcription not verified; link only",
+      "root": "trial",
+      "local_copy": null
+    },
+    {
+      "id": "S02",
+      "title": "Insurrection in Jamaica, Commons debate 20 February 1832",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1832/feb/20/insurrection-in-jamaica",
+      "archive": "HC Deb vol 10 cc535–536",
+      "type": "primary parliamentary report",
+      "access": "read",
+      "rights": "Open Parliament Licence v3.0; original 1832 text public domain",
+      "root": "hansard-1832-02-20",
+      "local_copy": null
+    },
+    {
+      "id": "S03",
+      "title": "Jamaica: Slave insurrection, returns to addresses 10 and 18 April 1832",
+      "url": "https://www.dloc.com/ufdc/CA01099994/00001?n=ufdc",
+      "archive": "CA01099994/00001",
+      "type": "primary parliamentary papers",
+      "access": "catalog only; JS required",
+      "rights": "historical work public domain; scan terms not checked",
+      "root": "colonial-returns",
+      "local_copy": null
+    },
+    {
+      "id": "S04",
+      "title": "Henry Bleby, Death Struggles of Slavery (1853)",
+      "url": "https://preview.wellcomecollection.org/works/z3rbxncu/items?canvas=45&shouldScrollToCanvas=true",
+      "archive": "Wellcome z3rbxncu",
+      "type": "retrospective participant account",
+      "access": "catalog only",
+      "rights": "Public Domain Mark",
+      "root": "bleby-1853",
+      "local_copy": null
+    },
+    {
+      "id": "S05",
+      "title": "William Knibb, Facts and documents connected with the late insurrection in Jamaica (1832)",
+      "url": "https://old-digitalcollections.nypl.org/items/510d47e3-d24e-a3d9-e040-e00a18064a99",
+      "archive": "NYPL 510d47e3-d24e-a3d9-e040-e00a18064a99",
+      "type": "contemporary missionary publication",
+      "access": "catalog only",
+      "rights": "NYPL declares US public domain",
+      "root": "knibb-1832",
+      "local_copy": null
+    },
+    {
+      "id": "S06",
+      "title": "National Library of Jamaica, Riots and Rebellions",
+      "url": "https://nlj.gov.jm/riots-and-rebellions/",
+      "archive": "1831 Baptist War collection",
+      "type": "finding aid",
+      "access": "read",
+      "rights": "link only",
+      "root": "nlj-catalog",
+      "local_copy": null
+    },
+    {
+      "id": "S07",
+      "title": "Samuel Sharpe, Jamaica Information Service",
+      "url": "https://jis.gov.jm/heroes/samuel-sharpe/",
+      "archive": "national hero biography",
+      "type": "secondary government biography",
+      "access": "read search excerpt",
+      "rights": "link only; chronology error conflates 1833 enactment with 1834 commencement",
+      "root": "jis",
+      "local_copy": null
+    },
+    {
+      "id": "S08",
+      "title": "Slavery Abolition Act 1833 as enacted",
+      "url": "https://www.legislation.gov.uk/ukpga/Will4/3-4/73/enacted",
+      "archive": "3 & 4 Will IV c.73",
+      "type": "primary statute",
+      "access": "catalog only; bot challenge",
+      "rights": "historical statute; download pending",
+      "root": "act-1833",
+      "local_copy": null
+    },
+    {
+      "id": "S09",
+      "title": "British transatlantic slave trade records",
+      "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/british-transatlantic-slave-trade-records/",
+      "archive": "CO 137/184",
+      "type": "finding aid",
+      "access": "read search excerpt",
+      "rights": "link only",
+      "root": "tna-guide",
+      "local_copy": null
+    },
+    {
+      "id": "S10",
+      "title": "Jamaica journal trial narratives, Smithsonian catalogue",
+      "url": "https://www.si.edu/es/object/be-hanged-neck-until-he-be-dead-king-against-samuel-sharpe-april-1832%3Asiris_sil_913904",
+      "archive": "siris_sil_913904",
+      "type": "modern edition of primary testimonies",
+      "access": "catalog only",
+      "rights": "link only",
+      "root": "trial",
+      "local_copy": null
+    },
+    {
+      "id": "S11",
+      "title": "Royal Navy and enslaved insurgency 1795–1832",
+      "url": "https://journals.sagepub.com/doi/full/10.1177/08438714231219455",
+      "archive": "DOI 10.1177/08438714231219455",
+      "type": "secondary scholarship",
+      "access": "search excerpt",
+      "rights": "link only",
+      "root": "naval-study",
+      "local_copy": null
+    },
+    {
+      "id": "S12",
+      "title": "National Library of Jamaica, Samuel Sharpe",
+      "url": "https://www.nlj.gov.jm/labourday/samsharpe.html",
+      "archive": "Labour Day 2010",
+      "type": "secondary institution",
+      "access": "search excerpt",
+      "rights": "link only",
+      "root": "nlj-bio",
+      "local_copy": null
+    },
+    {
+      "id": "S13",
+      "title": "National Archives, 1833 abolition and compensation claims",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims/",
+      "archive": "T71 compensation records",
+      "type": "finding aid",
+      "access": "search excerpt",
+      "rights": "link only",
+      "root": "compensation",
+      "local_copy": null
+    },
+    {
+      "id": "S14",
+      "title": "National Library of Jamaica scan of Knibb 1832",
+      "url": "https://nljdigital.nlj.gov.jm/items/show/2589",
+      "archive": "NLJ item 2589",
+      "type": "same historical work as S05",
+      "access": "catalog only",
+      "rights": "scan rights not verified",
+      "root": "knibb-1832",
+      "local_copy": null
+    }
+  ],
+  "policy": "Public availability is not permission to redistribute. Preserve metadata and source ancestry; only store full bytes when reuse rights and acquisition confirmed. Never label catalogue discovery as downloaded. Append revisions, no overwrite.",
+  "recursion": {
+    "parents": [
+      "ADA-008",
+      "ADA-009"
+    ],
+    "next": [
+      "TNA CO 137/182 f.373 original scan",
+      "CO 137/184",
+      "1832 parliamentary returns",
+      "Knibb 1832",
+      "Bleby 1853",
+      "individual compensation registers"
+    ]
+  }
+}
