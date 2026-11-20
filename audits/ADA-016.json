@@ -1,0 +1,38 @@
+{
+  "id": "ADA-016",
+  "epoch": 1832,
+  "subject": "Robert Talbot",
+  "status": "preliminary",
+  "allocation": [
+    3333,
+    3333,
+    3333,
+    1
+  ],
+  "gates": {
+    "taken": "Reported former enslavement; individual loss unknown",
+    "removed": "Control of labor under slavery",
+    "suffered": "Reported enslavement; specific injuries unknown",
+    "who": "Individual enslaver unidentified",
+    "why": "Plantation system; individual motives unresolved"
+  },
+  "domains": {
+    "finance": "Purchase, transfer value and replacement wealth unknown",
+    "legal": "Reported land transfers; deeds outstanding",
+    "it": "Person/parcel/event linkage",
+    "healthcare": null,
+    "education": null,
+    "labor": "Former enslavement reported; descendant farming",
+    "government": "Emancipation and later land registration context",
+    "resources": "Original parcel left family; replacement land reported"
+  },
+  "auditors": {
+    "Jane": "Track parcel and household portfolios separately",
+    "Toph": "Distinguish voluntary disposal from wrongful deprivation",
+    "Patricia": "Separate oral testimony from civil records; append correction to ADA-015"
+  },
+  "pop": "Asset transfer does not equal wealth loss or wrongful taking.",
+  "source_manifest": "evidence/ADA-016/manifest.json",
+  "next": "ADA-017 Thomas Talbott: productive assets and household resilience",
+  "limitations": "No original deeds or complete document bytes; three analytical roles not independent witnesses."
+}
