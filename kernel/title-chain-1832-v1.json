@@ -1,0 +1,264 @@
+{
+  "id": "UEP-019",
+  "parent": "UEP-018",
+  "as_of": "2026-11-20",
+  "name": "Original rights, chain of transfers and credits: Muscogee 1832 case study",
+  "type": "append-only title and remedy evidence graph",
+  "scope": "Muscogee Creek 1832 treaty and selected judicial records; not a comprehensive tract title abstract",
+  "sources": [
+    {
+      "id": "TR-1832",
+      "url": "https://americanindian.si.edu/nk360/removal-muscogee/transcription-creek-treaty.html",
+      "kind": "treaty text",
+      "root": "1832 ratified treaty"
+    },
+    {
+      "id": "NARA-167",
+      "url": "https://www.archives.gov/research/native-americans/treaties/catalog-links",
+      "locator": "Treaty 167 / NAID 124047004",
+      "kind": "primary treaty archival catalog",
+      "root": "1832 ratified treaty"
+    },
+    {
+      "id": "SCOTUS-1844",
+      "url": "https://supreme.justia.com/cases/federal/us/43/581/",
+      "citation": "Ladiga v. Roland, 43 U.S. 581 (1844)",
+      "kind": "judicial decision"
+    },
+    {
+      "id": "CTCL-1973",
+      "url": "https://law.justia.com/cases/federal/ct-cl/1973/476-f2d-1290.html",
+      "citation": "United States v. Creek Nation, 476 F.2d 1290 (Ct. Cl. 1973)",
+      "kind": "judicial opinion"
+    },
+    {
+      "id": "OHS-RESERVES",
+      "url": "https://sm.okhistory.org/research/censusrolls?action=Search&tribe=Creek&type=census",
+      "kind": "state archival finding aid",
+      "locator": "1832 reservation rolls and CM3 1834-1857 land transactions"
+    },
+    {
+      "id": "NARA-RG49",
+      "url": "https://www.archives.gov/research/native-americans/bureau-of-land-management",
+      "kind": "federal land and patent archival finding aid"
+    },
+    {
+      "id": "BLM-GLO",
+      "url": "https://glorecords.blm.gov/s/article/Understanding-Land-Patents",
+      "kind": "land patent documentation"
+    },
+    {
+      "id": "ALABAMA",
+      "url": "https://encyclopediaofalabama.org/article/treaty-of-cusseta-1832/",
+      "kind": "historical secondary context"
+    }
+  ],
+  "transfer_graph": {
+    "nodes": [
+      {
+        "id": "N1",
+        "label": "Muscogee Creek Nation",
+        "type": "original collective occupancy/rightsholder"
+      },
+      {
+        "id": "N2",
+        "label": "United States",
+        "type": "treaty cession counterparty",
+        "date": "1832-03-24"
+      },
+      {
+        "id": "N3",
+        "label": "Treaty article II protected selectors",
+        "type": "individual reservation rightsholders",
+        "status": "enumeration records needed"
+      },
+      {
+        "id": "N4",
+        "label": "Survey and reservation agents",
+        "type": "administrative decision makers"
+      },
+      {
+        "id": "N5",
+        "label": "Approved purchasers",
+        "type": "downstream potential grantees",
+        "status": "specific tract deed and approval needed"
+      },
+      {
+        "id": "N6",
+        "label": "Later owners/estates",
+        "type": "successor title holders",
+        "status": "not established"
+      },
+      {
+        "id": "N7",
+        "label": "Creek Nation judicial claim",
+        "type": "tribal compensatory claim",
+        "status": "judicially recognized claim in 1973, subsequent total award and payments unknown"
+      }
+    ],
+    "edges": [
+      {
+        "id": "E1",
+        "from": "N1",
+        "to": "N2",
+        "relationship": "1832 treaty cession of 5,200,000 acres",
+        "status": "documented in 1973 litigation",
+        "evidence": [
+          "TR-1832",
+          "CTCL-1973"
+        ],
+        "rights_nuance": "Treaty also promised protected individual selections"
+      },
+      {
+        "id": "E2",
+        "from": "N1",
+        "to": "N3",
+        "relationship": "treaty reserved 2,187,200 acres for chiefs and family heads (later 1973 case figure)",
+        "status": "documented aggregate not tract-specific",
+        "evidence": [
+          "CTCL-1973",
+          "TR-1832"
+        ]
+      },
+      {
+        "id": "E3",
+        "from": "N3",
+        "to": "N4",
+        "relationship": "surveys, locations and applications",
+        "status": "mechanism documented; individual acts require registers",
+        "evidence": [
+          "TR-1832",
+          "OHS-RESERVES"
+        ]
+      },
+      {
+        "id": "E4",
+        "from": "N3",
+        "to": "N5",
+        "relationship": "approved transfer may occur at fair consideration with certification and presidential approval",
+        "status": "conditional; NOT blanket proof all sales were approved",
+        "evidence": [
+          "TR-1832"
+        ]
+      },
+      {
+        "id": "E5",
+        "from": "N5",
+        "to": "N6",
+        "relationship": "patent/deed/succession",
+        "status": "not verified for any specified tract in this iteration",
+        "evidence": [
+          "OHS-RESERVES",
+          "BLM-GLO"
+        ]
+      },
+      {
+        "id": "E6",
+        "from": "N1",
+        "to": "N7",
+        "relationship": "1973 Court of Claims affirmed ability to seek full 5.2M-acre fair value subject to offsets",
+        "status": "judicial conclusion with valuation and payment to be determined",
+        "evidence": [
+          "CTCL-1973"
+        ]
+      }
+    ]
+  },
+  "historical_constraints": {
+    "total_cession_acres": 5200000,
+    "aggregate_reserved_acres": 2187200,
+    "unreserved_acres": 3012800,
+    "do_not_add_reserved_to_total": true,
+    "treaty_article_III": "certification, presidential approval and full payment before patent",
+    "treaty_article_IV": "five-year reservation with option to remain and receive patent",
+    "source_court_1973": "Affirms whole-cession tribal claim, offsets for consideration actually received",
+    "individual_case_1844": "Ladiga v Roland recognized a grandmother as family head entitled to selection and invalidity of conflicting orphan selection/sale",
+    "no_assumption": "Named original rightsholder in an individual case does not prove title of all later parcels"
+  },
+  "case_records": [
+    {
+      "id": "MUSCOGEE-TRIBAL-1832",
+      "rightsholder": "Muscogee Creek Nation",
+      "interest": "5,200,000 acres 1832 cession",
+      "deprivation_date": "1832-03-24",
+      "litigation": {
+        "court": "Court of Claims",
+        "citation": "476 F.2d 1290",
+        "year": 1973,
+        "holding": "Tribally compensable claim for full cession; offsets due for consideration received",
+        "post_judgment_final_award_usd": null,
+        "paid_usd": null
+      },
+      "restoration": {
+        "land_returned_acres": null,
+        "monetary_credit_usd": null,
+        "fair_market_1832_usd": null,
+        "unpaid_balance_usd": null
+      },
+      "next_sources": [
+        "1971 Indian Claims Commission 26 Ind. Cl. Comm. 410",
+        "later valuation and final judgment docket",
+        "Treasury/BIA disbursement records"
+      ],
+      "do_not_overlap": [
+        "individual selections within same 5.2M-acre cession"
+      ]
+    },
+    {
+      "id": "LADIGA-1844",
+      "rightsholder": "Ladiga (Creek family head, grandmother)",
+      "interest": "one-half section land selection under 1832 treaty",
+      "deprivation_date": null,
+      "litigation": {
+        "court": "US Supreme Court",
+        "citation": "43 U.S. 581",
+        "year": 1844,
+        "holding": "Grandmother may be family head; competing orphan-selection sale was invalid",
+        "post_judgment_final_award_usd": null,
+        "paid_usd": null
+      },
+      "restoration": {
+        "parcel_geolocation": null,
+        "land_returned_acres": null,
+        "unpaid_balance_usd": null
+      },
+      "next_sources": [
+        "1844 Supreme Court case record details",
+        "1832 selection/enrollment entry",
+        "Alabama chain-of-title register",
+        "subsequent court and satisfaction records"
+      ],
+      "do_not_overlap": [
+        "tribal cession compensation if same acres and injury"
+      ]
+    }
+  ],
+  "archive_workflow": [
+    "Locate original treaty NAID 124047004 and treaty-specific reserved land",
+    "Search Creek reservation rolls by person/reservation identifier",
+    "Extract legal land description; survey township range section",
+    "Locate 1834–1857 transaction register entry: grantor, grantee, amount, date, purchaser",
+    "Check treaty Article III certification, presidential approval and payment evidence",
+    "Follow patent and county deed transfers by legal description, including heirs and estate changes",
+    "Reconcile 1844 individual judgment and 1973 tribal award/offsets and later final payments",
+    "Define possible in-kind restoration, alternative compensation and verified loss of use; consult current rightsholders",
+    "Use unknown (null) for all outstanding balances until audit completed"
+  ],
+  "counts": {
+    "documented_tribal_ceded_acres": 5200000,
+    "documented_treaty_reserved_acres": 2187200,
+    "unreserved_acres": 3012800,
+    "individual_parcels_abstracted": 0,
+    "individual_parcels_with_complete_chain": 0,
+    "verified_outstanding_usd": null
+  },
+  "rules": [
+    "Do not count collective land cession and same parcel reservation twice",
+    "Do not confuse treaty benefits promised with benefits received",
+    "Do not infer descendants or successor rights from surname alone",
+    "A subsequent deed does not necessarily cure defects in a prior conveyance",
+    "No 13.1M VSL multiplication for land or labor asset claims",
+    "No retroactive compounding without base-year principal, date and rate",
+    "Legal decision can recognize liability without setting the final award or documenting payment"
+  ]
+}
