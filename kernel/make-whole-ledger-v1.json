@@ -1,0 +1,168 @@
+{
+  "id": "UEP-018",
+  "date": "2026-11-20",
+  "parent": "UEP-017",
+  "name": "What was taken, for how long, why, and how made whole",
+  "type": "restitution evidence and remedy schema",
+  "status": "proposed methodology; not adjudicated findings",
+  "correction": {
+    "previous": "UEP-017 used a duration-of-enslavement fraction of a whole-life VSL",
+    "replacement": "Duration is a property of a specific deprivation, not the thing that defines restitution. Track a thing or right and its loss of use, and specify actual restoration.",
+    "previous_preserved": "kernel/restitution-duration-v1.json"
+  },
+  "dimensions": [
+    "what_was_taken",
+    "original_rightsholder",
+    "responsible_actor",
+    "why_or_mechanism",
+    "start_and_end",
+    "what_was_returned_or_paid",
+    "what_remains_to_restore",
+    "how_to_verify_wholeness"
+  ],
+  "claims_schema": {
+    "claim_id": "unique",
+    "claimant_lineage": {
+      "original_rightsholder": null,
+      "successor_or_current_rightsholder": null,
+      "continuity_evidence": []
+    },
+    "counterparty": {
+      "responsible_party": null,
+      "successor_party": null,
+      "obligation_basis": null
+    },
+    "asset": {
+      "kind": null,
+      "original_description": null,
+      "quantity": null,
+      "unit": null,
+      "location_or_jurisdiction": null,
+      "original_title_or_entitlement_evidence": []
+    },
+    "deprivation": {
+      "cause": null,
+      "mechanism": null,
+      "start_date": null,
+      "end_date": null,
+      "ongoing": null,
+      "decision_or_transaction_evidence": []
+    },
+    "return": {
+      "in_kind_possible": null,
+      "returned_quantity": null,
+      "date_returned": null,
+      "current_possession": null,
+      "return_evidence": []
+    },
+    "compensation": {
+      "historical_principal_nominal_usd": null,
+      "base_dollar_year": null,
+      "loss_of_use_start": null,
+      "loss_of_use_end": null,
+      "loss_of_use_value_usd": null,
+      "consequential_losses_usd": null,
+      "verified_prior_payments_usd": null,
+      "interest_basis": null,
+      "computed_outstanding_usd": null
+    },
+    "remedy": {
+      "preferred": "restore original right or property first where feasible and appropriate",
+      "other_forms": [
+        "replacement property or value",
+        "loss-of-use benefit",
+        "repair access and title",
+        "compensate independently demonstrated consequential harm",
+        "public acknowledgement and structural non-recurrence"
+      ],
+      "beneficiary_consultation_required": true,
+      "verified_complete": false
+    },
+    "provenance": {
+      "sources": [],
+      "witness_roots": [],
+      "shared_source_ancestry": [],
+      "status": "unverified"
+    },
+    "overlap_keys": []
+  },
+  "restitution_flow": [
+    {
+      "step": 1,
+      "rule": "Identify the asset, entitlement or right and its owner, including Indigenous prior rights where applicable"
+    },
+    {
+      "step": 2,
+      "rule": "Trace the action or chain of actions that removed or impaired it"
+    },
+    {
+      "step": 3,
+      "rule": "Establish exact duration, including whether deprivation is ongoing"
+    },
+    {
+      "step": 4,
+      "rule": "Inventory return in kind, prior credits and compensation already received"
+    },
+    {
+      "step": 5,
+      "rule": "Specify a remedy matched to what was taken; do not substitute lifespan fractions"
+    },
+    {
+      "step": 6,
+      "rule": "Confirm with the rightsholder or authorized successor that the proposed remedy addresses the proven deprivation"
+    },
+    {
+      "step": 7,
+      "rule": "Record fulfilled, partially fulfilled, contested or unknown, not merely money promised"
+    }
+  ],
+  "valuation": {
+    "restoration_first": "Return of land or right may be more appropriate than assigning a cash price",
+    "loss_of_use": "Yearly benefits not received, net of actual uses and offsets; evidence required",
+    "replacement": "Use appropriately evidenced replacement cost/value if return impossible",
+    "interest": "Apply only defensible legally or economically specified interest to valid monetary flows at actual dates",
+    "vsl_13_1m": "Human-life risk benchmark is a separate metric, not a generalized dollar principal",
+    "no_double_count": true,
+    "no_automatic_compound_from_1832": true
+  },
+  "hypothetical_example": {
+    "claim_id": "DEMO-LAND-01",
+    "asset": "A hypothetical 40-acre parcel",
+    "original_rightsholder": "Hypothetical rights holder",
+    "period": "10 years withheld, then returned",
+    "principal_of_land_value_due_if_returned": null,
+    "annual_net_loss_of_use_usd": 2000,
+    "period_years": 10,
+    "illustrative_use_loss_uncompounded_usd": 20000,
+    "prior_payments_usd": 0,
+    "remedy": "Restore parcel and lawful rights plus assess and compensate demonstrated net use loss, repairs and other distinct harms",
+    "warnings": [
+      "$2,000 annually is an invented example, not an 1832 historical figure",
+      "The 40-acre illustration makes no claim of actual tract entitlements",
+      "Do not add full market land value if the same land was restored and no separate permanent loss established",
+      "If never returned, value of title and possession remain to be determined"
+    ]
+  },
+  "historical_application": {
+    "muscogee_1832": "Treaty article entitlements, maps, title succession, forced removal, payment records and present rights; do not equate cession with consent or extinguishment of all claims",
+    "slavery_1832": "Identify labor extracted and benefits retained, freedom and property denied, transfers and inherited consequences without reducing all harms to years enslaved; no person-price assigned",
+    "owners_trace": "Differentiate dispossessed original landholders, enslaved rightsholders, purported owners and later grantees"
+  },
+  "progress": {
+    "cases_with_established_unpaid_balance": 0,
+    "verified_1832_principal_usd": null,
+    "reason": "Historic assets and repayment terms have not been fully traced for individual claims"
+  },
+  "citations": [
+    {
+      "label": "1832 ownership/land source snapshot",
+      "repo": "DavidWise01/predictive-smear",
+      "path": "kernel/1832-ownership-land-ledger-v1.json"
+    },
+    {
+      "label": "UEP-017 frozen model",
+      "repo": "DavidWise01/predictive-smear",
+      "path": "kernel/restitution-duration-v1.json"
+    }
+  ]
+}
