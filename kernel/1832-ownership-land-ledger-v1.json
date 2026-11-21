@@ -1,0 +1,263 @@
+{
+  "id": "UEP-016",
+  "version": 1,
+  "title": "1832 slavery and original-landowner ledger; separate human and land claims",
+  "as_of": "2026-11-20",
+  "parent": "UEP-015",
+  "reference_historical_year": 1832,
+  "reason_for_year": "1832 edition of corrected 1830 census + specifically dated Muscogee 1832 treaty. 1832 enslaved population from modeled annual Cambridge series, not a census taken in 1832.",
+  "source_set": [
+    {
+      "id": "CAMBRIDGE-BB209-214",
+      "title": "Historical Statistics of the United States, Bb209–214",
+      "url": "https://hsus.cambridge.org/HSUSWeb/toc/treeTablePathIdBb209-214.html",
+      "kind": "historian reconstructed annual data from census and price series",
+      "census_not_annual": true
+    },
+    {
+      "id": "CENSUS-1832",
+      "title": "1830 Census Abstract, published 1832",
+      "url": "https://www.census.gov/library/publications/1832/dec/1830b.html",
+      "kind": "census publication",
+      "census_day": "1830-06-01",
+      "enslaved_people_census": 2009043
+    },
+    {
+      "id": "NARA-OWNERS",
+      "title": "1850 federal slave schedules",
+      "url": "https://www.archives.gov/research/census/1850",
+      "kind": "National Archives household/holder records",
+      "note": "Separate holder schedules only 1850 and 1860, cannot identify 1832 owners nationally from these without genealogical linkage"
+    },
+    {
+      "id": "SMITHSONIAN-1832-TREATY",
+      "title": "Treaty with the Creeks, March 24, 1832",
+      "url": "https://americanindian.si.edu/nk360/removal-muscogee/transcription-creek-treaty.html",
+      "kind": "primary treaty transcription"
+    },
+    {
+      "id": "STATE-INDIAN-REMOVAL",
+      "title": "US State Department history of removal treaties",
+      "url": "https://history.state.gov/milestones/1830-1860/indian-treaties",
+      "kind": "historical treaty context"
+    },
+    {
+      "id": "VSL-HHS-2024",
+      "title": "HHS value of statistical life reference",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK611043/",
+      "kind": "modern regulatory benchmark",
+      "vsl_usd": 13100000
+    }
+  ],
+  "slavery": {
+    "population_series": [
+      {
+        "year": 1830,
+        "estimated_enslaved_population": 2009043,
+        "enslavers_asset_market_value_nominal_usd": 577000000,
+        "average_enslaved_person_auction_appraisal_usd": 273,
+        "prime_male_field_hand_new_orleans_usd": 810,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1831,
+        "estimated_enslaved_population": 2052410,
+        "enslavers_asset_market_value_nominal_usd": 623000000,
+        "average_enslaved_person_auction_appraisal_usd": 308,
+        "prime_male_field_hand_new_orleans_usd": 860,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1832,
+        "estimated_enslaved_population": 2096713,
+        "enslavers_asset_market_value_nominal_usd": 697000000,
+        "average_enslaved_person_auction_appraisal_usd": 330,
+        "prime_male_field_hand_new_orleans_usd": 900,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1833,
+        "estimated_enslaved_population": 2141972,
+        "enslavers_asset_market_value_nominal_usd": 762000000,
+        "average_enslaved_person_auction_appraisal_usd": 359,
+        "prime_male_field_hand_new_orleans_usd": 960,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1834,
+        "estimated_enslaved_population": 2188208,
+        "enslavers_asset_market_value_nominal_usd": 847000000,
+        "average_enslaved_person_auction_appraisal_usd": 378,
+        "prime_male_field_hand_new_orleans_usd": 1000,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1835,
+        "estimated_enslaved_population": 2235442,
+        "enslavers_asset_market_value_nominal_usd": 1005000000,
+        "average_enslaved_person_auction_appraisal_usd": 424,
+        "prime_male_field_hand_new_orleans_usd": 1150,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1836,
+        "estimated_enslaved_population": 2283696,
+        "enslavers_asset_market_value_nominal_usd": 1222000000,
+        "average_enslaved_person_auction_appraisal_usd": 547,
+        "prime_male_field_hand_new_orleans_usd": 1250,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1837,
+        "estimated_enslaved_population": 2332992,
+        "enslavers_asset_market_value_nominal_usd": 1295000000,
+        "average_enslaved_person_auction_appraisal_usd": 634,
+        "prime_male_field_hand_new_orleans_usd": 1300,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1838,
+        "estimated_enslaved_population": 2383351,
+        "enslavers_asset_market_value_nominal_usd": 1237000000,
+        "average_enslaved_person_auction_appraisal_usd": 484,
+        "prime_male_field_hand_new_orleans_usd": 1220,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1839,
+        "estimated_enslaved_population": 2434798,
+        "enslavers_asset_market_value_nominal_usd": 1056000000,
+        "average_enslaved_person_auction_appraisal_usd": 440,
+        "prime_male_field_hand_new_orleans_usd": 1240,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1840,
+        "estimated_enslaved_population": 2487355,
+        "enslavers_asset_market_value_nominal_usd": 997000000,
+        "average_enslaved_person_auction_appraisal_usd": 377,
+        "prime_male_field_hand_new_orleans_usd": 1020,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1850,
+        "estimated_enslaved_population": 3204313,
+        "enslavers_asset_market_value_nominal_usd": 1286000000,
+        "average_enslaved_person_auction_appraisal_usd": 377,
+        "prime_male_field_hand_new_orleans_usd": 1100,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      },
+      {
+        "year": 1860,
+        "estimated_enslaved_population": 3953760,
+        "enslavers_asset_market_value_nominal_usd": 3059000000,
+        "average_enslaved_person_auction_appraisal_usd": 778,
+        "prime_male_field_hand_new_orleans_usd": 1800,
+        "source_id": "CAMBRIDGE-BB209-214",
+        "value_origin": "enslavers' historical claimed property value; do not treat as value of human person"
+      }
+    ],
+    "baseline_1830_census": 2009043,
+    "estimated_1832_population": 2096713,
+    "claimed_asset_1832_nominal_usd": 697000000,
+    "owners_1832_national_count": null,
+    "holders_beneficiary_estates": null,
+    "enslaved_people_claimed_market_price_not_their_worth": true
+  },
+  "muscogee_land": {
+    "original_rightsholder": "Muscogee (Creek) Nation, not subsequent settlers",
+    "date": "1832-03-24",
+    "treaty_proclamation_date": "1832-04-04",
+    "treaty_article1": "Cession of all territory east of Mississippi as described in the treaty",
+    "area_acres_total": null,
+    "rights_and_promises": [
+      {
+        "article": 2,
+        "term": "90 principal chiefs one section each; other eligible heads one-half section; 20 sections for orphan children",
+        "unit_section_acres": 640,
+        "known_chief_sections": 90,
+        "known_chief_section_acres": 57600,
+        "orphan_sections": 20,
+        "orphan_section_acres": 12800,
+        "eligible_family_heads": null,
+        "category": "land reservation under treaty, not automatically a fulfilled federal payment"
+      },
+      {
+        "article": 6,
+        "term": "29 sections for designated Muscogee recipients and separate named grant provisions",
+        "section_count": 29,
+        "section_acres": 18560
+      },
+      {
+        "article": 8,
+        "term": "Additional $12,000 yearly for five years and $10,000 yearly for fifteen years",
+        "nominal_total_usd": 210000,
+        "start_year": 1832,
+        "calendar_schedule_verified": false
+      },
+      {
+        "article": 9,
+        "term": "$100,000 to pay Muscogee debts/relief, considered full payment for certain improvements",
+        "nominal_total_usd": 100000,
+        "paid_verified": false
+      },
+      {
+        "article": 10,
+        "term": "$16,000 delegation expenses and claims",
+        "nominal_total_usd": 16000,
+        "paid_verified": false
+      },
+      {
+        "article": 11,
+        "term": "Specified claims $3,000 ferries/bridges; $8,570 judgments; $7,710 claimed losses; $1,000 improvements",
+        "nominal_total_usd": 20280,
+        "paid_verified": false
+      }
+    ],
+    "treaty_paid_amounts_verified_usd": null,
+    "land_return_or_damages_due_usd": null,
+    "warning": "Treaty promises are obligations recorded in the treaty but historical payments and superseding agreements must be checked before computing outstanding debt."
+  },
+  "scenario_not_claim": {
+    "assumption": "Treat every person in reconstructed 1832 enslaved population as one whole life and assign modern 2024 $13.1m VSL as a normative endowment; not empirical value of slavery losses",
+    "individual_usd_2024_basis": 13100000,
+    "persons_1832_estimated": 2096713,
+    "aggregate_usd_2024_basis": 27466940300000,
+    "as_if_all_lives_stock_only": true,
+    "compound_rate": 0,
+    "interest_due_usd": null,
+    "reason_no_compounding": "Neither VSL nor estimated population headcount is accrued unpaid 1832-dollar compensation; retroactive interest would mix eras and assumptions."
+  },
+  "restitution_logic": {
+    "principal_1832_usd": null,
+    "claimant_roots": [
+      "descendants of persons enslaved",
+      "Muscogee Nation and members holding treaty entitlements"
+    ],
+    "defendant_roots": [
+      "specific owners and estate successors identified by records",
+      "federal or other parties under specific treaty claims"
+    ],
+    "non_overlap": "No duplicates between human deprivation, stolen labor valuation, historical enslaver asset stock, and dispossessed land value; no combined dollar total before causation and remedy definitions."
+  },
+  "checks": {
+    "years_elapsed": 194,
+    "cambridge_1832_stock": 697000000,
+    "population_1832": 2096713,
+    "vsl_product": 27466940300000,
+    "explicitly_no_principal_doublecount": true
+  },
+  "status": "evidence and scenario dataset; not adjudicated restitution"
+}
