@@ -1,0 +1,153 @@
+{
+  "id": "UEP-021",
+  "parent": "UEP-020",
+  "as_of_date": "2026-11-21",
+  "name": "Measured technological value vs collectible dividend receipts",
+  "status": "historical observations plus explicitly hypothetical capture scenarios",
+  "sources": [
+    {
+      "id": "MSFT-FY26",
+      "title": "Microsoft 2026 annual report",
+      "url": "https://www.microsoft.com/investor/reports/ar26/",
+      "claim": "FY2026 consolidated revenue $331.839B and net income $133.749B"
+    },
+    {
+      "id": "GOOG-FY25",
+      "title": "Alphabet 2025 annual 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "claim": "FY2025 revenue $402.836B and net income $132.170B"
+    },
+    {
+      "id": "NVDA-Q3FY27",
+      "title": "NVIDIA Q3 fiscal 2027 earnings",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/",
+      "claim": "Q3 FY2027 revenue $115.8B and GAAP net income $65.3B"
+    },
+    {
+      "id": "FED-BARR-2026",
+      "title": "Federal Reserve Governor Barr November 16 2026 AI financial stability remarks",
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+      "claim": "circular funding, supplier-backed purchases and contingent financial obligations"
+    },
+    {
+      "id": "TREASURY-CSP-2025",
+      "title": "FY2025 Combined Statement of Receipts",
+      "url": "https://fiscal.treasury.gov/system/files/files/reports-statements/combined-statement/cs2025/2025-cs-final.pdf",
+      "claim": "FY2025 federal corporation income tax collections $452.1 billion all industries"
+    }
+  ],
+  "company_observations": [
+    {
+      "company": "Microsoft",
+      "period": "FY2026",
+      "end": "2026-06-30",
+      "period_months": 12,
+      "source": "MSFT-FY26",
+      "reported_revenue_usd": 331839000000,
+      "reported_net_income_usd": 133749000000,
+      "attributable_ai_profit_usd": null,
+      "capital_received_by_public_fund_usd": null
+    },
+    {
+      "company": "Alphabet",
+      "period": "CY2025",
+      "end": "2025-12-31",
+      "period_months": 12,
+      "source": "GOOG-FY25",
+      "reported_revenue_usd": 402836000000,
+      "reported_net_income_usd": 132170000000,
+      "attributable_ai_profit_usd": null,
+      "capital_received_by_public_fund_usd": null
+    },
+    {
+      "company": "NVIDIA",
+      "period": "Q3 FY2027",
+      "end": "2026-10-25",
+      "period_months": 3,
+      "source": "NVDA-Q3FY27",
+      "reported_revenue_usd": 115800000000,
+      "reported_net_income_usd": 65300000000,
+      "attributable_ai_profit_usd": null,
+      "capital_received_by_public_fund_usd": null
+    }
+  ],
+  "cash_waterfall": [
+    {
+      "stage": 1,
+      "metric": "Gross sales",
+      "relevance": "NOT cash fund can spend"
+    },
+    {
+      "stage": 2,
+      "metric": "Gross margin",
+      "relevance": "Net out cost of revenue"
+    },
+    {
+      "stage": 3,
+      "metric": "Operating income",
+      "relevance": "Net out operating expenses; not AI attributable by default"
+    },
+    {
+      "stage": 4,
+      "metric": "Net income",
+      "relevance": "Accounting profit after taxes; not necessarily free cash flow"
+    },
+    {
+      "stage": 5,
+      "metric": "AI-attributable taxable base",
+      "relevance": "Must be identified; NOT shown in consolidated earnings"
+    },
+    {
+      "stage": 6,
+      "metric": "Legal public capture",
+      "relevance": "Requires enacted tax, enforceable royalty or valid public ownership"
+    },
+    {
+      "stage": 7,
+      "metric": "Cash collected",
+      "relevance": "Only documented receipts"
+    },
+    {
+      "stage": 8,
+      "metric": "Appropriable net surplus",
+      "relevance": "Subtract mandatory costs, earmarks and reserve charges"
+    },
+    {
+      "stage": 9,
+      "metric": "Restitution + universal dividend",
+      "relevance": "Separate entitlements and beneficiaries"
+    }
+  ],
+  "observed_cash_into_proposed_fund_usd": null,
+  "eligible_population_estimate": 210000000,
+  "illustrative_model": {
+    "taxable_or_capturable_ai_related_profit_usd": 1000000000000,
+    "rate": 0.2,
+    "collection_efficiency": 0.9,
+    "administration_cost_fraction": 0.02,
+    "restoration_fraction_of_net": 0.2,
+    "universal_fraction_of_net": 0.6,
+    "reserve_fraction_of_net": 0.2,
+    "summary": "Scenario only: not observed profit, tax base or enacted levy"
+  },
+  "formulas": {
+    "collected": "base * rate * collection_efficiency",
+    "net": "collected * (1-administration_cost_fraction)",
+    "restitution": "net * restoration_fraction",
+    "universal": "net * universal_fraction",
+    "reserve": "net * reserve_fraction",
+    "per_adult_monthly": "universal / 210000000 / 12"
+  },
+  "policy_tests": [
+    "Sum allocation fractions = 1",
+    "Cannot count company revenue as profit or government revenue",
+    "Cannot annualize 2026 Nvidia quarter and combine with other years as observed total",
+    "Net profit is not necessarily realized distributable cash",
+    "AI attribution is unverified across observations",
+    "US-source and global-source revenue must be reconciled",
+    "Tax incidence and behavioral effects unknown",
+    "Do not treat secondary royalties and corporate profit as separate value without proving non-overlap",
+    "Recoveries owed to particular claimants cannot be swept into universal account"
+  ],
+  "next": "derive company-specific legally capturable AI value and public ownership structures; collect actual net receipts"
+}
