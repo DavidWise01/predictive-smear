@@ -1,0 +1,92 @@
+{
+  "id": "UEP-017",
+  "parent": "UEP-016",
+  "date": "2026-11-20",
+  "title": "Proportional years-deprived restitution model",
+  "purpose": "Separate complete-life reference from restitution for actual duration of deprivation",
+  "formula": {
+    "expression": "restitution_principal_i = VSL_reference * min(verified_deprived_years_i / assumed_reference_lifespan_years, 1)",
+    "vsl_usd": 13100000,
+    "vsl_source": "HHS 2024 central regulatory value of a statistical life",
+    "reference_years": 100,
+    "reference_years_status": "user-chosen 100-year normalization; NOT historical life expectancy nor a factual estimate of lifespan",
+    "deprivation_years": 10,
+    "deprivation_years_status": "hypothetical; NOT verified historical duration",
+    "per_year_usd": 131000,
+    "scenario_per_person_usd": 1310000
+  },
+  "snapshot_sensitivity_1832": {
+    "population_estimate": 2096713,
+    "source": "Cambridge HSUS Bb209–214 estimated enslaved population for 1832",
+    "if_each_person_10_years_deprived_usd": 2746694030000,
+    "status": "hypothetical cross-sectional scenario; cannot establish actual cumulative person-years from one population snapshot",
+    "caution": "Do not interpret each person in stock as a unique person exposed exactly ten years or sum annual population stocks as independent people"
+  },
+  "duration_examples": [
+    {
+      "years": 0,
+      "proportion": 0,
+      "illustrative_principal_usd": 0
+    },
+    {
+      "years": 1,
+      "proportion": 0.01,
+      "illustrative_principal_usd": 131000
+    },
+    {
+      "years": 5,
+      "proportion": 0.05,
+      "illustrative_principal_usd": 655000
+    },
+    {
+      "years": 10,
+      "proportion": 0.1,
+      "illustrative_principal_usd": 1310000
+    },
+    {
+      "years": 25,
+      "proportion": 0.25,
+      "illustrative_principal_usd": 3275000
+    },
+    {
+      "years": 50,
+      "proportion": 0.5,
+      "illustrative_principal_usd": 6550000
+    },
+    {
+      "years": 100,
+      "proportion": 1,
+      "illustrative_principal_usd": 13100000
+    }
+  ],
+  "accounts": {
+    "principal_due_usd": null,
+    "interest_due_usd": null,
+    "legal_liability_usd": null,
+    "reason": "No individual start/end records, lifespan normalization is normative, no statutory basis or attributed payer yet."
+  },
+  "guards": [
+    "Do not count entire life-value for partial time unless full deprivation is separately established",
+    "Avoid pretending a 100-year life is the 1832 historical average",
+    "Do not use 1832 stock as sum of all people enslaved between 1832 and 1865",
+    "Duration proportional model does not capture severity, forced labor earnings, bodily injury, family separation, descendants, mortality or land rights by itself",
+    "Any additional claim must be causally sourced and checked for double counting",
+    "Keep modern-dollar VSL-based model distinct from 1832 nominal wages and any legally prescribed interest",
+    "Do not compound a 2024-dollar base from 1832 without rebasing and a justified accrual process"
+  ],
+  "sources": [
+    {
+      "title": "Previous UEP-016 ledger",
+      "repo": "DavidWise01/predictive-smear",
+      "path": "kernel/1832-ownership-land-ledger-v1.json"
+    },
+    {
+      "title": "Cambridge historical series",
+      "url": "https://hsus.cambridge.org/HSUSWeb/toc/treeTablePathIdBb209-214.html"
+    },
+    {
+      "title": "HHS federal VSL reference",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK611043/"
+    }
+  ]
+}
