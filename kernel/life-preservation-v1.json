@@ -1,0 +1,87 @@
+{
+  "id": "UEP-015",
+  "parent": "UEP-014",
+  "name": "Life Preservation: statistical-equivalence and equal-consideration invariant",
+  "date": "2026-11-20",
+  "anchor": {
+    "source": "US HHS Standard Values for Regulatory Analysis, 2024",
+    "usd": 13100000,
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK611043/",
+    "year_basis": 2024,
+    "type": "federal statistical life risk valuation"
+  },
+  "invariants": {
+    "vsl_scaling": "risk_reduction_in_expected_fatalities * VSL",
+    "statistical_equivalence": "One expected death averted under risk-reduction aggregation receives VSL=13.1M at the chosen baseline",
+    "equal_consideration": "No person assigned a lower baseline solely because of personal income, race, employment, disability, or wealth",
+    "boundary": "Population risk reduction metric does not imply each individual has a legal cash claim of VSL",
+    "life_first": "Compare safety intervention costs to monetized risk-reduction benefits, while retaining unmonetized human rights and distributional considerations"
+  },
+  "examples": [
+    {
+      "expected_deaths_prevented": 0.01,
+      "benefit_usd": 131000
+    },
+    {
+      "expected_deaths_prevented": 0.1,
+      "benefit_usd": 1310000
+    },
+    {
+      "expected_deaths_prevented": 1,
+      "benefit_usd": 13100000
+    },
+    {
+      "expected_deaths_prevented": 10,
+      "benefit_usd": 131000000
+    },
+    {
+      "expected_deaths_prevented": 100,
+      "benefit_usd": 1310000000
+    }
+  ],
+  "distinctions": {
+    "statistical_life": "sum of small risk reductions",
+    "individual_life": "a human life; cannot be reduced to a monetary value by federal VSL",
+    "restitution": "requires identified injury, claim basis, causation and legal measure",
+    "baseline_endowment": "optional user policy hypothesis, not a balance owed by the government"
+  },
+  "federal_sources": [
+    {
+      "name": "HHS Standard Values for Regulatory Analysis 2024",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK611043/"
+    },
+    {
+      "name": "EPA Mortality Risk Valuation FAQ",
+      "url": "https://www.epa.gov/environmental-economics/mortality-risk-valuation"
+    },
+    {
+      "name": "EPA 2024 Guidelines for Preparing Economic Analyses Third Edition",
+      "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P101CYXL.TXT"
+    },
+    {
+      "name": "OMB Circular A-4 mortality risk guidance",
+      "url": "https://obamawhitehouse.archives.gov/omb/circulars_a004_a-4"
+    }
+  ],
+  "test_cases": [
+    {
+      "lives": 0,
+      "expect_usd": 0
+    },
+    {
+      "lives": 1,
+      "expect_usd": 13100000
+    },
+    {
+      "lives": 2.5,
+      "expect_usd": 32750000
+    }
+  ],
+  "policy_notes": [
+    "No compounding VSL back to 1931 as debt",
+    "No interpretation of VSL as damages award",
+    "No assertion that a person is literally worth only $13.1M",
+    "Do not double count deaths averted and separately valued life-years from same intervention",
+    "Benefit-cost analysis must assess the actual causal change in risk"
+  ]
+}
