@@ -1,0 +1,176 @@
+{
+  "id": "UEP-020",
+  "parent": "UEP-019",
+  "as_of": "2026-11-20",
+  "name": "Technology dividend + restitution financing engine",
+  "scope": "Proposed economic institution; no enacted federal AI dividend, no current assessed AI restitution revenue",
+  "eligibility": {
+    "age_min": 18,
+    "age_max_inclusive": 65,
+    "people_planning_estimate": 210000000,
+    "employment_required": false,
+    "precise_count_verified": false
+  },
+  "accounts": [
+    {
+      "id": "R",
+      "label": "Restitution account",
+      "purpose": "Make identifiable rightsholders whole for evidenced claims",
+      "ledger": "kernel/make-whole-ledger-v1.json",
+      "claims_payable_usd": null
+    },
+    {
+      "id": "U",
+      "label": "Universal technology dividend",
+      "purpose": "Return publicly captured incremental technology gains to eligible adults",
+      "entitlement_status": "policy proposal; no automatic legal right"
+    },
+    {
+      "id": "P",
+      "label": "Permanent capital reserve",
+      "purpose": "Build a sustainable endowment using realized receipts and prudent asset valuation"
+    },
+    {
+      "id": "G",
+      "label": "Governance/verification",
+      "purpose": "Administrative, evidentiary and audit costs, with public independent oversight"
+    }
+  ],
+  "revenue_channels": [
+    {
+      "id": "tax",
+      "name": "Dedicated levy on realized net AI-related income",
+      "capture_basis": "Taxable profits, not gross revenue or capital expenditure",
+      "observed_cash_usd": null,
+      "mechanism_status": "new legislation required",
+      "risks": [
+        "attribution",
+        "avoidance",
+        "incidence",
+        "double taxation"
+      ]
+    },
+    {
+      "id": "royalty",
+      "name": "Licensing or royalty on specifically identified public assets or infrastructure",
+      "capture_basis": "Contracts and valid ownership rights",
+      "observed_cash_usd": null,
+      "mechanism_status": "new contracts and legally valid licensing required"
+    },
+    {
+      "id": "equity",
+      "name": "Public-equity and sovereign technology portfolio returns",
+      "capture_basis": "Realized dividends, distributions and lawfully appropriable investment income",
+      "observed_cash_usd": null,
+      "mechanism_status": "capital, governance, risk and enabling authority required"
+    },
+    {
+      "id": "fee",
+      "name": "Public compute, spectrum, right-of-way or access fees",
+      "capture_basis": "Legally collectible net receipts from identified rights/services",
+      "observed_cash_usd": null,
+      "mechanism_status": "requires applicable licensing/fee authority"
+    },
+    {
+      "id": "recoupment",
+      "name": "Identified recoveries from proven wrongful takings",
+      "capture_basis": "Settlements, recoveries or judgments actually collected",
+      "observed_cash_usd": null,
+      "mechanism_status": "case-by-case entitlement, not automatically a universal fund"
+    }
+  ],
+  "source_evidence": [
+    {
+      "id": "FRED-AI",
+      "title": "Federal Reserve AI Buildout and the Economy, July 2026",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
+      "finding": "AI-related investment and measured spending contributions; NOT proof of distributable net revenues"
+    },
+    {
+      "id": "TREASURY-FY25",
+      "title": "US Treasury Combined Statement FY2025",
+      "url": "https://fiscal.treasury.gov/system/files/files/reports-statements/combined-statement/cs2025/2025-cs-final.pdf",
+      "finding": "Corporation income tax receipts $452.1B in FY2025 across all US corporations; benchmark not earmarked or AI-attributed"
+    },
+    {
+      "id": "ALASKA-PFD",
+      "title": "Alaska Permanent Fund Dividend 2025 payment statistics",
+      "url": "https://pfd.alaska.gov/Division-Info/summary-of-dividend-applications-payments",
+      "finding": "2025 dividend was $1,000; actual state program, not national financing proof"
+    },
+    {
+      "id": "ALASKA-STRUCTURE",
+      "title": "Alaska Permanent Fund Corporation structure",
+      "url": "https://apfc.org/the-fund/fund-structure/",
+      "finding": "Investment earnings and POMV draw contribute to budget and dividend under state laws"
+    },
+    {
+      "id": "IMF-AI",
+      "title": "IMF AI Ecosystem Financing October 2026",
+      "url": "https://www.imf.org/-/media/files/publications/tnm/2026/english/tnmea2026013.pdf",
+      "finding": "Financing of AI stack increasingly capital-intensive; projected CAPEX not profit"
+    }
+  ],
+  "formulae": {
+    "realized_net_annual_receipts": "collected_tax + received_royalties + appropriable_investment_distributions + received_fees + legally_allocated_recoveries - collection_costs",
+    "appropriable_pool": "max(0, audited_received_cash - mandatory_reserves - existing_prior_claims)",
+    "restoration_payment": "min(appropriable_restitution_allocation, evidenced_outstanding_obligations)",
+    "universal_monthly_dividend": "appropriable_universal_allocation / 12 / eligible_population",
+    "protect_against_double_count": "Do not count tax on tech company profits plus the same earnings as independent funding unless actually distinct legal flows"
+  },
+  "illustrative_scenarios": [
+    {
+      "annual_collectable_receipts_usd": 100000000000,
+      "if_100pct_distributed_monthly_per_adult_usd": 39.68,
+      "if_60pct_distributed_monthly_per_adult_usd": 23.81
+    },
+    {
+      "annual_collectable_receipts_usd": 500000000000,
+      "if_100pct_distributed_monthly_per_adult_usd": 198.41,
+      "if_60pct_distributed_monthly_per_adult_usd": 119.05
+    },
+    {
+      "annual_collectable_receipts_usd": 1000000000000,
+      "if_100pct_distributed_monthly_per_adult_usd": 396.83,
+      "if_60pct_distributed_monthly_per_adult_usd": 238.1
+    },
+    {
+      "annual_collectable_receipts_usd": 2500000000000,
+      "if_100pct_distributed_monthly_per_adult_usd": 992.06,
+      "if_60pct_distributed_monthly_per_adult_usd": 595.24
+    },
+    {
+      "annual_collectable_receipts_usd": 5040000000000,
+      "if_100pct_distributed_monthly_per_adult_usd": 2000,
+      "if_60pct_distributed_monthly_per_adult_usd": 1200
+    }
+  ],
+  "target": {
+    "monthly_usd": 2000,
+    "annual_gross_usd": 5040000000000,
+    "status": "aspirational, unfunded target"
+  },
+  "finance_examples": {
+    "fy2025_all_corporate_income_tax_receipts_usd": 452100000000,
+    "ratio_target_to_all_receipts": 11.14797611147976,
+    "alaska_2025_dividend_usd": 1000
+  },
+  "provenance_rules": [
+    "No fake AI taxable receipts",
+    "Do not treat investment CAPEX, market capitalization, paper wealth or GDP contribution as cash distributable",
+    "Restitution claims require their own traced obligation and beneficiary",
+    "Do not conflate dollar stock historical deprivation and annual cash-flow entitlements",
+    "If receipts fall, dividends cannot exceed funded appropriable balance without explicit external financing",
+    "Avoid compensation overlap, preserve original title and settlement credits",
+    "Government, corporate and public equity recipients require statutory/contractual authority",
+    "Separate model-design choices from official policies and numbers"
+  ],
+  "open_work": [
+    "Estimate US incremental AI-attributable taxable profit without double counting",
+    "Model firm and capital mobility plus employment and price effects",
+    "Verify exact eligible population by year",
+    "Define legally enforceable public asset equity and royalty rights",
+    "Governance and actual audit protocol",
+    "Protect restitution rights from being diluted into universal pool"
+  ]
+}
